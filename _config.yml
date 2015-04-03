@@ -1,0 +1,18 @@
+# Site settings
+title: Who let the dogs out
+email: info@hakanu.net
+description: > # this means to ignore newlines until "baseurl:"
+  Some random hacker writes random stuff on software development,
+  frameworks, geeky stuff, startups, python, web development,
+  machine learning, data mining etc.
+  Had promised to write at least one blog post per week.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://hakanu.net" # the base hostname & protocol for your site
+twitter_username: hakanuysal
+github_username:  hakanu
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+paginate: 10
+paginate_path: "/page/:num/"
