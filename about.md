@@ -23,10 +23,9 @@ permalink: /about/
 * [Psychiatrist timetable](https://play.google.com/store/apps/details?id=haku.io.psi_meeting)
 
 #### Random stuff
-* [vidimg.net](http://vidimg.net)
-* [dizi-izle.me](http://dizi-izle.me)
-* [isimibul.co](http://isimibul.co)
-* [psikiyatritoplantilari.com](http://psikiyatritoplantilari.com)
+* [Generate thumbnail images from youtube videos](http://vidimg.net)
+* [Job Search Engine for Turkey web](http://isimibul.co)
+* [Psychiatrist timetable web](http://psikiyatritoplantilari.com)
 
 #### Personal
 * [Blog](http://hakanu.net)
