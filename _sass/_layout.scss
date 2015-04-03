@@ -43,7 +43,7 @@
         &:not(:first-child) {
             margin-left: 20px;
         }
-        
+
         &:hover {
             color: $hover-color;
         }
@@ -249,6 +249,7 @@
 }
 
 .pagination {
+  margin-top: 25px;
   text-align: center;
 }
 
