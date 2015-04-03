@@ -21,7 +21,7 @@ String shareSubject = res.getString(R.string.share_subject);
 String shareVia = res.getString(R.string.share_via);
 String shareBody = res.getString(R.string.share_body) + shareAdditional;
 sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, shareSubject);
-sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody); 
 activity.startActivity(Intent.createChooser(sharingIntent, shareVia));`
 
 ## Show Simple Popup - AlertDialog
