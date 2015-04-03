@@ -53,80 +53,77 @@ In the custom item xml add this to the master layout:
 
 ## Read/Write from SharedPreferences
 `private SharedPreferences getSharedPreferenceHandle() {
-        if (MainActivity.DEBUG) {
-            System.out.println("getting shared pref handle");
-        }`
-
-        `SharedPreferences sharedPref = getActivity().getSharedPreferences(
-                getString(R.string.my_brands_preference_file_key), Context.MODE_PRIVATE);
-        return sharedPref;
+    if (MainActivity.DEBUG) {
+        System.out.println("getting shared pref handle");
     }
 
-    private void writeToSharedPreferences(String key, ArrayList<String> values) {
-        if (MainActivity.DEBUG) {
-            System.out.println("writing to shared pref: " + values);
-        }
+    SharedPreferences sharedPref = getActivity().getSharedPreferences(
+            getString(R.string.my_brands_preference_file_key), Context.MODE_PRIVATE);
+    return sharedPref;
+}
 
-        Set<String> setValues = new TreeSet<String>();
-        for (String s: values) {
-            setValues.add(s);
-        }
-        SharedPreferences sharedPref = getSharedPreferenceHandle();
-        SharedPreferences.Editor editor = sharedPref.edit();
-        editor.putStringSet(key, setValues);
-        editor.commit();
-        }`
-        
+private void writeToSharedPreferences(String key, ArrayList<String> values) {
+    if (MainActivity.DEBUG) {
+        System.out.println("writing to shared pref: " + values);
+    }
+
+    Set<String> setValues = new TreeSet<String>();
+    for (String s: values) {
+        setValues.add(s);
+    }
+    SharedPreferences sharedPref = getSharedPreferenceHandle();
+    SharedPreferences.Editor editor = sharedPref.edit();
+    editor.putStringSet(key, setValues);
+    editor.commit();
+}`
+
 ## Change SDK path of Android Studio
 File->project Structure into Project StructureLeft > SDKsPress +, add another sdk
 
 ## Transparent Button Background
 `?android:attr/selectableItemBackground`
 
-
 ## Read from a file
-` private String readFromFile(String path) {
-        String ret = "";
+`private String readFromFile(String path) {
+    String ret = "";
 
-        try {
-            InputStream inputStream = openFileInput(path);
+    try {
+        InputStream inputStream = openFileInput(path);
 
-            if ( inputStream != null ) {
-                InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
-                BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-                String receiveString = "";
-                StringBuilder stringBuilder = new StringBuilder();
+        if ( inputStream != null ) {
+            InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+            BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+            String receiveString = "";
+            StringBuilder stringBuilder = new StringBuilder();
 
-                while ( (receiveString = bufferedReader.readLine()) != null ) {
-                    stringBuilder.append(receiveString);
-                }
-                inputStream.close();
-                ret = stringBuilder.toString();
+            while ( (receiveString = bufferedReader.readLine()) != null ) {
+                stringBuilder.append(receiveString);
             }
+            inputStream.close();
+            ret = stringBuilder.toString();
         }
-        catch (FileNotFoundException e) {
-            Log.e("login activity", "File not found: " + e.toString());
-        } catch (IOException e) {
-            Log.e("login activity", "Can not read file: " + e.toString());
-        }
+    }
+    catch (FileNotFoundException e) {
+        Log.e("login activity", "File not found: " + e.toString());
+    } catch (IOException e) {
+        Log.e("login activity", "Can not read file: " + e.toString());
+    }
 
-        return ret;
-    }`
-    
+    return ret;
+}`
+
 ## Write to a file with private mode
 `private void writeToFile(String filePath, String data) {
-        try {
-            OutputStreamWriter outputStreamWriter = new OutputStreamWriter(openFileOutput(
-                    filePath, Context.MODE_PRIVATE));
-            outputStreamWriter.write(data);
-            outputStreamWriter.close();
-        }
-        catch (IOException e) {
-            Log.e("Exception", "File write failed: " + e.toString());
-        }
-    }`
-    
+    try {
+        OutputStreamWriter outputStreamWriter = new OutputStreamWriter(openFileOutput(
+                filePath, Context.MODE_PRIVATE));
+        outputStreamWriter.write(data);
+        outputStreamWriter.close();
+    }
+    catch (IOException e) {
+        Log.e("Exception", "File write failed: " + e.toString());
+    }
+}`
+
 ## Hide action bar
 `getActionBar().hide();`
-
-## 

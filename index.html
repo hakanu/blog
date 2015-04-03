@@ -4,6 +4,9 @@ layout: default
 
 <div class="home">
   <h1 class="page-heading"></h1>
+  <div class="cover-pic">
+    <!-- <img src="https://devdala.files.wordpress.com/2015/04/img_20140626_191537_1-compressor-1.jpg"> -->
+  </div>
 
   <!-- This loops through the paginated posts -->
   {% for post in paginator.posts %}
@@ -12,7 +15,7 @@ layout: default
       <p class="post-meta">{{ post.date }}</p>
     </div><br />
     <div class="content">
-      {% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 250 }}{% endif %}
+      {% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 450 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 450 }}{% endif %}
     </div>
   {% endfor %}
 
