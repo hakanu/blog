@@ -1,0 +1,9 @@
+---
+layout: post
+title: iTunes 9.0.1 çıktı
+date: '2009-09-26 22:36:40'
+---
+
+Apple'in iTunes yazılımının güvenlik açıkları kapatılan yeni sürümü çıktı(Boyut: 88.8 MB).
+
+<a href="http://www.apple.com/itunes/download/">iTunes 9.0.1 indirmek için tıklayın</a>

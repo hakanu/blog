@@ -1,0 +1,11 @@
+---
+layout: post
+title: Nero 9 çıktı
+date: '2009-10-10 22:13:52'
+---
+
+Popüler yazılım 9 versiyonu çıktı. Yeni özellikler arasında yazıcıya ihtiyaç duymadan arşivleme falan mevcutmuş. Ha ne işe yarar siz bilirsiniz tabi. 5-6 mb lik ücretsiz dvd-cd yazma yazılımları varken kullanılır mı yine siz bilirsiniz. Ben veriyim demo indirme linkini:
+
+<a href="http://ftp22.nero.com/Nero9/79a1617ac1f8b22196e2c6ed2724df74/Nero-9.4.26.0_trial.exe">Download Nero 9:Reloaded</a>
+
+Bi de parayla almak isteyenler için fiyatı: 60$

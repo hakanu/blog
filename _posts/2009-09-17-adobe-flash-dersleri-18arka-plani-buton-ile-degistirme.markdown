@@ -1,0 +1,44 @@
+---
+layout: post
+title: Adobe Flash Dersleri 18(Arka planı buton ile değiştirme)
+date: '2009-09-17 15:50:44'
+---
+
+<ol style="margin-left:.375in;direction:ltr;unicode-bidi:embed;margin-top:0;margin-bottom:0;font-family:Calibri;font-size:11pt;" type="1">
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">ActionScript 2.0 açılır</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">File - Import - Import to      Library yolunu izleyerek arka plan olması istenen resimler kütüphaneye      eklenir</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">Arka plan dinamik olacağı      için bunu movie clip yapmak gerekir</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">Katmanın üzerine rectangle      tool ile sayfayı tamamen kaplayacak şekilde bir dikdörtgen çizilir ve      seçilip F8 veya "Convert to Symbol" yardımıyla "Movie      clip" haline getirilir. (Bu işlemden sonra dikdörtgenin      "Properties" panelindeki "Instance name"i kesinlikle      doldurulmalıdır. Kod yazarken gerekli bir işlemdir.)</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">Movie clip haline gelen      dikdörtgenin ortasında bir yuvarlak belirir. Buraya çift tıklayarak movie      clipin içine girilir. Girildiği zaman Flash ilk açıldığında çıkan ekrana      benzer bir ekran çıkar. (Tek bir katman)</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">Burada dikdörtgen seçilip      silinir. Çünkü artık işimiz kalmamıştır</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">1inci karedeyken kütüphaneye      daha önceden konan arka plan resimlerden ilki çağrılır</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">Resim konduktan sonra 2.      kareye sağ tıklanıp "Insert keyframe" yapılır. Böylece 2. karede      de siyah noktadan oluşur.</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">2nci kareye tıklanıp ardından      resmin üstüne tıklandığında "Properties" panelinden "Swap      bitmap" butonuna basılır. Ekrana kütüphanede bulunan resimlerin      listesi çıkar. Sıradaki arka plan resmi seçilir</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">3üncü kare için de aynı işlem      uygulanır. Böylece 3 kareye 3 ayrı arka plan eklenmiş olur</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">Şu anda ctrl+enter yapılırsa      resimlerin hızlı bir şekilde slayt gibi geçtiği görülür. Bunu durdurmak      için 1. kareye tıklanıp "Actions" paneline gelip stop(); yazılır</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">Timeline'in üstündeki      Scene1'e basılarak movie clipin içinden çıkılıp ana sahneye tekrar dönülür</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">Yeni bir katman oluşturulur.      Bu buton ile arka plan değişikliğinin kontrolü sağlanacaktır</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">Buton katmanına gelip fazla      büyük olmayan bir dikdörtgen çizilir. Bunun içine arka plan resimlerinin      önizlemesi konulacaktır</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">Dikdörtgene tıklanıp F8 veya      "Convert to Symbol" ile dikdörtgen nesne "movie clip"e      çevrilir(Instance name unutulmamalıdır)</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">Çift tıklanıp şimdi çevrilen      movie clipin içine girilir</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">Yeni bir katman oluşturulur.      Buraya buton yapılmak üzere arka planların küçük halleri eklenecektir</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">Arka plan resimlerinin küçük      halleri kütüphaneye eklenir.(Ya da önceden yüklenen arka planlar elle      tekrar boyutlandırılabilir). Resimler dikdörtgenin içine sırayla konur</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">Her bir resim ayrı ayrı sırayla      seçilip F8'e basıp "Button"a çevrilir</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="font-family:Calibri;font-size:11pt;">İlk resmin küçük hali olan      butonu seçip "Actions" paneline girilir. Bunun birinci arka planı      göstermesi istendiği için kodu şöyledir:</span></span></strong></li>
+	<li style="margin-top:0;margin-bottom:0;vertical-align:middle;"><strong><span style="color:#000000;"><span style="text-decoration:underline;font-family:Calibri;font-size:11pt;">1nci      arka plan için 1. küçük resme yazılacak kod:</span></span></strong></li>
+</ol>
+<p style="font-family:Calibri;font-size:11pt;margin:0 0 0 .375in;"><strong><span style="color:#000000;">on(release){</span></strong></p>
+<p style="font-family:Calibri;font-size:11pt;margin:0 0 0 .375in;"><strong><span style="color:#000000;">_root.arka.gotoAndStop(1);</span></strong></p>
+<p style="font-family:Calibri;font-size:11pt;margin:0 0 0 .375in;"><strong><span style="color:#000000;">}</span></strong></p>
+<p style="font-family:Calibri;font-size:11pt;margin:0 0 0 .375in;"><strong><span style="color:#000000;"> </span></strong></p>
+<p style="text-decoration:underline;font-family:Calibri;font-size:11pt;margin:0 0 0 .375in;"><strong><span style="color:#000000;">2nci arka plan için 2. küçük resme yazılacak kod:</span></strong></p>
+<p style="font-family:Calibri;font-size:11pt;margin:0 0 0 .375in;"><strong><span style="color:#000000;">on(release){</span></strong></p>
+<p style="font-family:Calibri;font-size:11pt;margin:0 0 0 .375in;"><strong><span style="color:#000000;">_root.arka.gotoAndStop(2);</span></strong></p>
+<p style="font-family:Calibri;font-size:11pt;margin:0 0 0 .375in;"><strong><span style="color:#000000;">}</span></strong></p>
+<p style="font-family:Calibri;font-size:11pt;margin:0 0 0 .375in;"><strong><span style="color:#000000;"> </span></strong></p>
+<p style="text-decoration:underline;font-family:Calibri;font-size:11pt;margin:0 0 0 .375in;"><strong><span style="color:#000000;">3üncü arka plan için 3. küçük resme yazılacak kod:</span></strong></p>
+<p style="font-family:Calibri;font-size:11pt;margin:0 0 0 .375in;"><strong><span style="color:#000000;">on(release){</span></strong></p>
+<p style="font-family:Calibri;font-size:11pt;margin:0 0 0 .375in;"><strong><span style="color:#000000;">_root.arka.gotoAndStop(3);</span></strong></p>
+<p style="font-family:Calibri;font-size:11pt;margin:0 0 0 .375in;"><strong><span style="color:#000000;">}</span></strong></p>
+<p style="font-family:Calibri;font-size:11pt;margin:0 0 0 .375in;"><strong><span style="color:#000000;"> </span></strong></p>
+<p style="font-family:Calibri;font-size:11pt;margin:0 0 0 .375in;"><strong><span style="color:#000000;">**Buradaki "arka" benim arka plan "movie clip"ine verdiğim "instance name"dir.</span></strong></p>
