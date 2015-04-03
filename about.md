@@ -7,6 +7,7 @@ permalink: /about/
 #### Paylas.io
 * [Paylasio dev blog](http://hakanu.github.io/paylasio/)
 * [Paylas.io](http://paylas.io)
+* [Paylas.io new UI](http://m.paylas.io)
 
 #### Promotional pages for apps
 
