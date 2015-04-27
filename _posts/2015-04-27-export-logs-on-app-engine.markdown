@@ -6,7 +6,7 @@ date: '2015-04-27 20:26:13'
 
 Use this command to fetch the application logs from Google App Engine:
 
-`appcfg.py request_logs   --num_days=210 --include_all Documents/DEV/workspace-py/psi_meetings_web_gae/  mylogs.txt --oauth2`
+`appcfg.py request_logs --num_days=210 --include_all Documents/path/to/your_gae_app/  mylogs.txt --oauth2`
 
 * Alternatively you can write a handler by using logs API.
 
