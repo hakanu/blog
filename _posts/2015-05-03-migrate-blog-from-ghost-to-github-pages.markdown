@@ -1,4 +1,8 @@
-# Moved my blog from Ghost to Github pages
+---
+layout: post
+title: Migrated my blog from Ghost to Github pages
+date: '2015-04-27 16:31:13'
+---
 
 Thanks to [heroku beta pricing](https://news.ycombinator.com/item?id=9295874).
 
