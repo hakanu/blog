@@ -1,7 +1,10 @@
 ---
 layout: post
+category: android
+author: Hakan Uysal
 title: Solving Android java.lang.NoClassDefFoundError: android.support.v7.appcompat.R$attr? Once for All for pre-Lollipop devices
-date: '2015-05-03 16:31:13'
+date: '2015-08-19 16:31:13'
+
 ---
 
 
