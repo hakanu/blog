@@ -1,33 +1,55 @@
 ---
 layout: page
 title: About
+author: Hakan Uysal
 permalink: /about/
 ---
 
 #### Paylas.io
-* [Paylasio dev blog](http://hakanu.github.io/paylasio/)
-* [Paylas.io](http://paylas.io)
-* [Paylas.io new UI](http://m.paylas.io)
 
-#### Promotional pages for apps
+* [Paylas.io](http://paylas.io)
+* [Paylas.io new UI](http://m.paylas.io) - *Still working on it*
+* [Paylasio dev blog](http://hakanu.github.io/paylasio/)
+
+#### Android Apps
+
+* [Funny Images and Memes](https://play.google.com/store/apps/details?id=net.guldum.caps)
+* [Discounts Aggregator](https://play.google.com/store/apps/details?id=io.haku.discounts)
+* [Football Highlights](https://play.google.com/store/apps/details?id=io.haku.fb_goals)
+* [Job Search Engine for Turkey](https://play.google.com/store/apps/details?id=co.hakanu.jobfinder)
+* [Psychiatrist timetable](https://play.google.com/store/apps/details?id=haku.io.psi_meeting)
+* [Funny Turkish cartoons - Android starter project](https://play.google.com/store/apps/details?id=co.hakanu.karikaturcu2)
+
+### Websites
+
+* [Guldum.net](http://guldum.net)
+* [Prayer Times](http://iftarvakitleri.org)
+* [İşimi Bul - Job search engine for Turkey](http://isimibul.co)
+* [Youtube Thumbnail Generator](http://vidimg.net)
+* [Psikiyatri Toplantıları web sitesi](http://psikiyatritoplantilari.com)
+
+### Promotional pages for apps
 
 * [Football Highlighlights promo](http://footballhighlightswatch.com)
 * [Discounts aggregator promo](http://kampanyalar.me)
 
-#### Android Apps
+### Social Media Projects
 
-* [Discounts Aggregator](https://play.google.com/store/apps/details?id=io.haku.discounts)
-* [Football Highlights](https://play.google.com/store/apps/details?id=io.haku.fb_goals)
-* [Job Search Engine for Turkey](https://play.google.com/store/apps/details?id=co.hakanu.jobfinder)
-* [Funny Turkish cartoons - Android starter project](https://play.google.com/store/apps/details?id=co.hakanu.karikaturcu2)
-* [Psychiatrist timetable](https://play.google.com/store/apps/details?id=haku.io.psi_meeting)
+* [Güldüm.net - Capps Twitter sayfası](https://twitter.com/komikliklerlik)
+* [Güldüm.net - Capps Facebook sayfası](https://www.facebook.com/pages/Komiklikler/1459543224367605)
+* [İşimi Bul Facebook sayfası](https://www.facebook.com/pages/İşimi-Bul-İş-Arama-Motoru/823801480971476)
+* [Güzel Sözler Facebook sayfası](https://www.facebook.com/iftarapp)
+* [Güzel Sözler Instagram sayfası](https://instagram.com/soyledi)
+* [Güzel Sözler Twitter sayfası](https://twitter.com/iftarapp)
 
 #### Random stuff
+
 * [Generate thumbnail images from youtube videos](http://vidimg.net)
 * [Job Search Engine for Turkey web](http://isimibul.co)
 * [Psychiatrist timetable web](http://psikiyatritoplantilari.com)
 
 #### Personal
+
 * [Blog](http://hakanu.net)
 * [HakuLabs](http://haku.io)
 * [Migrated blog](http://hakanu.github.io/blog)
