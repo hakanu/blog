@@ -27,13 +27,13 @@ With this light here is my disqus snippet in my jekyll code:
 
 `  var disqus_identifier = '{{ page.url }}';`
 
-`  var disqus_url = '{{ site.url }}{{ page.url }}';`
+`  var disqus_url = '\{\{ site.url \}\}\{\{ page.url \}\}';`
 
-`  var disqus_title = '{{ page.title }}';`
+`  var disqus_title = '\{\{ page.title \}\}';`
 
-`  var disqus_category_id = '{{ post.category }}';`
+`  var disqus_category_id = '\{\{ post.category \}\}';`
 
-Trick is assignin a unique identifier to the disqus_identifier javascript variable. In our case page.url is pretty unique. And also we are not supposed to assign same thing to disqus_identifier and disqus_url. So url is the full url with site info, identifier is the relative path.
+Trick is assigning a unique identifier to the disqus_identifier javascript variable. In our case page.url is pretty unique. And also we are not supposed to assign same thing to disqus_identifier and disqus_url. So url is the full url with site info, identifier is the relative path.
 
 
 Enjoy!
