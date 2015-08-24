@@ -3,12 +3,13 @@
 layout: post
 category: jekyll
 author: Hakan Uysal
-title: Solving comment problem with Disqus on Jekyll: same comment everywhere
+title: Solving Disqus comment problem on Jekyll - same comments everywhere
 date: '2015-08-24 23:31:13'
 
 ---
 
-I have been using Disqus in order to handle blog comments for a long time. I was also using it when I was with Ghost. 
+
+I have been using [Disqus](http://disqus.com) in order to handle blog comments for a long time. I was also using it when I was with Ghost. It's a great and good looking way to handle comments. It makes your blog more mobile. It has one downside which is that the comment box is iframe so I don't think it's good for SEO.
 
 Disqus's own help center:
 
