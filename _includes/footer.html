@@ -49,14 +49,14 @@
         <p class="text">{{ site.description }}</p>
       </div>
     </div>
-
-    <div id="div-instafeed">
-      <ul id="instafeed">
-        
-      </ul>
-    </div>
-
   </div>
+
+  <div id="div-instafeed" class="center">
+    <ul id="instafeed">
+      
+    </ul>
+  </div>
+
   <script type="text/javascript" src="/js/instafeed.min.js"></script>
   <script type="text/javascript">
     var userFeed = new Instafeed({
@@ -65,7 +65,7 @@
         accessToken: '34836469.1c6ae78.7d196911ffbb4c85b89cacaa8b8c65c7',
         template: '<li><a href="{{"{{link"}}}}" target="_blank"><img src="{{"{{image"}}}}" /></a></li>',
         resolution: 'low_resolution',
-        limit: 10
+        limit: 6
     });
     userFeed.run();
   </script>
