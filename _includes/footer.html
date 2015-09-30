@@ -50,7 +50,11 @@
       </div>
     </div>
 
-    <div id="instafeed"></div>
+    <div id="div-instafeed">
+      <ul id="instafeed">
+        
+      </ul>
+    </div>
 
   </div>
   <script type="text/javascript" src="/js/instafeed.min.js"></script>
@@ -59,8 +63,8 @@
         get: 'user',
         userId: 34836469,
         accessToken: '34836469.1c6ae78.7d196911ffbb4c85b89cacaa8b8c65c7',
-        template: '<span><a href="{{"{{link"}}}}" target="_blank"><img src="{{"{{image"}}}}" /></a></span>',
-        resolution: 'standard_resolution',
+        template: '<li><a href="{{"{{link"}}}}" target="_blank"><img src="{{"{{image"}}}}" /></a></li>',
+        resolution: 'low_resolution',
         limit: 10
     });
     userFeed.run();
