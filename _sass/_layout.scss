@@ -258,39 +258,15 @@
   // background-image: url("https://devdala.files.wordpress.com/2015/04/img_20140626_191537_1-compressor-1.jpg");
 }
 
-ul.instafeed {
+#instafeed {
     width: 100%;
     float: left;
     margin: 0 0 3em 0;
     padding: 0;
     list-style: none;
 }
-ul.instafeed li {
+
+#instafeed li {
     float: left;
-}
-ul.instafeed {
-    width: 100%;
-    float: left;
-    margin: 0 0 3em 0;
-    padding: 0;
-    list-style: none;
-    background-color: #f2f2f2;
-    border-bottom: 1px solid #ccc;
-    border-top: 1px solid #ccc;
-}
-ul.instafeed li a {
-    display: block;
-    padding: 8px 15px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #069;
-    border-right: 1px solid #ccc;
-}
-ul.instafeed li a:hover {
-    color: #c00;
-    background-color: #fff;
-}
-ul.instafeed li a.active {
-    background-color: rgb(201, 205, 248);
 }
 
