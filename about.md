@@ -35,8 +35,8 @@ permalink: /about/
 
 ### Social Media Projects
 
-* [Güldüm.net - Capps Twitter sayfası](https://twitter.com/komikliklerlik)
-* [Güldüm.net - Capps Facebook sayfası](https://www.facebook.com/pages/Komiklikler/1459543224367605)
+* [Güldüm.net - Capps Twitter sayfası](https://twitter.com/guldumnet)
+* [Güldüm.net - Capps Facebook sayfası](https://www.facebook.com/guldum.net/timeline/)
 * [İşimi Bul Facebook sayfası](https://www.facebook.com/pages/İşimi-Bul-İş-Arama-Motoru/823801480971476)
 * [Güzel Sözler Facebook sayfası](https://www.facebook.com/iftarapp)
 * [Güzel Sözler Instagram sayfası](https://instagram.com/soyledi)
