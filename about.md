@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: /about
 author: Hakan Uysal
 permalink: /about/
 ---
@@ -26,7 +26,7 @@ permalink: /about/
 * [Prayer Times](http://iftarvakitleri.org)
 * [İşimi Bul - Job search engine for Turkey](http://isimibul.co)
 * [Youtube Thumbnail Generator](http://vidimg.net)
-* [Psikiyatri Toplantıları web sitesi](http://psikiyatritoplantilari.com)
+* [Psikiyatri Toplantıları web sitesi - Psychiatrist timetable web](http://psikiyatritoplantilari.com)
 
 ### Promotional pages for apps
 
@@ -42,17 +42,10 @@ permalink: /about/
 * [Güzel Sözler Instagram sayfası](https://instagram.com/soyledi)
 * [Güzel Sözler Twitter sayfası](https://twitter.com/iftarapp)
 
-#### Random stuff
-
-* [Generate thumbnail images from youtube videos](http://vidimg.net)
-* [Job Search Engine for Turkey web](http://isimibul.co)
-* [Psychiatrist timetable web](http://psikiyatritoplantilari.com)
-
 #### Personal
 
 * [Blog](http://hakanu.net)
 * [HakuLabs](http://haku.io)
-* [Migrated blog](http://hakanu.github.io/blog)
 * [Portfolio](http://haku.inventive.io/)
 * [Github](http://github.com/hakanu)
 
