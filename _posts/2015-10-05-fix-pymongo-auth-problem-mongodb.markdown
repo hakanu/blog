@@ -23,6 +23,12 @@ Steps to solve:
 
 - If using pymongo from lib folder
 
+  - Fix the version in requirements.txt, as of today, latest version is 3.0.3, you can check it out from [here](https://pypi.python.org/pypi/pymongo/).
+  
+    `pymongo==3.0.3`
+  
+  - Upgrade the packages:
+
 	`sudo pip install -r requirements.txt -t lib/ --upgrade`
 
 - Redeploy. This will hopefully fix your heroku and Google App Engine deployment with pymongo.
