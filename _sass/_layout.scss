@@ -202,10 +202,6 @@
 /**
  * Posts
  */
-.post-title {
-
-}
-
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -215,6 +211,8 @@
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
 
     @include media-query($on-laptop) {
         font-size: 30px;
