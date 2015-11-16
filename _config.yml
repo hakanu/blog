@@ -1,5 +1,5 @@
 # Site settings
-title: Who let the dogs out
+title: "{\"title\": \"Who let the dogs out\"}"
 email: info@hakanu.net
 description: > # this means to ignore newlines until "baseurl:"
   Some random hacker writes random stuff on software development,
