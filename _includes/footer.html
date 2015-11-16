@@ -2,13 +2,13 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    <!-- <h2 class="footer-heading">{{ site.title }}</h2> -->
 
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><a href="mailto:{{ site.email }}">{"email": "{{ site.email }}"}</a></li>
         </ul>
       </div>
 
@@ -23,7 +23,7 @@
                 </svg>
               </span>
 
-              <span class="username">{{ site.github_username }}</span>
+              <span class="username">{"github": "{{ site.github_username }}"}</span>
             </a>
           </li>
           {% endif %}
@@ -38,7 +38,7 @@
                 </svg>
               </span>
 
-              <span class="username">{{ site.twitter_username }}</span>
+              <span class="username">{"twitter:": "{{ site.twitter_username }}"}</span>
             </a>
           </li>
           {% endif %}
@@ -46,7 +46,8 @@
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
+        <p class="text site-description">{"description": "{{ site.description }}"}</p>
+        <p class="text">{"todo": "{{ site.todo }}"}</p>
       </div>
     </div>
   </div>

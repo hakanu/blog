@@ -15,19 +15,19 @@ layout: default
 </div>
 
 <div id="disqus_thread"></div>
-<script type="text/rocketscript">
-  var disqus_shortname = 'hakanu'; // required: replace example with your forum shortname
-  var disqus_identifier = '{{ page.url }}';
-  var disqus_url = '{{ site.url }}{{ page.url }}';
-  var disqus_title = '{{ page.title }}';
-  var disqus_category_id = '{{ post.category }}';
+<script>
+(function() {
+  var disqus_config = function () {
+    this.page.url = location.href;
+    this.page.identifier = location.href;
+  };
+  // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
 
-  /* * * DON'T EDIT BELOW THIS LINE * * */
-  (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
+  s.src = '//hakanu.disqus.com/embed.js';
+
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+})();
 </script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
