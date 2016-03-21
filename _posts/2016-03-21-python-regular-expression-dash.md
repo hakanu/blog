@@ -1,6 +1,10 @@
 ---
 published: true
+layout: post
+category: python
+title: "A awesome Headline!"
 ---
+
 
 
 ### note to self
