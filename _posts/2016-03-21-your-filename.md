@@ -14,16 +14,14 @@ Here is the working command for me.
 
 - First add the user: 
 `mongo localhost:12346`
+
 `> use admin`
-`> db.createUser(`
-`...     {`
-`...       user: "test1",`
-`...       pwd: "test",`
-`...       roles: [`
-`...          { role: "readWrite", db: "isimibul-dev" }`
-`...       ]`
-`...     }`
-`... )`
+`> db.createUser({
+       user: "test1",
+       pwd: "test",
+       roles:[
+          { role: "readWrite", db: "isimibul-dev" }]})`
 
 - Now connect by using the user: 
-mongo localhost:12346/mydb-dev -u test1 -p test
+
+`mongo localhost:12346/mydb-dev -u test1 -p test`
