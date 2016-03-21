@@ -12,10 +12,13 @@ Here is the working command for me.
 - Error 
 2016-02-16T01:28:27.570+0000 Error: couldn't add user: User "test1@admin" already exists at src/mongo/shell/db.js:1004
 
+![](https://devdala.files.wordpress.com/2016/03/media-20160216.png)
+
 - First add the user: 
 `mongo localhost:12346`
 
 `> use admin`
+
 `> db.createUser({
        user: "test1",
        pwd: "test",
