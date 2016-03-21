@@ -10,7 +10,6 @@ published: true
 #### Paylas.io
 
 * [Paylas.io](http://paylas.io)
-* [Paylas.io new UI](http://m.paylas.io) - *Still working on it*
 * [Paylasio dev blog](http://hakanu.github.io/paylasio/)
 
 #### Android Apps
