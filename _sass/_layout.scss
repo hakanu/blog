@@ -279,7 +279,9 @@ img {
     filter: alpha(opacity=70); /* For IE8 and earlier */
 
     /* Responsive img */
-    max-width: 500px; 
+    // max-width: 500px;
+    max-width: 90%;
+    max-height: 400px;
     display: block;
     height: auto;
 }
@@ -290,7 +292,7 @@ img:hover {
 }
 
 .img-responsive {
-  max-width: 100%; 
+  max-width: 100%;
   display: block;
   height: auto;
 }

@@ -17,7 +17,8 @@ https://www.sqlite.org/wal.html
 * A cool site:
 http://foundmagazine.com/
 
-* Another addictive game: https://play.google.com/store/apps/details?id=com.ketchapp.stack
+* Another addictive game:
+[https://play.google.com/store/apps/details?id=com.ketchapp.stack](https://play.google.com/store/apps/details?id=com.ketchapp.stack)
 
 * Google's cute programming memories: https://bar.foo/
 
