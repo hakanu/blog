@@ -3,7 +3,9 @@ layout: page
 title: /about
 author: Hakan Uysal
 permalink: /about/
+published: true
 ---
+
 
 #### Paylas.io
 
@@ -22,6 +24,7 @@ permalink: /about/
 
 ### Websites
 
+* [Datanews.io](http://datanews.io) - Hacker news for data scientists
 * [Guldum.net](http://guldum.net)
 * [Prayer Times](http://iftarvakitleri.org)
 * [İşimi Bul - Job search engine for Turkey](http://isimibul.co)
