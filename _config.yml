@@ -12,7 +12,8 @@ twitter_username: hakanuysal
 github_username:  hakanu
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
+markdown: redcarpet
 permalink: pretty
 paginate: 10
 paginate_path: "/page/:num/"
