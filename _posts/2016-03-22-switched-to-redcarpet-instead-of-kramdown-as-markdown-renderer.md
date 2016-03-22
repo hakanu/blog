@@ -29,3 +29,5 @@ redcarpet:
   
 Here is the full list of available redcarpet extensions:
 https://github.com/vmg/redcarpet
+
+Btw fenced codeblocks kicks ass, just use "\`\`\`". 
