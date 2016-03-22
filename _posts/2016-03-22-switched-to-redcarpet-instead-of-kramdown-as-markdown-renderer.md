@@ -17,14 +17,12 @@ For example if you put a link in your post without using `<url>` notation or `[u
 
 Here is my config.yaml:
 
-```# Build settings
-#markdown: kramdown
-markdown: redcarpet
+`markdown: redcarpet
 kramdown:
   input: GFM
   hard_wrap: false
 redcarpet:
-  extensions: ["autolink", "fenced_code_blocks"]```
+  extensions: ["autolink", "fenced_code_blocks"]``
   
 Here is the full list of available redcarpet extensions:
 https://github.com/vmg/redcarpet
