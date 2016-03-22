@@ -5,7 +5,9 @@ category: python
 title: "Serving subdomains of localhost, no apache2 conf needed"
 ---
 
-![]()
+![](https://devdala.files.wordpress.com/2016/03/img_20151128_144700.jpg)
+
+*Trabzon, August 2015 - Oneplus One*
 
 For my latest project, I implemented subdomain handling, however, I wasn't able to test it from my local; pushing to production and try from the real domain and subdomain was so hard. When I look at the tutorials, they are mostly php stuff containing apache2 configurations, virtualhosts etc. I needed a simple method for this.
 
