@@ -2,8 +2,9 @@
 published: false
 layout: post
 category: markdown
-title: Switched to Redcarpet instead of kramdown as markdown renderer
+title: Redcarpet instead of kramdown as markdown renderer
 ---
+
 
 ![Vieux Port de Montréal](https://devdala.files.wordpress.com/2016/03/p51017-121508-pano.jpg)
 
