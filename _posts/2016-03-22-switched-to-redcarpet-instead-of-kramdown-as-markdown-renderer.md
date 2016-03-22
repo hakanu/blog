@@ -7,6 +7,7 @@ title: Redcarpet instead of kramdown as markdown renderer
 
 
 
+
 ![Vieux Port de Montréal](https://devdala.files.wordpress.com/2016/03/p51017-121508-pano.jpg)
 
 *Vieux Port de Montréal, October 2015 - Oneplus one*
@@ -17,12 +18,14 @@ For example if you put a link in your post without using `<url>` notation or `[u
 
 Here is my config.yaml:
 
-`markdown: redcarpet
+```
+markdown: redcarpet
 kramdown:
   input: GFM
   hard_wrap: false
 redcarpet:
-  extensions: ["autolink", "fenced_code_blocks"]`
+  extensions: ["autolink", "fenced_code_blocks"]
+```
   
 Here is the full list of available redcarpet extensions:
 https://github.com/vmg/redcarpet
