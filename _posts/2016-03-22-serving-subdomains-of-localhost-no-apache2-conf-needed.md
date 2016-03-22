@@ -1,9 +1,10 @@
 ---
-published: false
+published: true
 layout: post
 category: python
 title: "Serving subdomains of localhost, no apache2 conf needed"
 ---
+
 
 ![](https://devdala.files.wordpress.com/2016/03/img_20151128_144700.jpg)
 
@@ -17,8 +18,10 @@ $ `sudo nano /etc/hosts`
 
 * Example configuration
 
-```127.0.0.1	localhost
-127.0.0.1       hakan.localhost```
+```
+127.0.0.1	localhost
+127.0.0.1   hakan.localhost
+```
 
 * Install web.py just for the sake of trial.
 
@@ -30,7 +33,8 @@ $ `touch main.py`
 
 * Paste this content:
 
-```import web
+```
+import web
         
 urls = (
     '/(.*)', 'hello'
@@ -44,7 +48,8 @@ class hello:
         return 'Hello, ' + name + '!'
 
 if __name__ == "__main__":
-    app.run()```
+    app.run()
+```
 
 * Run the file.
 
