@@ -22,7 +22,7 @@ kramdown:
   input: GFM
   hard_wrap: false
 redcarpet:
-  extensions: ["autolink", "fenced_code_blocks"]``
+  extensions: ["autolink", "fenced_code_blocks"]`
   
 Here is the full list of available redcarpet extensions:
 https://github.com/vmg/redcarpet
