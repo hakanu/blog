@@ -5,7 +5,9 @@ category: python
 title: "Serving subdomains of localhost, no apache2 conf needed"
 ---
 
-For my latest project, I implemented subdomain handling 
+![]()
+
+For my latest project, I implemented subdomain handling, however, I wasn't able to test it from my local; pushing to production and try from the real domain and subdomain was so hard. When I look at the tutorials, they are mostly php stuff containing apache2 configurations, virtualhosts etc. I needed a simple method for this.
 
 * Modify content of hosts file
 
