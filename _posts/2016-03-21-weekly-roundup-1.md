@@ -7,6 +7,7 @@ title: "Weekly Roundup - 1"
 
 
 
+
 ![](https://devdala.files.wordpress.com/2016/03/pano_20151017_144505.jpg)
 **Flat Montreal is Flat - October, 2015**
 
@@ -54,3 +55,5 @@ And of course there is firebase solution as well.
 
 * Found this awesome tool for administrating SQLite over web UI, put it in your VPS and bam you have a full fledged database backed by sqlite. I have been reading a lot about sqlite. I think I'm going to battle test it in my next project. I used it with static programs which were processing some data. It was easily handling 10GB of data, runnining queries fast etc. Let's see if it performs well on a low traffic website as a client-server database. Anyways, I will write more about sqlite in the future.
 [https://www.phpliteadmin.org/](https://www.phpliteadmin.org/)
+
+* Good design is good: https://minimill.co/worldaftercapital/
