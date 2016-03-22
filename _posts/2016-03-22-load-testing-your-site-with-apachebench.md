@@ -1,7 +1,7 @@
 ---
 published: false
 layout: post
-category: python
+category: scaling
 title: Load testing your site with ApacheBench
 ---
 
