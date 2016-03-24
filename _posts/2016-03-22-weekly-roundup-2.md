@@ -49,5 +49,6 @@ OR shortcut:
   
 * [NPM & left-pad: Have We Forgotten How To Program?
 ](http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/)
-
+  * [Defence from NPM side about one line modules](https://github.com/sindresorhus/ama/issues/10#issuecomment-117766328)
+  
 * 
