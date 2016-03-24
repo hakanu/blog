@@ -44,4 +44,7 @@ OR shortcut:
   * [Tweet](https://twitter.com/davecheney/status/711147776332079104)
 ![](https://pbs.twimg.com/media/Cd6BIiPUAAABjco.jpg)
 
+* New trend: Reply everything with "willing to relocate San Francisco"
+  * [Source](https://twitter.com/search?f=tweets&vertical=default&q=%22willing%20to%20relocate%20to%20san%20francisco%22&src=typd)
+  
 * 
