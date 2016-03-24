@@ -21,11 +21,10 @@ title: "Weekly Roundup - 2"
 
 * Situation on the npm side:
 *Fun fact: because of all the metadata, the javascript community downloads "isarray" in the excess of 100GB a month from npm. For a one liner*
-
-https://twitter.com/mitsuhiko/status/712624914071728128
+[Tweet](https://twitter.com/mitsuhiko/status/712624914071728128)
 
 * "Saturday night data mining: #golang contributors by date"
-  * https://twitter.com/davecheney/status/711147776332079104
+  * [Tweet](https://twitter.com/davecheney/status/711147776332079104)
 ![](https://pbs.twimg.com/media/Cd6BIiPUAAABjco.jpg)
 
 * 
