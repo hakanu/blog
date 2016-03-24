@@ -18,10 +18,13 @@ title: "Weekly Roundup - 2"
   * [A discussion about the breaking of the Internet](https://medium.com/@mproberts/a-discussion-about-the-breaking-of-the-internet-3d4d2a83aa4d#.t0oxvjce2)
   * [Business insider explains the situation simply](http://uk.businessinsider.com/npm-left-pad-controversy-explained-2016-3?r=US&IR=T)
 
-
 * Situation on the npm side:
 *Fun fact: because of all the metadata, the javascript community downloads "isarray" in the excess of 100GB a month from npm. For a one liner*
 [Tweet](https://twitter.com/mitsuhiko/status/712624914071728128)
+
+* More JS comedy when it's digged deeper:
+  * [Tweet](https://twitter.com/TobyKurien/status/712536641391484929)
+![](https://pbs.twimg.com/media/CeNwPEsXEAABcPl.jpg)
 
 * "Saturday night data mining: #golang contributors by date"
   * [Tweet](https://twitter.com/davecheney/status/711147776332079104)
