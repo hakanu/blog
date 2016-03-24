@@ -47,4 +47,7 @@ OR shortcut:
 * New trend: Reply everything with "willing to relocate San Francisco"
   * [Source](https://twitter.com/search?f=tweets&vertical=default&q=%22willing%20to%20relocate%20to%20san%20francisco%22&src=typd)
   
+* [NPM & left-pad: Have We Forgotten How To Program?
+](http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/)
+
 * 
