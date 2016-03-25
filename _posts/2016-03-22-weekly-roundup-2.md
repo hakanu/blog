@@ -51,4 +51,8 @@ OR shortcut:
 ](http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/)
   * [Defence from NPM side about one line modules](https://github.com/sindresorhus/ama/issues/10#issuecomment-117766328)
   
+* Microsoft's AI backed tweetbot melted down after 24 hours of learning.
+  * http://www.telegraph.co.uk/technology/2016/03/24/microsofts-teen-girl-ai-turns-into-a-hitler-loving-sex-robot-wit/
+![](http://www.telegraph.co.uk/content/dam/technology/2016/03/24/Microsoft_Tay_daddy-large_trans++qVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.jpg)
+
 * 
