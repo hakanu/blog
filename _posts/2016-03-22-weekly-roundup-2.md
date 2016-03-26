@@ -55,4 +55,7 @@ OR shortcut:
   * http://www.telegraph.co.uk/technology/2016/03/24/microsofts-teen-girl-ai-turns-into-a-hitler-loving-sex-robot-wit/
 ![](http://www.telegraph.co.uk/content/dam/technology/2016/03/24/Microsoft_Tay_daddy-large_trans++qVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.jpg)
 
+* Cloudflare's library CDN links. Lots of goodies are here for production environment (React, Angular, Bootstrap, Jquery)
+  * https://cdnjs.com/libraries
+
 * 
