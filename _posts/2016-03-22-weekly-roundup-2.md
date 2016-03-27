@@ -57,3 +57,8 @@ OR shortcut:
 
 * Cloudflare's library CDN links. Lots of goodies are here for production environment (React, Angular, Bootstrap, Jquery)
   * https://cdnjs.com/libraries
+  
+* Apple's iPhone recycling robot Liam, it only takes 11 seconds
+  * https://twitter.com/verge/status/713115617411227648?s=09
+
+* 
