@@ -1,8 +1,8 @@
 ---
-published: false
+published: true
 layout: post
-category: python
-title: "Weekly Roundup - 2"
+category: roundup
+title: "Weekly Roundup - 2 #npm #npmgate #go #ai"
 ---
 
 
@@ -57,5 +57,3 @@ OR shortcut:
 
 * Cloudflare's library CDN links. Lots of goodies are here for production environment (React, Angular, Bootstrap, Jquery)
   * https://cdnjs.com/libraries
-
-* 
