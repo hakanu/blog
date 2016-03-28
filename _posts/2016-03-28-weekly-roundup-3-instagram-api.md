@@ -5,6 +5,7 @@ category: roundup
 title: "Weekly roundup - 3 #instagram #api"
 ---
 
+
 ![]()
 
 *2016, Nexus 6P*
@@ -18,3 +19,7 @@ title: "Weekly roundup - 3 #instagram #api"
   * AirBnb switched to RxJava on Android app
   * https://realm.io/news/kau-felipe-lima-adopting-rxjava-airbnb-android/
   
+* Evolution of Go
+  * https://talks.golang.org/2015/gophercon-goevolution.slide#21
+
+* 
