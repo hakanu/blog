@@ -19,7 +19,7 @@ title: "Weekly roundup - 3 #instagram #api"
 * RxJava: Reactive Extensions for Java
   * AirBnb switched to RxJava on Android app
   * https://realm.io/news/kau-felipe-lima-adopting-rxjava-airbnb-android/
-  * Reactive programming  
+  * [Reactive programming](https://en.wikipedia.org/wiki/Reactive_programming)
 * Evolution of Go
   * https://talks.golang.org/2015/gophercon-goevolution.slide#21
 
