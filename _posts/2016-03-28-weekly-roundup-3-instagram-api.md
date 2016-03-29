@@ -8,6 +8,7 @@ title: "Weekly roundup - 3 #instagram #api"
 
 
 
+
 ![]()
 
 *2016, Nexus 6P*
@@ -23,7 +24,10 @@ title: "Weekly roundup - 3 #instagram #api"
   * [Reactive programming](https://en.wikipedia.org/wiki/Reactive_programming)
 * Evolution of Go
   * https://talks.golang.org/2015/gophercon-goevolution.slide#21
-
-* http://www.bq.com/uk/aquaris-m10-ubuntu-edition
-* http://html5up.net/
+* Ubuntu tablet edition pre orders
+  * http://www.bq.com/uk/aquaris-m10-ubuntu-edition
+* Very beautiful HTML/CSS templates:
+  * http://html5up.net/
+* Kubernetes handles 10m qps with zero downtime, impressive video
+  * http://blog.kubernetes.io/2016/03/1000-nodes-and-beyond-updates-to-Kubernetes-performance-and-scalability-in-12.html  
 * 
