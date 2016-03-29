@@ -7,6 +7,7 @@ title: "Weekly roundup - 3 #instagram #api"
 
 
 
+
 ![]()
 
 *2016, Nexus 6P*
@@ -23,4 +24,6 @@ title: "Weekly roundup - 3 #instagram #api"
 * Evolution of Go
   * https://talks.golang.org/2015/gophercon-goevolution.slide#21
 
-*
+* http://www.bq.com/uk/aquaris-m10-ubuntu-edition
+* http://html5up.net/
+* 
