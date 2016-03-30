@@ -2,8 +2,9 @@
 published: false
 layout: post
 category: roundup
-title: "Weekly roundup - 3 #instagram #api"
+title: "Weekly roundup - 3 #instagram #api #css"
 ---
+
 
 
 
@@ -33,4 +34,6 @@ title: "Weekly roundup - 3 #instagram #api"
   * http://blog.kubernetes.io/2016/03/1000-nodes-and-beyond-updates-to-Kubernetes-performance-and-scalability-in-12.html  
 * "Modern computing: typing at a regular rate into your web app consumes 60% CPU."
 	* https://twitter.com/marius/status/714929296737853440
-* 
+* CSS can kill you
+![](https://pbs.twimg.com/media/COeYbe1WUAABHQ1.jpg)
+	* https://twitter.com/old_sound/status/641649070495408128
