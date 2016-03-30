@@ -37,3 +37,6 @@ title: "Weekly roundup - 3 #instagram #api #css"
 * CSS can kill you
 ![](https://pbs.twimg.com/media/COeYbe1WUAABHQ1.jpg)
 	* https://twitter.com/old_sound/status/641649070495408128
+* Markdown one pager
+![](https://pbs.twimg.com/media/CehsHyeUkAAAVZh.jpg)
+ 	* https://twitter.com/gruber/status/713939422098526208
