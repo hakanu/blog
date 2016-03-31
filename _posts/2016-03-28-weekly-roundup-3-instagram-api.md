@@ -5,13 +5,6 @@ category: roundup
 title: "Weekly roundup - 3 #instagram #api #css"
 ---
 
-
-
-
-
-
-
-
 ![]()
 
 *2016, Nexus 6P*
@@ -43,4 +36,7 @@ title: "Weekly roundup - 3 #instagram #api #css"
  	* https://twitter.com/gruber/status/713939422098526208
 * Awesome curated list
     * http://saijogeorge.com/website-builders/?ref=producthunt
+* Bash is coming to Windows natively!
+![](https://1.bp.blogspot.com/-PTJrez4z0Jc/Vvr-VH5DQOI/AAAAAAAFHcg/8F_2fBEG3kg-Y0aV2mURdJqk66gsoEWeg/s1600/bash.png)
+	* http://blog.dustinkirkland.com/2016/03/ubuntu-on-windows.html
 * 
