@@ -45,10 +45,15 @@ title: "Weekly roundup - 3 #instagram #api #css"
 `http://i.embed.ly/1/image/crop?key=EMBEDLY_KEY&width=640&height=480&url=TUMBLR_PHOTO_URL`
 
 * Easy fix to make HTML5 video responsive:
-`.responsive-video {
-`  max-width: 100%;`
-`  height: auto;`
-`}`
+```
+.responsive-video {
+  max-width: 100%;
+  height: auto;
+}
+```
 
-*  
+* Responsive video tag with controls, autoplay and infinite loop.
+  	* For hiding the controls, just add `nocontrols`
+`<video style="max-width: 100%; height: auto;" controls autoplay loop>`
+* 
 
