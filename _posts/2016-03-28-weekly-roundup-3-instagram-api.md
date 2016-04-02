@@ -5,6 +5,7 @@ category: roundup
 title: "Weekly roundup - 3 #instagram #api #css"
 ---
 
+
 ![]()
 
 *2016, Nexus 6P*
@@ -39,4 +40,5 @@ title: "Weekly roundup - 3 #instagram #api #css"
 * Bash is coming to Windows natively!
 ![](https://1.bp.blogspot.com/-PTJrez4z0Jc/Vvr-VH5DQOI/AAAAAAAFHcg/8F_2fBEG3kg-Y0aV2mURdJqk66gsoEWeg/s1600/bash.png)
 	* http://blog.dustinkirkland.com/2016/03/ubuntu-on-windows.html
-* 
+* show images from embedly to work around censorship of tumblr in turkey
+`http://i.embed.ly/1/image/crop?key=EMBEDLY_KEY&width=640&height=480&url=TUMBLR_PHOTO_URL`
