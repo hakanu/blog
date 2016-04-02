@@ -7,9 +7,9 @@ title: "Weekly roundup - 3 #instagram #api #css"
 
 
 
-![]()
+![](https://devdala.files.wordpress.com/2016/04/img_20141121_114844.jpg)
 
-*2016, Nexus 6P*
+*2015, Oneplus One*
 
 * Example Instagram Api call
   * Following:
