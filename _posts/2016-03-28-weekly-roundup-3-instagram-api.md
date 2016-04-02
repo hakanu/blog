@@ -55,5 +55,6 @@ title: "Weekly roundup - 3 #instagram #api #css"
 * Responsive video tag with controls, autoplay and infinite loop.
   	* For hiding the controls, just add `nocontrols`
 `<video style="max-width: 100%; height: auto;" controls autoplay loop>`
+
 * 
 
