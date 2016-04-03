@@ -5,9 +5,10 @@ category: roundup
 title: "Weekly roundup - 3 #instagram #api #css"
 ---
 
+
 ![](https://devdala.files.wordpress.com/2016/04/img_20141121_114844.jpg)
 
-*2015, Oneplus One*
+*San Francisco 2015, Oneplus One*
 
 * Example Instagram Api call
   * Following:
@@ -62,4 +63,4 @@ title: "Weekly roundup - 3 #instagram #api #css"
     ![](https://pbs.twimg.com/media/Ce8DsdoWIAAs-Ws.jpg)
 * CSS @font-face magic
 	* https://css-tricks.com/whats-deal-declaring-font-properties-font-face/
-* 
+*
