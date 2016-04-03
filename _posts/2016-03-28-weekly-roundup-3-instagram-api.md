@@ -57,4 +57,6 @@ title: "Weekly roundup - 3 #instagram #api #css"
 * Learnt that there is a disease called progeria which only affects 350 kids worldwide.
     * Here is a very cool TEDx Talk by Sam Berns about life and happiness, RIP Sam!
 	    * https://www.youtube.com/watch?v=36m1o-tM05g
-* 
+* Mic Drop joke by Google in Gmail gone wrong
+	* https://twitter.com/waxpancake/status/715794929176481792?s=09
+    ![](https://pbs.twimg.com/media/Ce8DsdoWIAAs-Ws.jpg)
