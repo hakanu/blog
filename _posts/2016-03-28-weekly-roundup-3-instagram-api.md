@@ -5,9 +5,6 @@ category: roundup
 title: "Weekly roundup - 3 #instagram #api #css"
 ---
 
-
-
-
 ![](https://devdala.files.wordpress.com/2016/04/img_20141121_114844.jpg)
 
 *2015, Oneplus One*
