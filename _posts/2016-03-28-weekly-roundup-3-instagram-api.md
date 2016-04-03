@@ -7,6 +7,7 @@ title: "Weekly roundup - 3 #instagram #api #css"
 
 
 
+
 ![](https://devdala.files.wordpress.com/2016/04/img_20141121_114844.jpg)
 
 *2015, Oneplus One*
@@ -56,5 +57,7 @@ title: "Weekly roundup - 3 #instagram #api #css"
   	* For hiding the controls, just add `nocontrols`
 `<video style="max-width: 100%; height: auto;" controls autoplay loop>`
 
+* Learnt that there is a disease called progeria which only affects 350 kids worldwide.
+    * Here is a very cool TEDx Talk by Sam Berns about life and happiness, RIP Sam!
+	    * https://www.youtube.com/watch?v=36m1o-tM05g
 * 
-
