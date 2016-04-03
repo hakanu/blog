@@ -60,3 +60,6 @@ title: "Weekly roundup - 3 #instagram #api #css"
 * Mic Drop joke by Google in Gmail gone wrong
 	* https://twitter.com/waxpancake/status/715794929176481792?s=09
     ![](https://pbs.twimg.com/media/Ce8DsdoWIAAs-Ws.jpg)
+* CSS @font-face magic
+	* https://css-tricks.com/whats-deal-declaring-font-properties-font-face/
+* 
