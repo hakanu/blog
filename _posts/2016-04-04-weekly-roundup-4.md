@@ -15,4 +15,6 @@ title: "Weekly roundup - 4"
 ![](https://pbs.twimg.com/media/CfMQMaeWEAA7iuK.jpg:large)
 	* https://twitter.com/dchest/status/716934572949299200
 * Panama Papers leak
-
+* ng-infinite-scroll CDN
+	* https://cdnjs.cloudflare.com/ajax/libs/ngInfiniteScroll/1.2.2/ng-infinite-scroll.min.js
+* 
