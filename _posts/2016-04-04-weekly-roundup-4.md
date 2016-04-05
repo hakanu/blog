@@ -8,6 +8,7 @@ title: "Weekly roundup - 4"
 
 
 
+
 ![]()
 
 
@@ -25,3 +26,10 @@ title: "Weekly roundup - 4"
     * `aria2c some.torrent`
 * Today I learnt (TIL), there is a neo4j alternative developed by a Googler:
 	* https://github.com/google/cayley
+* Read large files with python without pullling whole file into memory
+```
+with open("log.txt") as infile:
+    for line in infile:
+        do_something_with(line)
+```
+* 
