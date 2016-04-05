@@ -7,6 +7,7 @@ title: "Weekly roundup - 4"
 
 
 
+
 ![]()
 
 
@@ -22,4 +23,5 @@ title: "Weekly roundup - 4"
 	* `wget http://example.com/some.torrent`
     * `sudo apt-get install aria2`
     * `aria2c some.torrent`
-* 
+* Today I learnt (TIL), there is a neo4j alternative developed by a Googler:
+	* https://github.com/google/cayley
