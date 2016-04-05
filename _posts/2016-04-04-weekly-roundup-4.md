@@ -32,4 +32,13 @@ with open("log.txt") as infile:
     for line in infile:
         do_something_with(line)
 ```
+* Impressive: **Grindr** Manages More than 1,800,000 API Calls Per Minute with Less than 5 Engineers - What do they use? App Engine?
+	* http://get.treasuredata.com/WBN-2016-04-15-Grindr
+    * Other impressive metrics
+    	* 900MM API Calls per day
+		* 65MM Chat Messages per day
+		* 10k Geo Spatial database operations per second
+		* 300k Profile Image upload per day
+		* 2MM Chat Images exchanged per day
+        * [Source](http://stackoverflow.com/jobs/companies/grindr)
 * 
