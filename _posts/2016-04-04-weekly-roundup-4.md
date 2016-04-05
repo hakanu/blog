@@ -6,6 +6,7 @@ title: "Weekly roundup - 4"
 ---
 
 
+
 ![]()
 
 
@@ -17,4 +18,8 @@ title: "Weekly roundup - 4"
 * Panama Papers leak
 * ng-infinite-scroll CDN
 	* https://cdnjs.cloudflare.com/ajax/libs/ngInfiniteScroll/1.2.2/ng-infinite-scroll.min.js
+* Easiest terminal torrent client: Aria2c
+	* `wget http://example.com/some.torrent`
+    * `sudo apt-get install aria2`
+    * `aria2c some.torrent`
 * 
