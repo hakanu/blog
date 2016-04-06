@@ -9,6 +9,7 @@ title: "Weekly roundup - 4"
 
 
 
+
 ![]()
 
 
@@ -41,4 +42,6 @@ with open("log.txt") as infile:
 		* 300k Profile Image upload per day
 		* 2MM Chat Images exchanged per day
         * [Source](http://stackoverflow.com/jobs/companies/grindr)
+* Interesting presentation on linux filesystem - Trials with 1 billion files
+	* http://events.linuxfoundation.org/slides/2010/linuxcon2010_wheeler.pdf
 * 
