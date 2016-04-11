@@ -1,18 +1,13 @@
 ---
-published: false
+published: true
 layout: post
-category: python
+category: roundup
 title: "Weekly roundup - 4"
 ---
 
+![](https://devdala.files.wordpress.com/2016/04/img_20151217_174337-pano-compressor.jpg)
 
-
-
-
-
-
-![]()
-
+*A panorama night shot with Nexus 6p, 2015*
 
 * Apple use swift only in calculator app in iOS. 
 	* https://medium.com/@ryanolsonk/is-apple-using-swift-4a6c80f74599#.d35wfcl91
@@ -47,4 +42,3 @@ with open("log.txt") as infile:
 	* http://events.linuxfoundation.org/slides/2010/linuxcon2010_wheeler.pdf
 * [Sia - Cheap thrills](https://www.youtube.com/watch?v=nYh-n7EOtMA) video is awesome
 * [Macklemore - Dance off](https://www.youtube.com/watch?v=UwsR5LC0mII) - i guess this is unofficial
-* 
