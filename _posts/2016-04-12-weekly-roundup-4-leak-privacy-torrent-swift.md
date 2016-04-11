@@ -6,7 +6,6 @@ title: "Weekly roundup - 4 #leak #privacy #torrent #swift"
 ---
 
 
-
 ![](https://devdala.files.wordpress.com/2016/04/img_20151217_174337-pano-compressor.jpg)
 
 *A panorama night shot with Nexus 6p, 2015*
