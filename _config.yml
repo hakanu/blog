@@ -12,8 +12,8 @@ twitter_username: hakanuysal
 github_username:  hakanu
 
 # Build settings
-#markdown: kramdown
-markdown: redcarpet
+markdown: kramdown
+#markdown: redcarpet
 permalink: pretty
 paginate: 10
 paginate_path: "/page/:num/"
@@ -21,7 +21,7 @@ highlighter: pygments
 kramdown:
   input: GFM
   hard_wrap: false
-redcarpet:
-  extensions: ["autolink", "fenced_code_blocks"]
+#redcarpet:
+#  extensions: ["autolink", "fenced_code_blocks"]
 gems:
   - jekyll-sitemap
