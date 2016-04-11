@@ -2,8 +2,9 @@
 published: true
 layout: post
 category: roundup
-title: "Weekly roundup - 4"
+title: "Weekly roundup - 4 #leak #privacy #torrent #swift"
 ---
+
 
 ![](https://devdala.files.wordpress.com/2016/04/img_20151217_174337-pano-compressor.jpg)
 
