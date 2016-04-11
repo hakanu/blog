@@ -1,9 +1,10 @@
 ---
-published: false
+published: true
 layout: post
 category: roundup
 title: "Weekly roundup - 4 #leak #privacy #torrent #swift"
 ---
+
 
 
 
