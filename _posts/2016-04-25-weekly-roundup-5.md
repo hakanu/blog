@@ -20,4 +20,6 @@ title: "Weekly roundup - 5"
         *
 * Github has ~12M open issues
 	* https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+
+* 52 technologies you need to learn in 2016
+	* https://github.com/shekhargulati/52-technologies-in-2016
 * 
