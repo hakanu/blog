@@ -18,3 +18,6 @@ title: "Weekly roundup - 5"
     * An alternative chart library
     	* http://metricsgraphicsjs.org/
         *
+* Github has ~12M open issues
+	* https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+
+* 
