@@ -33,6 +33,7 @@ published: true
 * [İşimi Bul - Job search engine for Turkey](http://isimibul.co)
 * [Youtube Thumbnail Generator](http://vidimg.net)
 * [Psikiyatri Toplantıları web sitesi - Psychiatrist timetable web](http://psikiyatritoplantilari.com)
+* [Alterna - eksisozluk entrylerini silen yazarlarin read only toplanma merkezi](http://alterna.xyz)
 
 ### Promotional pages for apps
 
