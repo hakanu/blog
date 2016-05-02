@@ -24,4 +24,6 @@ title: "Weekly roundup - 5"
 	* https://github.com/shekhargulati/52-technologies-in-2016
 * GAE get_all
 	* http://stackoverflow.com/questions/3195647/how-to-get-checkbox-data-using-python-on-gae
+* How Kalman filters work
+	* http://www.anuncommonlab.com/articles/how-kalman-filters-work/
 * 
