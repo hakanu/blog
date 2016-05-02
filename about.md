@@ -19,7 +19,7 @@ published: true
 #### Android Apps
 
 * [Guldum.net - Funny Images and Memes](https://play.google.com/store/apps/details?id=net.guldum.caps)
-* [Football Highlights](https://play.google.com/store/apps/details?id=io.haku.fb_goals)
+* [Football Highlights](https://play.google.com/store/apps/details?id=io.haku.fb_goals) - 1.26k users
 * [Job Search Engine for Turkey](https://play.google.com/store/apps/details?id=co.hakanu.jobfinder)
 * [Psychiatrist timetable](https://play.google.com/store/apps/details?id=haku.io.psi_meeting)
 * [Selfgram - Photo diary](https://play.google.com/store/apps/details?id=net.selfgram.selfgram&hl=en)
@@ -30,11 +30,12 @@ published: true
 
 * [Datanews.io](http://datanews.io) - Hacker news for data scientists
 * [Guldum.net](http://guldum.net)
-* [Prayer Times](http://iftarvakitleri.org)
-* [İşimi Bul - Job search engine for Turkey](http://isimibul.co)
+* [Prayer Times](http://iftarvakitleri.org) - 3.66k users
+* [İşimi Bul - Job search engine for Turkey](http://isimibul.co) - 5k users
 * [Youtube Thumbnail Generator](http://vidimg.net)
 * [Psikiyatri Toplantıları web sitesi - Psychiatrist timetable web](http://psikiyatritoplantilari.com)
 * [Alterna - eksisozluk entrylerini silen yazarlarin read only toplanma merkezi](http://alterna.xyz)
+* [Sportartis - football discussion platform](http://sportartis.com)
 
 ### Promotional pages for apps
 
