@@ -13,7 +13,7 @@ published: true
 
 #### Paylas.io
 
-* [Paylas.io](http://paylas.io) - 50K posts, 1k users
+* [Paylas.io](http://paylas.io) - 45K posts, 1k users
 * [Paylasio dev blog](http://hakanu.github.io/paylasio/)
 
 #### Android Apps
