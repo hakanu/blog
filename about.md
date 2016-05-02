@@ -18,7 +18,7 @@ published: true
 
 #### Android Apps
 
-* [Funny Images and Memes](https://play.google.com/store/apps/details?id=net.guldum.caps)
+* [Guldum.net - Funny Images and Memes](https://play.google.com/store/apps/details?id=net.guldum.caps)
 * [Discounts Aggregator](https://play.google.com/store/apps/details?id=io.haku.discounts)
 * [Football Highlights](https://play.google.com/store/apps/details?id=io.haku.fb_goals)
 * [Job Search Engine for Turkey](https://play.google.com/store/apps/details?id=co.hakanu.jobfinder)
