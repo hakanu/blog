@@ -19,10 +19,11 @@ published: true
 #### Android Apps
 
 * [Guldum.net - Funny Images and Memes](https://play.google.com/store/apps/details?id=net.guldum.caps)
-* [Discounts Aggregator](https://play.google.com/store/apps/details?id=io.haku.discounts)
 * [Football Highlights](https://play.google.com/store/apps/details?id=io.haku.fb_goals)
 * [Job Search Engine for Turkey](https://play.google.com/store/apps/details?id=co.hakanu.jobfinder)
 * [Psychiatrist timetable](https://play.google.com/store/apps/details?id=haku.io.psi_meeting)
+* [Selfgram - Photo diary](https://play.google.com/store/apps/details?id=net.selfgram.selfgram&hl=en)
+* [Discounts Aggregator](https://play.google.com/store/apps/details?id=io.haku.discounts)
 * [Funny Turkish cartoons - Android starter project](https://play.google.com/store/apps/details?id=co.hakanu.karikaturcu2)
 
 ### Websites
