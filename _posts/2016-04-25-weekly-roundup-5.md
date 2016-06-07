@@ -9,12 +9,12 @@ title: Weekly roundup - 5
 **
 
 * Leaf - Machine Learning for Hackers
-	* http://autumnai.com/leaf/book/leaf.html
+	* (http://autumnai.com/leaf/book/leaf.html)
 * Personal info of 93.4 million Mexicans exposed on Amazon
-	* http://www.databreaches.net/personal-info-of-93-4-million-mexicans-exposed-on-amazon/
+	* (http://www.databreaches.net/personal-info-of-93-4-million-mexicans-exposed-on-amazon/)
     ![](http://www.databreaches.net/wp-content/uploads/example_record_redact.png)
 * Very cute chart library chart.js
-	* http://www.chartjs.org/
+	* (http://www.chartjs.org/)
     * An alternative chart library
     	* http://metricsgraphicsjs.org/
         *
