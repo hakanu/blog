@@ -1,8 +1,8 @@
 ---
-published: false
+published: true
 layout: post
 category: roundup
-title: "Weekly roundup - 5"
+title: Weekly roundup - 5
 ---
 ![]()
 
@@ -26,4 +26,4 @@ title: "Weekly roundup - 5"
 	* http://stackoverflow.com/questions/3195647/how-to-get-checkbox-data-using-python-on-gae
 * How Kalman filters work
 	* http://www.anuncommonlab.com/articles/how-kalman-filters-work/
-* 
+*
