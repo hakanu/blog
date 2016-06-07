@@ -16,8 +16,7 @@ title: Weekly roundup - 5
 * Very cute chart library chart.js
   * <http://www.chartjs.org/>
     * An alternative chart library
-      * http://metricsgraphicsjs.org/
-        *
+      * <http://metricsgraphicsjs.org/>
 * Github has ~12M open issues
   * <https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+>
 * 52 technologies you need to learn in 2016
