@@ -12,6 +12,11 @@ title: Weekly Roundup 6
 	* (https://www.youtube.com/watch?v=sEcwakbtXG4)
 * Rewrote my prayer times application since ramadan is here:
   	* Used [nativescript](https://www.nativescript.org/) which is amazingly good.
+    * On the first day of the update of the app I received 158 concurrent users
+    * Will write another post regarding the structure of the app.
+![]()
 ![](https://devdala.files.wordpress.com/2016/06/media-20160607.png)
+* Change a remote address
+	`git remote set-url`
 * 
 
