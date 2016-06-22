@@ -18,5 +18,7 @@ title: Weekly Roundup 6
 ![](https://devdala.files.wordpress.com/2016/06/media-20160607.png)
 * Change a remote address
 	`git remote set-url`
+* Realized this: if you try to iframe youtube in a webview in an android app, your app may be rejected by Google Play Store
+	* (https://play.google.com/about/privacy-security/#device-and-network-abuse)
 * 
-
+    
