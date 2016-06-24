@@ -8,7 +8,8 @@ published: true
 
 #### Sitem.co
 
-* [Sitem.co](Easy website builder with fine tuned, purpose specific themes)
+* [Sitem.co](https://sitem.co)
+	* Easy website builder with fine tuned, purpose specific themes
 	* Featured on [betalist](http://betalist.com/startups/sitemco)
 
 #### Paylas.io
