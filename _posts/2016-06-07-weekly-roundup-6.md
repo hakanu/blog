@@ -24,4 +24,9 @@ title: 'Weekly Roundup 6 #json #rss #nativescript'
 	* `https://query.yahooapis.com/v1/public/yql?q=select%20title%2Clink%2Cdescription%20from%20rss%20where%20url%3D%22**<ENCODED_RSS_URL>**&format=json&diagnostics=true&callback=`
     * There is this option but it's heavily cached
     	* (http://rss2json.com/)
-* 
+* Safely disabling swap space in Linux in order to save up hdd
+	* `sudo swapoff -a`
+    * Comment out swap line in /etc/fstab
+* The best gif creator from screen capture. The output is highly customizable like quality, size etc. Really good alternative to Giphy's desktop app which generates really low quality gifs. Perfect use case would be an intro gif for your app or website.
+	* <http://instagiffer.com/>
+    * 
