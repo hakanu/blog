@@ -2,7 +2,7 @@
 published: true
 layout: post
 category: roundup
-title: 'Weekly roundup 7 #domain #parse #pokemon '
+title: 'Weekly roundup - 7 #domain #parse #pokemon '
 ---
 There was a coup attempt in Turkey so I skipped writing new posts. Here I go again.
 
