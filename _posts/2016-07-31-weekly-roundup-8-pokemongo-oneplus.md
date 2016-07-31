@@ -9,4 +9,4 @@ title: 'Weekly roundup 8 - #pokemongo #oneplus'
 	* <https://github.com/AHAAAAAAA/PokemonGo-Map>
 * Duckduckgo thinks Telegram is not secure
 ![](https://pbs.twimg.com/media/CopP0O-UkAAyy5W.jpg:large)
-* 
+*
