@@ -27,4 +27,5 @@ $base-font-family: 'Quicksand', sans-serif;```
 
 	* I didn't have those 2 lines of --- and my css was not built. Now we are all good.
     * [Solution Source](https://github.com/jekyll/jekyll-help/issues/104)
-* 
+* Whole purpose of this css battle was for changing font of the blog. I switched from Inconsolate to QuickSand which is inspired by Medium.com.
+	* https://www.google.com/fonts/specimen/Quicksand
