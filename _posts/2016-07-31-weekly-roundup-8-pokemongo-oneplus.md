@@ -12,6 +12,8 @@ title: 'Weekly roundup 8 - #pokemongo #oneplus'
 * Postgres team discussed the Uber's migration from Postgres to MySQL
 	* <https://www.postgresql.org/message-id/5797D5A1.5030009%40agliodbs.com>
     * This was Uber's [original post](https://eng.uber.com/mysql-migration/)
+    * [Cool discussion](https://news.ycombinator.com/item?id=12201353) in Hacker News about how postgres acted mature instead of replying back each claim.
+    * By the way, TIL: postgres is the successor of Ingress which is the core developer's first rdbms. So it's name is coming from post-ingress.
 * This week I dedicated some time reading Language Translation with Machine Learning by using Natural Language Processing.
 	* [Rough chart](http://language.worldofcomputing.net/category/machine-translation)
     ![](http://language.worldofcomputing.net/wp-content/uploads/2010/11/machine-translation-process1.JPG)
