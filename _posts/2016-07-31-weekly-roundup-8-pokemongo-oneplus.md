@@ -20,12 +20,13 @@ title: 'Weekly roundup 8 - #pokemongo #oneplus'
 * Weird Jekyll update
 	* My blog was down for a couple of hours because I purged my cloudflare cache. Apparently after that scss compiler didn't kick in and re-build my css file. So blog looked soo ugly.
     * The reason for that is Jekyll compiler now needs scss files to have this prepended:
-```---
----
-@charset "utf-8";
-$base-font-family: 'Quicksand', sans-serif;```
 
-	* I didn't have those 2 lines of --- and my css was not built. Now we are all good.
+`---`
+`---`
+`@charset "utf-8";`
+`$base-font-family: 'Quicksand', sans-serif;`
+
+	* I didn't have those 2 lines of dashes and my css was not built. Now we are all good.
     * [Solution Source](https://github.com/jekyll/jekyll-help/issues/104)
 * Whole purpose of this css battle was for changing font of the blog. I switched from Inconsolate to QuickSand which is inspired by Medium.com.
 	* https://www.google.com/fonts/specimen/Quicksand
