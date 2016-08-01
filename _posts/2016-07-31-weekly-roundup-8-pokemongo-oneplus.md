@@ -15,4 +15,13 @@ title: 'Weekly roundup 8 - #pokemongo #oneplus'
 * This week I dedicated some time reading Language Translation with Machine Learning by using Natural Language Processing.
 	* [Rough chart](http://language.worldofcomputing.net/category/machine-translation)
     ![](http://language.worldofcomputing.net/wp-content/uploads/2010/11/machine-translation-process1.JPG)
+* Weird Jekyll update
+	* My blog was down for a couple of hours because I purged my cloudflare cache. Apparently after that scss compiler didn't kick in and re-build my css file. So blog looked soo ugly.
+    * The reason for that is Jekyll compiler now needs scss files to have this prepended:
+```---
+---
+@charset "utf-8";
+$base-font-family: 'Quicksand', sans-serif;```
+
+	* I didn't have those 2 lines of --- and my css was not built. Now we are all good.
 * 
