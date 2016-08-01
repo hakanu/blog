@@ -21,10 +21,12 @@ title: 'Weekly roundup 8 - #pokemongo #oneplus'
 	* My blog was down for a couple of hours because I purged my cloudflare cache. Apparently after that scss compiler didn't kick in and re-build my css file. So blog looked soo ugly.
     * The reason for that is Jekyll compiler now needs scss files to have this prepended:
 
-`---`
-`---`
-`@charset "utf-8";`
-`$base-font-family: 'Quicksand', sans-serif;`
+<pre>
+---
+---
+@charset "utf-8";
+$base-font-family: 'Quicksand', sans-serif;
+</pre>
 
 	* I didn't have those 2 lines of dashes and my css was not built. Now we are all good.
     * [Solution Source](https://github.com/jekyll/jekyll-help/issues/104)
