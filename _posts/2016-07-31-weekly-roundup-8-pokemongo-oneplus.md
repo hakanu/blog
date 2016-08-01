@@ -12,4 +12,7 @@ title: 'Weekly roundup 8 - #pokemongo #oneplus'
 * Postgres team discussed the Uber's migration from Postgres to MySQL
 	* <https://www.postgresql.org/message-id/5797D5A1.5030009%40agliodbs.com>
     * This was Uber's [original post](https://eng.uber.com/mysql-migration/)
+* This week I dedicated some time reading Language Translation with Machine Learning by using Natural Language Processing.
+	* [Rough chart](http://language.worldofcomputing.net/category/machine-translation)
+    ![](http://language.worldofcomputing.net/wp-content/uploads/2010/11/machine-translation-process1.JPG)
 * 
