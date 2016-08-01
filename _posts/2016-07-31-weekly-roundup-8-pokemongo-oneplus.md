@@ -9,4 +9,7 @@ title: 'Weekly roundup 8 - #pokemongo #oneplus'
 	* <https://github.com/AHAAAAAAA/PokemonGo-Map>
 * Duckduckgo thinks Telegram is not secure
 ![](https://pbs.twimg.com/media/CopP0O-UkAAyy5W.jpg:large)
-*
+* Postgres team discussed the Uber's migration from Postgres to MySQL
+	* <https://www.postgresql.org/message-id/5797D5A1.5030009%40agliodbs.com>
+    * This was Uber's [original post](https://eng.uber.com/mysql-migration/)
+* 
