@@ -24,4 +24,5 @@ title: 'Weekly roundup 8 - #pokemongo #oneplus'
 $base-font-family: 'Quicksand', sans-serif;```
 
 	* I didn't have those 2 lines of --- and my css was not built. Now we are all good.
+    * [Solution Source](https://github.com/jekyll/jekyll-help/issues/104)
 * 
