@@ -30,3 +30,5 @@ $base-font-family: 'Quicksand', sans-serif;`
     * [Solution Source](https://github.com/jekyll/jekyll-help/issues/104)
 * Whole purpose of this css battle was for changing font of the blog. I switched from Inconsolate to QuickSand which is inspired by Medium.com.
 	* https://www.google.com/fonts/specimen/Quicksand
+* Pokemon Go: 100 million downloads, $10M per day. [source](http://www.androidauthority.com/pokemon-go-100-million-installs-10-million-daily-revenue-706885/)
+* 
