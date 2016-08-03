@@ -31,4 +31,12 @@ $base-font-family: 'Quicksand', sans-serif;`
 * Whole purpose of this css battle was for changing font of the blog. I switched from Inconsolate to QuickSand which is inspired by Medium.com.
 	* https://www.google.com/fonts/specimen/Quicksand
 * Pokemon Go: 100 million downloads, $10M per day. [source](http://www.androidauthority.com/pokemon-go-100-million-installs-10-million-daily-revenue-706885/)
+* Github open sourced their battle-tested MySQL schema migration tool:
+	* https://github.com/github/gh-ost
+* Instagram Stories are out!
+	* Stats are cool
+    * Audience is there
+    * Shiny pens are cool
+    * No dog filters yet :-O
+    * No location, slo-mo, fast-mo or speed filters etc.
 * 
