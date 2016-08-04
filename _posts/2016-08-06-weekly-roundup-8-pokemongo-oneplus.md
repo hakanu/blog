@@ -38,5 +38,9 @@ $base-font-family: 'Quicksand', sans-serif;`
     * Audience is there
     * Shiny pens are cool
     * No dog filters yet :-O
-    * No location, slo-mo, fast-mo or speed filters etc.
+    * No location, time, slo-mo, fast-mo or speed filters etc.
+* Read Jack Dorsey (Square and Twitter CEO) routine and tried it this week. Really works!
+	<http://uk.businessinsider.com/jack-dorsey-wakes-up-at-5-in-the-morning-to-meditate-2015-12?r=US&IR=T>
+	* ![](http://static4.uk.businessinsider.com/image/564df103dd089507548b4661-480/jack-dorsey.jpg)
+    * [My 7 minute workout app](https://play.google.com/store/apps/details?id=com.popularapp.sevenmins)
 * 
