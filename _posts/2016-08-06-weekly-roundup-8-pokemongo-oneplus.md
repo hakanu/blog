@@ -43,4 +43,9 @@ $base-font-family: 'Quicksand', sans-serif;`
 	<http://uk.businessinsider.com/jack-dorsey-wakes-up-at-5-in-the-morning-to-meditate-2015-12?r=US&IR=T>
 	* ![](http://static4.uk.businessinsider.com/image/564df103dd089507548b4661-480/jack-dorsey.jpg)
     * [My 7 minute workout app](https://play.google.com/store/apps/details?id=com.popularapp.sevenmins)
+* Crystal language intro: Ruby like syntax funsies, static typing.
+	* <https://blog.codeship.com/an-introduction-to-crystal-fast-as-c-slick-as-ruby/>
+* Samsung Note S7 is in town - basically S7 on steroids.
+	![](http://www.androidauthority.com/wp-content/uploads/2016/08/samsung-galaxy-note-7-vs-nexus-6p-quick-look-aa-4-768x432.jpg)
+    * <http://www.androidauthority.com/samsung-galaxy-note-7-vs-nexus-6p-first-look-707296/>
 * 
