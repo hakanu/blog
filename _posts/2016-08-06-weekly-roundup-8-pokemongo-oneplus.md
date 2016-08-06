@@ -23,6 +23,8 @@ title: 'Weekly roundup 8 - #css #oneplus'
     ![](http://language.worldofcomputing.net/wp-content/uploads/2010/11/machine-translation-process1.JPG)
 * Weird Jekyll update
 	* My blog was down for a couple of hours because I purged my cloudflare cache. Apparently after that scss compiler didn't kick in and re-build my css file. So blog looked soo ugly.
+	* I didn't have those 2 lines of dashes and my css was not built. Now we are all good.
+    * [Solution Source](https://github.com/jekyll/jekyll-help/issues/104)
     * The reason for that is Jekyll compiler now needs scss files to have this prepended:
 
 > ---
@@ -30,8 +32,6 @@ title: 'Weekly roundup 8 - #css #oneplus'
 > @charset "utf-8";
 > $base-font-family: 'Quicksand', sans-serif;
 
-	* I didn't have those 2 lines of dashes and my css was not built. Now we are all good.
-    * [Solution Source](https://github.com/jekyll/jekyll-help/issues/104)
 * Whole purpose of this css battle was for changing font of the blog. I switched from Inconsolate to QuickSand which is inspired by Medium.com.
 	* https://www.google.com/fonts/specimen/Quicksand
 * Pokemon Go: 100 million downloads, $10M per day. [source](http://www.androidauthority.com/pokemon-go-100-million-installs-10-million-daily-revenue-706885/)
