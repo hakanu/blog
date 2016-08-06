@@ -281,14 +281,14 @@ img {
     /* Responsive img */
     // max-width: 500px;
     max-width: 90%;
-    max-height: 400px;
+    max-height: 700px;
     display: block;
     height: auto;
 }
 
 img:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
+    /*opacity: 1.0;*/
+    /*filter: alpha(opacity=100);*/ /* For IE8 and earlier */
 }
 
 .img-responsive {
