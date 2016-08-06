@@ -1,10 +1,14 @@
 ---
-published: false
+published: true
 layout: post
 category: roundup
 title: 'Weekly roundup 8 - #pokemongo #oneplus'
 ---
-* Oneplus 3 is awesome, the best phone I've ever used so far. And it's amazingly fast after Nexus 6p. 
+![](https://devdala.files.wordpress.com/2016/08/img_20160729_213441.jpg)
+
+* Oneplus 3 is awesome, the best phone I've ever used so far. And it's amazingly fast after Nexus 6p. Full review will come.
+![](https://pbs.twimg.com/media/Clb4A1_WIAA-a5A.jpg:large)
+
 * Pokemon Go still going strong, here is the map created by consuming information from directly Niantic's servers:
 	* <https://github.com/AHAAAAAAA/PokemonGo-Map>
 * Duckduckgo thinks Telegram is not secure
@@ -48,4 +52,8 @@ $base-font-family: 'Quicksand', sans-serif;`
 * Samsung Note S7 is in town - basically S7 on steroids.
 	![](http://www.androidauthority.com/wp-content/uploads/2016/08/samsung-galaxy-note-7-vs-nexus-6p-quick-look-aa-4-768x432.jpg)
     * <http://www.androidauthority.com/samsung-galaxy-note-7-vs-nexus-6p-first-look-707296/>
-* 
+* iPhone 7 Plus prototype looks accurate enough
+	[![](http://img.youtube.com/vi/L2o_MUPDRRI/0.jpg)](https://www.youtube.com/watch?v=L2o_MUPDRRI)
+* New instagram profiles I started to follow:
+	* [Impact brothers](https://www.instagram.com/impact.brothers/)
+    * [Real Wasted](https://www.instagram.com/realwasted/)
