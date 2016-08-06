@@ -2,7 +2,7 @@
 published: true
 layout: post
 category: roundup
-title: 'Weekly roundup 8 - #pokemongo #oneplus'
+title: 'Weekly roundup 8 - #css #oneplus'
 ---
 ![](https://devdala.files.wordpress.com/2016/08/img_20160729_213441.jpg)
 
