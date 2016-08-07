@@ -6,6 +6,8 @@ title: 'Useful BeautifulSoup Tips #bs #python #scraper'
 ---
 ![](https://www.crummy.com/software/BeautifulSoup/10.1.jpg)
 
+> Poor man's scraper...
+
 Yes it works like a charm even on the unvalidated html. That's my biggest problem python libraries like lxml etc, they don't really work well with the unvalidated html/xml trees. However BeautifulSoup does everything it can.
 
 Here are some handy commands I use every day:
@@ -49,8 +51,9 @@ soup.find('img', style=True)  # Brings up an img element with style attribute.
 # Check if element has some attribute:
 soup.find('img').has_attr('style')  # eg. returns True
 
-# Use jquery like selectors:
+# Use CSS selectors:
 soup.select("p.strikeout.body")
+soup.select("li nth-of-type(3)")
 
 `
 
