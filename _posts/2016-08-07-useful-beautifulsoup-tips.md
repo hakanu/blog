@@ -2,7 +2,7 @@
 published: false
 layout: post
 category: python
-title: Useful BeautifulSoup Tips
+title: 'Useful BeautifulSoup Tips #bs #python #scraper'
 ---
 ![](https://www.crummy.com/software/BeautifulSoup/10.1.jpg)
 
@@ -48,6 +48,10 @@ soup.find('img', style=True)  # Brings up an img element with style attribute.
 
 # Check if element has some attribute:
 soup.find('img').has_attr('style')  # eg. returns True
+
+# Use jquery like selectors:
+soup.select("p.strikeout.body")
+
 `
 
 * [Homepage](https://www.crummy.com/software/BeautifulSoup/)
