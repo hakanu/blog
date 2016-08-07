@@ -16,7 +16,7 @@ Here are some handy commands I use every day:
 
 `sudo easy_install beautifulsoup4`
 
-`
+```
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup(html_doc, 'html.parser')
@@ -55,8 +55,7 @@ soup.find('img').has_attr('style')  # eg. returns True
 # Use CSS selectors:
 soup.select("p.strikeout.body")
 soup.select("li nth-of-type(3)")
-
-`
+```
 
 * [Homepage](https://www.crummy.com/software/BeautifulSoup/)
 * [Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
