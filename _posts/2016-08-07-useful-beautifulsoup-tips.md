@@ -8,7 +8,7 @@ title: 'Useful BeautifulSoup Tips #bs #python #scraper'
 
 > Poor man's scraper...
 
-Yes it works like a charm even on the unvalidated html. That's my biggest problem python libraries like lxml etc, they don't really work well with the unvalidated html/xml trees. However BeautifulSoup does everything it can.
+Yes it works like a charm even on the unvalidated html. That's my biggest problem with python libraries like lxml etc, they don't really work well with the unvalidated html/xml trees. However BeautifulSoup does everything it can.
 
 Here are some handy commands I use every day:
 
@@ -58,4 +58,3 @@ soup.select("li nth-of-type(3)")
 * [Homepage](https://www.crummy.com/software/BeautifulSoup/)
 * [Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 * [PyPi](https://pypi.python.org/pypi/beautifulsoup4)
-
