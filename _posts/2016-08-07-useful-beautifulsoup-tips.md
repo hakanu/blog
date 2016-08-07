@@ -13,6 +13,7 @@ Yes it works like a charm even on the unvalidated html. That's my biggest proble
 Here are some handy commands I use every day:
 
 * Install and import 
+
 `sudo easy_install beautifulsoup4`
 
 `
