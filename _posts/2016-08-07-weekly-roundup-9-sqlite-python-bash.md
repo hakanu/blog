@@ -4,7 +4,6 @@ layout: post
 category: roundup
 title: 'Weekly roundup - 9 #sqlite #python #bash'
 ---
-## A New Post
 
 * SQLite
 	* dump a table as csv:
