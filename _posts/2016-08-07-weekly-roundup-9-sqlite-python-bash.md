@@ -10,9 +10,9 @@ title: 'Weekly roundup - 9 #sqlite #python #bash'
 		* `sqlite3 -header -csv mydb.db "select * from my_table;" > monthly.csv`
     * See the schema
     	* `cat .schema | sqlite3 mydb.db`
-    * Redirect output to sql file from sqlite cli.
+    * Redirect output to txt file from sqlite cli.
     	* `sqlite3 mydb.db`
-        * `> .output my.sql`
+        * `> .output my.txt`
         * `> select * from my_table;`
         * OR just dump the whole db
         	* `sqlite3 mydb.db`
