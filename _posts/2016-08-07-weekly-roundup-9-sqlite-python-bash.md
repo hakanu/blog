@@ -34,4 +34,15 @@ else
   sudo npm install -g csvtojson
 fi`
 
+* Python multi threading: Pass parameters to the thread
+
+`import threading
+
+def F():
+	threading.Thread(target=Foo, args=(my_param,)).start()
+
+def Foo(my_param):
+	print 'This is a long running process'
+`
+
 * 
