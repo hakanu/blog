@@ -16,7 +16,7 @@ title: 'Weekly roundup - 9 #sqlite #python #bash'
         * `> select * from my_table;`
         * OR just dump the whole db
         	* `sqlite3 mydb.db`
-	        * `> .output my.sql`
+	        * `> .output my.txt`
         	* `> .dump`
 * Bash - check if a command is installed in the machine:
 
