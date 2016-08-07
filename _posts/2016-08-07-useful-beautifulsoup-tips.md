@@ -16,7 +16,7 @@ Here are some handy commands I use every day:
 
 `sudo easy_install beautifulsoup4`
 
-```
+```python
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup(html_doc, 'html.parser')
