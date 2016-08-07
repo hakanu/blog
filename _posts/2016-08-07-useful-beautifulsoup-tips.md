@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 category: python
 title: 'Useful BeautifulSoup Tips #bs #python #scraper'
