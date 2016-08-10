@@ -61,4 +61,6 @@ some_code_here()
 * This is impressive:
 	* <http://lcamtuf.coredump.cx/squirrel/>
     * [This JPEG is also a webpage](http://lcamtuf.coredump.cx/squirrel/)
+* [Image Completion with Deep Learning in TensorFlow](http://bamos.github.io/2016/08/09/deep-completion/)
 * 
+
