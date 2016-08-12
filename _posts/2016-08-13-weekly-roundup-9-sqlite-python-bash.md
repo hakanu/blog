@@ -62,5 +62,6 @@ some_code_here()
 	* <http://lcamtuf.coredump.cx/squirrel/>
     * [This JPEG is also a webpage](http://lcamtuf.coredump.cx/squirrel/)
 * [Image Completion with Deep Learning in TensorFlow](http://bamos.github.io/2016/08/09/deep-completion/)
+* Google Brain team did an amazing AMA on Reddit:
+	* <https://www.reddit.com/r/MachineLearning/comments/4w6tsv/ama_we_are_the_google_brain_team_wed_love_to/>
 * 
-
