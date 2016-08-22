@@ -13,4 +13,8 @@ title: 'Weekly roundup - 11 '
 `keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android`
 
 * Star Citizen 2016 - Gamescom trailer: <https://www.youtube.com/watch?v=GucYhhLwIxg>
+
+* Android Nougat 7.0
+	* [Official website](https://www.android.com/versions/nougat-7-0/)
+    * [TheVerge review](http://www.theverge.com/2016/8/22/12578946/android-7-nougat-review-nexus)
 * 
