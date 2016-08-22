@@ -17,4 +17,5 @@ title: 'Weekly roundup - 11 '
 * Android Nougat 7.0
 	* [Official website](https://www.android.com/versions/nougat-7-0/)
     * [TheVerge review](http://www.theverge.com/2016/8/22/12578946/android-7-nougat-review-nexus)
+* Yet another betalist clone: <http://www.betafy.co/>
 * 
