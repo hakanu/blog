@@ -42,4 +42,7 @@ title: 'Weekly roundup - 11 '
 
     * If I was using Windows, Id just go for this [one, amazing app with lib code from Tony](http://www.codeproject.com/Articles/3603/Classes-to-read-and-write-BMP-JPEG-and-JPEG) 
 
-* 
+* [What is the difference?](http://stackoverflow.com/questions/4911820/percent-encoding-javascript)
+	* encodeURI is just for escaping URLs
+    * encodeURIComponent also escapes = and &
+    * escape works differently with non-ASCII unicode symbols
