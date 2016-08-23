@@ -37,7 +37,7 @@ title: 'Weekly roundup - 11 '
 		mogrify -resize 320x240 *png  # keep image aspect ratio
 		mogrify -resize 320x240! *png # ignore image aspect ratio
 		mogrify -resize x240 *png     # ignore image aspect ratio
-  		mogrify -resize 320x *png     # ignore image aspect ratio
+        mogrify -resize 320x *png     # ignore image aspect ratio
         ```
 
     * If I was using Windows, Id just go for this [one, amazing app with lib code from Tony](http://www.codeproject.com/Articles/3603/Classes-to-read-and-write-BMP-JPEG-and-JPEG) 
