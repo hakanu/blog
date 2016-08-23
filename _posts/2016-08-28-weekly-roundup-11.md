@@ -46,3 +46,20 @@ title: 'Weekly roundup - 11 '
 	* encodeURI is just for escaping URLs
     * encodeURIComponent also escapes = and &
     * escape works differently with non-ASCII unicode symbols
+* Javascript replace all: `var res = str.replace(/blue/g, "red");`
+* Firebase doesnt let dots (.) in the keys so we should encode it before persisting:
+
+```javascript
+function encodeAsFirebaseKey(string) {
+  return string.replace(/\%/g, '%25')
+    .replace(/\./g, '%2E')
+    .replace(/\#/g, '%23')
+    .replace(/\$/g, '%24')
+    .replace(/\//g, '%2F')
+    .replace(/\[/g, '%5B')
+    .replace(/\]/g, '%5D');
+};
+```
+
+[source](https://groups.google.com/forum/#!topic/firebase-talk/vtX8lfxxShk)
+* 
