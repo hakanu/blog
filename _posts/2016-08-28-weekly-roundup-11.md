@@ -67,3 +67,4 @@ function encodeAsFirebaseKey(string) {
 * [A Turkish startup to create beautiful layout - landing page strikes me immediately](http://postnd.com/en)
 * Gartner hype cycle:
 ![](https://tctechcrunch2011.files.wordpress.com/2016/07/gartner-hype-cycle.png)
+* Facebook''s teen targeted weird app: [Lifestage](https://itunes.apple.com/us/app/lifestage/id1004753218)
