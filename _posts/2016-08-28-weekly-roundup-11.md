@@ -62,4 +62,7 @@ function encodeAsFirebaseKey(string) {
 ```
 
 [source](https://groups.google.com/forum/#!topic/firebase-talk/vtX8lfxxShk)
+
+* [Interesting tech - making the strap smarter instead of the watch itself](http://maintool.me/classi.html)
+* [A Turkish startup to create beautiful layout - landing page strikes me immediately](http://postnd.com/en)
 * 
