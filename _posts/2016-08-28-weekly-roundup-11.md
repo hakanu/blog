@@ -65,4 +65,5 @@ function encodeAsFirebaseKey(string) {
 
 * [Interesting tech - making the strap smarter instead of the watch itself](http://maintool.me/classi.html)
 * [A Turkish startup to create beautiful layout - landing page strikes me immediately](http://postnd.com/en)
-* 
+* Gartner hype cycle:
+![](https://tctechcrunch2011.files.wordpress.com/2016/07/gartner-hype-cycle.png)
