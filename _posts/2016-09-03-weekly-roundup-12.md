@@ -9,4 +9,4 @@ title: Weekly roundup - 12
 
 `convert input.jpg -strip output.jpg`
 
-* 
+*
