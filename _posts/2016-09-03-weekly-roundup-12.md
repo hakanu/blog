@@ -9,4 +9,7 @@ title: Weekly roundup - 12
 
 `convert input.jpg -strip output.jpg`
 
-*
+* 3x3 square image grid example with uneven sized images. I finally found the simplest solution with only CSS:
+http://jsfiddle.net/webtiki/MpXYr/2/
+
+* 
