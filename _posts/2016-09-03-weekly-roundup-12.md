@@ -11,4 +11,5 @@ title: Weekly roundup - 12
 * 3x3 square image grid example with uneven sized images. I finally found the simplest solution with only CSS:
 http://jsfiddle.net/webtiki/MpXYr/2/
 * Interesting read: [encoding/csv: Reading is slow - slower than python and java](https://github.com/golang/go/issues/16791)
-*
+* If you store column as DATETIME in SQLite, you don't need to convert the returning object's that column into datetime. It's automatically done by the sqlite framework.
+* 
