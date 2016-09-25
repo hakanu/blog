@@ -37,6 +37,7 @@ published: true
 ### Websites
 
 * [Datanews.io](http://datanews.io) - Hacker news for data scientists
+* [Daily Overwatch](http://dailyow.xyz) - Curated funny memes, moments, highlights of popular online shooter game Overwatch.
 * [Guldum.net](http://guldum.net)
 * [Prayer Times](http://iftarvakitleri.org) - 3.66k users
 * [İşimi Bul - Job search engine for Turkey](http://isimibul.co) - 5k users
