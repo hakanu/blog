@@ -10,7 +10,7 @@ published: true
 
 * [Sitem.co](https://sitem.co)
 	* Easy website builder with fine tuned, purpose specific themes
-	* Featured on [betalist](http://betalist.com/startups/sitemco)\
+	* Featured on [betalist](http://betalist.com/startups/sitemco)
     
 #### Just Read
 
