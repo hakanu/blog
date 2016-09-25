@@ -14,10 +14,10 @@ published: true
     
 #### Just Read
 
-* Clean and simple article reader that just works, extracts articles from given websites and then you can read them **offline**.
-	* [http://justreadapp.com](Just Read Web app)
-    * [https://chrome.google.com/webstore/detail/just-read/gjadajkmpgdblfochjcfpkhnnkicfapl](Just Read Chrome Extension)
-    * [https://play.google.com/store/apps/details?id=com.justreadapp.app](Just Read Android App)
+* Clean and simple article reader that just works, extracts articles from given websites and then you can read them offline.
+	* [Just Read Web app](http://justreadapp.com)
+    * [Just Read Chrome Extension](https://chrome.google.com/webstore/detail/just-read/gjadajkmpgdblfochjcfpkhnnkicfapl)
+    * [Just Read Android App](https://play.google.com/store/apps/details?id=com.justreadapp.app)
 
 #### Paylas.io
 
