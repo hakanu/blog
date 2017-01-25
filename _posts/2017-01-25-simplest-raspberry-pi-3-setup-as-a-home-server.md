@@ -2,9 +2,11 @@
 published: true
 layout: post
 category: iot
-title: Simplest Raspberry Pi 3 setup as a home server
+title: Simplest Raspberry Pi 3 setup as a home server - Jan'17
 ---
 I've just done it and I don't want to forget this struggle.
+
+![](https://lh3.googleusercontent.com/OkpftC-4ZQxAoF90yn3s6U86yaUvYSAPoO5_bTIrYDezc_JhWsRSjrquFBtzowH5UYVTMsEolxGhpNSiyBRPZHE9ecOn-wWvYVc4DO0K1xW9BfRoGc_Am91wqv4YdVvagHZZJvgnIXp-cEV242iTzV3PmQESBqLwcIefFIgaMqWueUfXXqJdiUEoveYzmaBNmoJZo6wmmCdO1hlULwll1AAYCclDdTI3vOXU_I6IcUW6WOtEMPa_N7sW_z_NUm1u8-VZqkP5n4e6w6WF6u_mM1_X1mGEAV3nVPu_di-QLhYIgR9NOAd89VZkxhzHmcVldAi4FveL5Ufmgtd6eXprQDnNeZ0Z1m3lwD_Cmf4quWSI8vgDnQ6VNyKrE8ABFTXHyevC3QkDphHS_Ihp_PVP6PvYZrrFSILselmZjV1G6tFudVl_rStGBLBsXoqxpXyGUTlTHMKq7Tnkzn4w7so2A2pihgqw4Jks5s39Nbgv6DUJmfXu_56MqWoMmd9UVX40kcstZT8hNaIYUZ5nCoKIdvzEAMrm5_QXJWilrQqkzRE8SYVLr_zfjuNEuQbhxOQx8cr6iSrPcwCkyh91PrHjkv4gNILxsU-3QueM7PklKZ_QrKkqz6ZD6A=w725-h966-no)
 
 - Buy a super fast 32 gb sd card
 - Format sd card as FAT - MSDOS
