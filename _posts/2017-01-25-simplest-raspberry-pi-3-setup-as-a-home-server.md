@@ -8,9 +8,12 @@ I've just done it and I don't want to forget this struggle.
 
 ![](https://lh3.googleusercontent.com/OkpftC-4ZQxAoF90yn3s6U86yaUvYSAPoO5_bTIrYDezc_JhWsRSjrquFBtzowH5UYVTMsEolxGhpNSiyBRPZHE9ecOn-wWvYVc4DO0K1xW9BfRoGc_Am91wqv4YdVvagHZZJvgnIXp-cEV242iTzV3PmQESBqLwcIefFIgaMqWueUfXXqJdiUEoveYzmaBNmoJZo6wmmCdO1hlULwll1AAYCclDdTI3vOXU_I6IcUW6WOtEMPa_N7sW_z_NUm1u8-VZqkP5n4e6w6WF6u_mM1_X1mGEAV3nVPu_di-QLhYIgR9NOAd89VZkxhzHmcVldAi4FveL5Ufmgtd6eXprQDnNeZ0Z1m3lwD_Cmf4quWSI8vgDnQ6VNyKrE8ABFTXHyevC3QkDphHS_Ihp_PVP6PvYZrrFSILselmZjV1G6tFudVl_rStGBLBsXoqxpXyGUTlTHMKq7Tnkzn4w7so2A2pihgqw4Jks5s39Nbgv6DUJmfXu_56MqWoMmd9UVX40kcstZT8hNaIYUZ5nCoKIdvzEAMrm5_QXJWilrQqkzRE8SYVLr_zfjuNEuQbhxOQx8cr6iSrPcwCkyh91PrHjkv4gNILxsU-3QueM7PklKZ_QrKkqz6ZD6A=w725-h966-no)
 
-- Buy a super fast 32 gb sd card
-- Format sd card as FAT - MSDOS
-- Download NOOBS
+- [Buy a super fast 32 gb sd card](https://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=micro+sd+card+32+gb) - keep your adapter because most of the new computers only have sd card slots not micro sd slots.
+- Format sd card as FAT - MSDOS with 
+  - Disk utility -> Erase on Mac
+  - Right click -> Format on Windows
+  - Disks on Ubuntu
+- [Download NOOBS](https://www.raspberrypi.org/downloads/noobs/) - easy UI to select which OS should be installed into your pi. Don't bother flashing yourself with raspbian etc.
 - Extract NOOBS zip and copy all of the files (if it's extracted into a folder just copy its content, root of the sd card must have a couple of files, not one directory)
 - Put your recently formatted and NOOBs copied sd card into the pi and then wait a little bit
 - Plug your raspberry pi into micro usb
