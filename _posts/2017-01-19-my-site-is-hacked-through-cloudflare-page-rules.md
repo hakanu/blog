@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 category: dns
 title: 'My site is hacked with an interesting method '
