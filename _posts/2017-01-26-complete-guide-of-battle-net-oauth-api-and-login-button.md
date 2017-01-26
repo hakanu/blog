@@ -4,8 +4,15 @@ layout: post
 category: oauth
 title: Complete Guide of Battle.net OAuth API and Login Button
 ---
-https://dev.battle.net/docs/read/oauth
-https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en
+I play Overwatch like crazy and I use sites like [overbuff](http://overbuff.com) and [masteroverwatch](http://masteroverwatch.com).
+
+I like their battle.net login buttons and wanted to create a simple site to beat matchmaking system. I didn't realize that this will be a huge struggle.
+
+Here are the official docs:
+<https://dev.battle.net/docs/read/oauth>
+
+Get this Chrome Extension to try get post requests, amazing extension including authentication features:
+<https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en>
 
 # Get authorization code
 
