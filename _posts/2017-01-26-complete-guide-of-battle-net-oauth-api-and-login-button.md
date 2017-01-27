@@ -14,7 +14,21 @@ Here are the official docs:
 Get this Chrome Extension to try get post requests, amazing extension including authentication features:
 <https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en>
 
+# Sign up first
+
+* Go to the <https://dev.battle.net> and create a mashery account.
+* Create your first app
+  * You can put localhost as **callback url**, you **MUST** put it as `https://localhost`
+  * https is really important let's keep this in mind.
+
 # Get authorization code
+
+Oauth is usually 2-steps. First you authorize the user and then use this authorization to obtain an access token in order to make requests to battle.net on behalf of user without using user's battle.net account username and password. 
+
+Here is the first step, put a link in your html directing to a url like this:
+
+
+# Get access token with authorization code
 
 "Missing grant type" battle.net
 
