@@ -47,6 +47,15 @@ This is the second part. Usually this part doesn't need many params but interest
 "To request access tokens, you need to provide the following POST parameters to the token URI, using your client ID and secret with HTTP Basic Authorization:"
   * Even though they didn't put the extra parameters, you must pass client_id and client_secret alongside with the parameters asked in the website. Of course these client id and secret were used for basic authentication. I feel like it's redundant but it doesn't work otherwise.
 
+* You will highly likely see this error due to not being authenticated.
+
+```
+{
+    "error": "unauthorized",
+    "error_description": "An Authentication object was not found in the SecurityContext"
+}
+```
+
 * This is my stackoverflow question:
 http://stackoverflow.com/questions/41830727/how-to-request-access-token-from-battle-net-oauth-with-authorization-code
 
