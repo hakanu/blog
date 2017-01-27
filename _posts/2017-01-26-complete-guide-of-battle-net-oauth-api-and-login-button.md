@@ -61,10 +61,12 @@ data = {
 - username is client_id and password is client_secret
 
 # After you get the token
-- Use it with GET requests
+- Use it with GET requests (this is community api)
 curl https://eu.api.battle.net/account/user?access_token=<redacted>
 
 {
   "id": 29953309,
   "battletag": "haku#41232"
 }
+
+PS: There is no official overwatch api yet. We should scrape it on our own. I will publish a repo on this soon.
