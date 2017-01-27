@@ -34,13 +34,17 @@ As you can see we request a so-called _code_, you should of course put your clie
 
 # Get access token with authorization code
 
-"Missing grant type" battle.net
+This is the second part. Usually this part doesn't need many params but interestingly battle.net documentation is poor and its backend is so picky, it took me days to try each combination. I'm doing a brain dump here with possible error you'd see.
 
-You can only use once "authorization_code"
-
-Request access token is a POST request - BE CAREFUL
+* This request must be POST request. Don't try GET
+* This request must use "Basic authentication" which is applying btoa to username and password by concatting them with ':' => js equivalent: btoa(username + ':' + password)
+  * The resulting string must be put in the headers.
+* This request must be made from a server, cross domain requests are not allowed from ajax xhr (eg via jquery). So  I put a small python example. i'm not sure how to do a cors request without writing another server. LMK if you know a method to just do XHR to battle.net servers without using an intermediate server.
+* "Missing grant type" battle.net: Don't use json payload in your POST request. You will see in details below.
+* You can only use once "authorization_code"
 
 ## With python 
+
 In python, use json unencoded payload for POST request
 
 import requests
@@ -60,11 +64,13 @@ data = {
       verify=False)
 
 ## With postman
+
 - Use basic authentication which is btoa(username + ':' + password)
 - This kinda auth is pretty simple.
 - username is client_id and password is client_secret
 
 # After you get the token
+
 - Use it with GET requests (this is community api)
 curl https://eu.api.battle.net/account/user?access_token=<redacted>
 
