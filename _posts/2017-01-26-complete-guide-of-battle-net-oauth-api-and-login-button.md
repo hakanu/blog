@@ -20,6 +20,7 @@ Get this Chrome Extension to try get post requests, amazing extension including 
 * Create your first app
   * You can put localhost as **callback url**, you **MUST** put it as `https://localhost`
   * https is really important let's keep this in mind.
+* Note your client key and secret and redirect_uri which must be an HTTPS url.
 
 # Get authorization code
 
@@ -27,6 +28,9 @@ Oauth is usually 2-steps. First you authorize the user and then use this authori
 
 Here is the first step, put a link in your html directing to a url like this:
 
+`https://eu.battle.net/oauth/authorize?access_type=online&client_id=<redacted>&redirect_uri=https%3A%2F%2Flocalhost&response_type=code&state=`
+
+As you can see we request a so-called _code_, you should of course put your client key obtained from the dev.battle.net applications panel.
 
 # Get access token with authorization code
 
