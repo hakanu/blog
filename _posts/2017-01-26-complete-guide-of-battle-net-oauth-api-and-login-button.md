@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 category: oauth
 title: Complete Guide of Battle.net OAuth API and Login Button
