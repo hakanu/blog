@@ -42,6 +42,9 @@ This is the second part. Usually this part doesn't need many params but interest
 * This request must be made from a server, cross domain requests are not allowed from ajax xhr (eg via jquery). So  I put a small python example. i'm not sure how to do a cors request without writing another server. LMK if you know a method to just do XHR to battle.net servers without using an intermediate server.
 * "Missing grant type" battle.net: Don't use json payload in your POST request. You will see in details below.
 * You can only use once "authorization_code"
+* This is the most ambigious sentence:
+"To request access tokens, you need to provide the following POST parameters to the token URI, using your client ID and secret with HTTP Basic Authorization:"
+  * Even though they didn't put the extra parameters, you must pass client_id and client_secret alongside with the parameters asked in the website. Of course these client id and secret were used for basic authentication. I feel like it's redundant but it doesn't work otherwise.
 
 ## With python 
 
