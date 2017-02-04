@@ -4,6 +4,7 @@ layout: post
 category: python
 title: 'Solving pip error: ImportError: cannot import name IncompleteRead'
 ---
+```
 $ sudo pip uninstall wheezy
 Traceback (most recent call last):
   File "/usr/bin/pip", line 9, in <module>
@@ -21,11 +22,14 @@ Traceback (most recent call last):
   File "/usr/lib/python2.7/dist-packages/pip/download.py", line 25, in <module>
     from requests.compat import IncompleteRead
 ImportError: cannot import name IncompleteRead
+```
 
 Just re-install pip via easy_install to get the most up-to-date version.
 
-# Remove old version
-sudo apt-get remove python-pip
+* Remove old version
 
-# Get the latest version
-sudo easy_install pip
+`sudo apt-get remove python-pip`
+
+* Get the latest version
+
+`sudo easy_install pip`
