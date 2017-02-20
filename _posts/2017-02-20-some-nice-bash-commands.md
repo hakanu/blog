@@ -49,6 +49,7 @@ main "first parameter"
 
 ## if-else conditionals
 
+```
 if [[ "$1" = "1" ]]; then
     echo "This is if"
 elif [[ "$1" = "2" ]]; then
@@ -56,6 +57,7 @@ elif [[ "$1" = "2" ]]; then
 else
 	echo "This is else"
 fi
+```
 
 
 ## Format current date and time in a nicely
