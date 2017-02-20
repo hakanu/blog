@@ -30,7 +30,6 @@ done
   fi
 ```
 
-
 ## Function definition
 
 ```
