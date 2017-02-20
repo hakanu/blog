@@ -39,3 +39,13 @@ main ()
 	echo "This is a function"
 }
 ```
+
+## if-else conditionals
+
+if [[ "$1" = "1" ]]; then
+    echo "This is if"
+elif [[ "$1" = "2" ]]; then
+	echo "This is elif"
+else
+	echo "This is else"
+fi
