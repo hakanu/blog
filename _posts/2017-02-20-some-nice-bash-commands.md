@@ -4,6 +4,8 @@ layout: post
 category: bash
 title: 'Some nice #bash commands'
 ---
+`#!/bin/bash`
+
 ## Make all files lower case in the folder in linux
 
 ```
@@ -36,7 +38,10 @@ done
 main ()
 {
 	echo "This is a function"
+    echo "Passed parameter is $1"
 }
+
+main "first parameter"
 ```
 
 ## if-else conditionals
@@ -48,3 +53,10 @@ elif [[ "$1" = "2" ]]; then
 else
 	echo "This is else"
 fi
+
+## Call a function
+
+main $1
+
+## Use the parameter in function
+
