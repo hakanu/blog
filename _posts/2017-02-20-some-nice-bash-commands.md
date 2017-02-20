@@ -1,9 +1,11 @@
 ---
-published: false
+published: true
 layout: post
 category: bash
 title: 'Some nice #bash commands'
 ---
+![shell](https://images.pexels.com/photos/25478/pexels-photo-25478.jpg?w=1260&h=750&auto=compress&cs=tinysrgb)
+
 `#!/bin/bash`
 
 ## Make all files lower case in the folder in linux
