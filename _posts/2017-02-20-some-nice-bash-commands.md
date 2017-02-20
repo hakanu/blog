@@ -10,15 +10,6 @@ title: 'Some nice #bash commands'
 for f in `find`; do mv -v "$f" "`echo $f | tr '[A-Z]' '[a-z]'`"; done
 ```
 
-## Check if variable null (not set) or not
-
-```
-  if [ -z "$var" ]
-  then
-    echo "\$var is empty"
-  fi
-```
-
 ### Rename all files in the directory sequentially
 
 ```
@@ -30,3 +21,21 @@ for i in *.mp4; do
 done
 ```
 
+## Check if variable null (not set) or not
+
+```
+  if [ -z "$var" ]
+  then
+    echo "\$var is empty"
+  fi
+```
+
+
+## Function definition
+
+```
+main ()
+{
+	echo "This is a function"
+}
+```
