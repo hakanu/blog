@@ -1,7 +1,7 @@
 ---
-published: true
+published: false
 layout: post
-category: python
+category: bash
 title: 'Some nice #bash commands'
 ---
 ## Make all files lower case in the folder in linux
