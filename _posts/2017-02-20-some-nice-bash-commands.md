@@ -10,4 +10,12 @@ title: 'Some nice #bash commands'
 for f in `find`; do mv -v "$f" "`echo $f | tr '[A-Z]' '[a-z]'`"; done
 ```
 
-### 
+## Check if variable null (not set) or not
+
+```
+  if [ -z "$var" ]
+  then
+    echo "\$var is empty"
+  fi
+```
+
