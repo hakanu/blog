@@ -38,7 +38,7 @@ done
 main ()
 {
 	echo "This is a function"
-    # Use the passed parameter in the functioin.
+    # Use the passed parameter in the function.
     echo "Passed parameter is $1"
 }
 
@@ -56,3 +56,14 @@ else
 fi
 
 
+## Format current date and time in a nicely
+
+```
+echo "Recent logs are at logs_`date +%Y%m%d_%H%M%S`"
+```
+
+## Pipe both stderr and stdout to a file
+
+```
+python main.py 80 > logs_`date +%Y%m%d_%H%M%S` 2>&1 &
+```
