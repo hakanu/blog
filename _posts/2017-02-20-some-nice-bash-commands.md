@@ -38,6 +38,7 @@ done
 main ()
 {
 	echo "This is a function"
+    # Use the passed parameter in the functioin.
     echo "Passed parameter is $1"
 }
 
@@ -54,9 +55,4 @@ else
 	echo "This is else"
 fi
 
-## Call a function
-
-main $1
-
-## Use the parameter in function
 
