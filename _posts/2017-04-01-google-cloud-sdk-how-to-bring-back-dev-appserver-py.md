@@ -18,3 +18,20 @@ Output: dev_appserver.py command not found
 `gcloud components install app-engine-python`
 Output: You cannot perform this action because this Cloud SDK installation is 
 managed by an external package manager. 
+
+* The reason is that it's installed through apt-get, instead we should uninstall that version through apt and then reinstall in the old way.
+
+`sudo apt-get update`
+`sudo apt autoremove google-cloud-sdk`
+
+* Install in an old way, this will ask you if you want to delete the old folders. Say yes to that.
+`curl -sSL https://sdk.cloud.google.com | bash -`
+
+* Now we have the proper gcloud, we can give it a try to install the python SDK:
+`gcloud components install app-engine-python`
+
+* Boom, worked; try this in your GAE app:
+`dev_appserver.py main.app.yaml`
+
+
+
