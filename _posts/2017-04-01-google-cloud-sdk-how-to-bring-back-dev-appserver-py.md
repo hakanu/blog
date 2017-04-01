@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 category: python
 title: Google Cloud SDK - how to bring back dev_appserver.py
