@@ -23,7 +23,7 @@ Artık windows 10 ile beraber beta olarak ubuntu subsystem kullanabiliyoruz. Bu 
 
 ![](https://devdala.files.wordpress.com/2017/04/1.png)
 
-- gcc, apt-get, nano hemen hemen her şey var.
+- gcc, apt-get, nano, ssh, python, grep, ack hemen hemen her şey var.
 - Hızlı bi gcc örneği
 - Dosyayı yarat
 
