@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 category: windows
 title: Windows 10'da Ubuntu Bash modunu etkinleştirmek
