@@ -1,8 +1,8 @@
 ---
 published: true
 layout: post
-category: windows
-title: Windows 10'da Ubuntu Bash modunu etkinleştirmek
+category: linux
+title: Making crontab send email through mailgun 
 ---
 
 ![](http://devdala.files.wordpress.com/2017/04/cron_mail.png?w=704)
