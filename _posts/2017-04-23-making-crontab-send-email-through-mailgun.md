@@ -1,3 +1,11 @@
+---
+published: true
+layout: post
+category: windows
+title: Windows 10'da Ubuntu Bash modunu etkinleştirmek
+---
+
+![](http://devdala.files.wordpress.com/2017/04/cron_mail.png?w=704)
 
 I have 3 raspberry pis and they have some crons on it. Although this is nice, I have hard time to keep track of which pi does what and if its cron has successfully completed. Thankfully there is an easy solution for that: Send an email after every cron run with logs. However, ubuntu or jessie (pi version of linux) is not capable of sending emails out of box. At least as far as I understand that is the situation so we need a mail provider to send emails. I already have an account from mailgun so why not using it? Did some research and combined some short commands to achieve this.
 i assume here that you have opened a mailgun.org account and you use crontab as cron job tool on some debian backed environment.
