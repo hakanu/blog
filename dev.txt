@@ -1,0 +1,7 @@
+DEV Links
+
+* [.vimrc](https://gist.githubusercontent.com/hakanu/556afc1f78c0971458888045703b2dc9/raw/bcc9b7d2898eda1969746549667a19318c488ccd/.vimrc)
+
+* [Python Simple Forwarding Server](https://gist.githubusercontent.com/hakanu/9ce2cf9dc26056fd35a87c712fe98716/raw/7c4d2d51cf5aacc1d2b5aa843a61813c74ad8a78/forwarding_server.py)
+
+* [initial_setup_dev.sh](https://gist.githubusercontent.com/hakanu/7a8a14f60bdc8478d194/raw/afc5a39a074c1624625ba29acefadab6d29e8bc9/setup_dev.sh)
