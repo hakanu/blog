@@ -14,9 +14,10 @@ For making templating easier (of course you can always do single page with vue.j
 - Not cool but I tried using `{% raw %}` tags of jekyll to let `{{}}` go without being stripped out. And it worked.
 
 ```html
-{%raw%}
+{% raw %}
 <p>{{ title }}</p>
-{%endraw%}
+{% endraw %}
+
 ```
 
 in JS file:
