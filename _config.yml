@@ -8,8 +8,9 @@ description: > # this means to ignore newlines until "baseurl:"
 todo: Write at least one blog post per week.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hakanu.net" # the base hostname & protocol for your site
-twitter_username: hakanuysal
+twitter_username: hakanu_
 github_username:  hakanu
+instagram_username: hakanu_
 
 # Build settings
 markdown: kramdown
