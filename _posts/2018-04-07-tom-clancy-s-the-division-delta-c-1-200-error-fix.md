@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-category: python
+category: gaming
 title: Tom Clancy's The Division- Delta C 1-200 error fix
 ---
 ![](https://mobile.donanimhaber.com/store/60/3e/df/603edfafc9b1c1c57c4be37a4131f02d.jpeg)
