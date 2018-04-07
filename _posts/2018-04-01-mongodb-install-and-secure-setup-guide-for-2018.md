@@ -17,7 +17,7 @@ https://docs.mongodb.com/manual/reference/configuration-options/
 
 # Close ports
 
-```js
+```bash
 sudo apt-get install  mongodb-org mongodb-org-server mongodb-org-shell mongodb-org-mongos mongodb-org-tools
 
 sudo ufw allow ssh
@@ -36,7 +36,7 @@ pymongo.errors.ServerSelectionTimeoutError: No replica set members found yet
 
 # Error while connecting remotely
 
-```
+```bash
 mongo  --host 85.217.170.40 -u myuser -p mypass --authenticationDatabase 'test'
 MongoDB shell version v3.6.3
 connecting to: mongodb://85.217.170.40:27017/
@@ -77,5 +77,5 @@ sudo systemctl restart mongod
 ```
 
 ```
-mongo --host 85.217.170.40 -u hakunamatata -p hakutest1453 --authenticationDatabase 'test'
+mongo --host 85.217.170.40 -u myusername -p mypass --authenticationDatabase 'test'
 ```
