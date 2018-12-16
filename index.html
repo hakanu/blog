@@ -1,44 +1,42 @@
 ---
 layout: default
 ---
+<main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <div class="home">
+        <h2 class="post-list-heading">Posts</h2>
+            <ul class="post-list">
+              <!-- This loops through the paginated posts -->
+              {% for post in paginator.posts %}
+                <li><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <h3>
+                  <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
+                    {{ post.title }}
+                  </a>
+                </h3>
+                </li>
+              {% endfor %}
+            </ul>
+        </h2>
 
-<div class="home">
-  <h1 class="page-heading"></h1>
-  <div class="cover-pic">
-    <!-- <img src="https://devdala.files.wordpress.com/2015/04/img_20140626_191537_1-compressor-1.jpg"> -->
-  </div>
+        <!-- Pagination links -->
+        <div class="pagination">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+          {% else %}
+            <span class="previous">Previous</span>
+          {% endif %}
 
-  <!-- This loops through the paginated posts -->
-  {% for post in paginator.posts %}
-    <h1 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-    <div class="author">
-      <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
-    </div><br />
-    <div class="content">
-      {% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 550 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 1000 }}{% endif %}
+          <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+          {% else %}
+            <span class="next ">Next</span>
+          {% endif %}
+        </div>
+
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      </div>
     </div>
-  {% endfor %}
+</main>
 
-  <br />
-  <hr />
-
-  <!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-    {% else %}
-      <span class="previous">Previous</span>
-    {% endif %}
-
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-    {% else %}
-      <span class="next ">Next</span>
-    {% endif %}
-  </div>
-
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>

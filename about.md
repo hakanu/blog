@@ -5,6 +5,7 @@ author: Hakan Uysal
 permalink: /about/
 published: true
 ---
+
 My deal is serverless these days.
 Favorite toolbelt:
 
@@ -59,7 +60,6 @@ Favorite toolbelt:
 #### Personal
 
 * [Blog](http://hakanu.net)
-* [HakuLabs](http://haku.io)
 * [Github](http://github.com/hakanu)
 
 #### Trash can
@@ -80,17 +80,6 @@ Favorite toolbelt:
 
 #### Follow me on social media
 
-<a href="https://twitter.com/hakanuysal" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @hakanuysal</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<p><a href="https://twitter.com/hakanu_" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @hakanu_</a></p>
+<p><a href="https://ie.linkedin.com/in/hakanu" target="_blank">Connect on LinkedIn</a></p>
 
-
-<a href="https://www.linkedin.com/profile/view?id=36252256" target="_blank">
-  <!-- <img style="text-align: left;" src="https://devdala.files.wordpress.com/2015/04/my-linkedin-profile-button.png"> -->
-  Connect me on LinkendIn
-</a>
-
-<!-- Bu etiketi, widget adlı widget'ın oluşturulmasını istediğiniz yere ekleyin. -->
-<div class="g-follow" data-annotation="bubble" data-height="24" data-href="//plus.google.com/u/0/105964927304013187423" data-rel="author"></div>
-
-<!-- Bu etiketi head bölümüne veya kapanış body etiketinin hemen önüne ekleyin. -->
-<script src="https://apis.google.com/js/platform.js" async defer></script>
