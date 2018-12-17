@@ -29,7 +29,7 @@ Favorite toolbelt:
 
 #### Paylas.io
 
-* [Paylas.io](http://paylas.io) - 70K posts, 7k users
+* [Paylas.io](http://paylas.io) - 110K posts, 18k users
 * [Paylasio dev blog](http://hakanu.github.io/paylasio/)
 
 #### Android Apps
@@ -39,9 +39,9 @@ Favorite toolbelt:
 * [Psychiatrist timetable](https://play.google.com/store/apps/details?id=haku.io.psi_meeting)
 
 
-### Websites
+#### Websites
 
-* [Guldum.net](http://guldum.net) - 25K posts & 5.7K followers on Tumblr.
+* [Guldum.net](http://guldum.net) - 40K posts & 8K followers on Tumblr.
 * [Datanews.io](http://datanews.io) - Hacker news for data scientists
 * [Daily Overwatch](http://dailyow.xyz) - Curated funny memes, moments, highlights of popular online shooter game Overwatch.
 * [Prayer Times](http://iftarvakitleri.org) - 3.66k users
@@ -52,7 +52,7 @@ Favorite toolbelt:
 * [Psikiyatri Toplantıları web sitesi - Psychiatrist timetable web](http://psikiyatritoplantilari.com)
 * [Sportartis - football discussion platform](http://paylas.io/c/futbol)
 
-### Social Media Projects
+#### Social Media Projects
 
 * [Güldüm.net - Instagram sayfası](https://instagram.com/guldum_net) - 5k posts
 * [İşimi Bul Facebook sayfası](https://www.facebook.com/pages/İşimi-Bul-İş-Arama-Motoru/823801480971476)
