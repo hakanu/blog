@@ -31,7 +31,7 @@ sudo ufw allow http
 sudo ufw allow proto tcp from any to any port 80,443
 
 sudo ufw deny from any to any port 27017
-sudo ufw allow from 37.228.249.62/32 to any port 27017
+sudo ufw allow from YOUR_IP_COMES_HERE/32 to any port 27017
 sudo ufw status
 ```
 
