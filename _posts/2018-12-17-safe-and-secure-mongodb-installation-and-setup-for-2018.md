@@ -6,14 +6,20 @@ title: Safe and Secure MongoDB Installation and Setup for 2018
 ---
 # MongoDB install and setup guide for 2018
 
+Haven't found good guide to kickstart a self hosted mongodb instance.
+Alternatively for mongodb as a service I recommend using Mongodb Atlas: https://www.mongodb.com/cloud/atlas (500MB free database storage)
+
 # Install
-https://docs.mongodb.com/tutorials/install-mongodb-on-ubuntu/
+Follow this guide:
+<https://docs.mongodb.com/tutorials/install-mongodb-on-ubuntu/>
 
 # Configure
-https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-mongodb-on-ubuntu-16-04
+Nice config:
+<https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-mongodb-on-ubuntu-16-04>
 
 # Configure for remote access
-https://docs.mongodb.com/manual/reference/configuration-options/ 
+Allow remote access:
+<https://docs.mongodb.com/manual/reference/configuration-options/>
 
 # Close ports
 
