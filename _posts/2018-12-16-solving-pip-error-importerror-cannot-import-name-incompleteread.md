@@ -1,8 +1,8 @@
 ---
 published: true
 layout: post
-category: python 
-title: Fix pip error: ImportError: cannot import name IncompleteRead 
+category: python
+title: 'Fix pip error: ImportError cannot import name IncompleteRead '
 ---
 Here is how to resolve weird python pip error. Happened to me while uninstalling a package.
 
@@ -38,4 +38,3 @@ ImportError: cannot import name IncompleteRead
 `sudo easy_install pip`
 
 There you go.
-
