@@ -41,7 +41,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
-paginate: 10
+paginate: 20
 paginate_path: "/page/:num/"
 
 # Exclude from processing.
@@ -55,4 +55,3 @@ paginate_path: "/page/:num/"
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
