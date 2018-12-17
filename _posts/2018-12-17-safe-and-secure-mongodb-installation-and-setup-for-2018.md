@@ -77,5 +77,5 @@ sudo systemctl restart mongod
 ```
 
 ```
-mongo --host 85.217.170.40 -u hakunamatata -p hakutest1453 --authenticationDatabase 'test'
+mongo --host 6.6.6.6 -u testuser -p testpass --authenticationDatabase 'test'
 ```
