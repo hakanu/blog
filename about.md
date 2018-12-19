@@ -12,33 +12,20 @@ Favorite toolbelt these days:
 * Google App Engine and my 3 raspberry pis for crons. => Batch processing
 * Playing with Tensorflow and Keras.
 
-#### [Sitem.co](https://sitem.co)
-* Easy website builder with fine tuned, purpose specific themes
-* Featured on [betalist](http://betalist.com/startups/sitemco)
-* My example site: <http://hakan.sitem.co>
-    
-#### Just Read
-
-* Clean and simple article reader that just works, extracts articles from given websites and then you can read them offline.
-	* [Just Read Web app](http://justreadapp.com)
-    * [Just Read Chrome Extension](https://chrome.google.com/webstore/detail/just-read/gjadajkmpgdblfochjcfpkhnnkicfapl)
-    * [Just Read Android App](https://play.google.com/store/apps/details?id=com.justreadapp.app)
-
-#### Paylas.io
-
-* [Paylas.io](http://paylas.io) - 110K posts, 18k users
-* [Paylasio dev blog](http://hakanu.github.io/paylasio/)
-
 #### Android Apps
 
-* [Guldum.net - Funny Images and Memes](https://play.google.com/store/apps/details?id=net.guldum.caps)
+* [Guldum.net - Turkish Knowyourmeme && 9gang](https://play.google.com/store/apps/details?id=net.guldum.caps&hl=tr)
+* [Prayer times](https://play.google.com/store/apps/details?id=io.haku.iftarvakitleri&hl=tr)
 * [Job Search Engine for Turkey](https://play.google.com/store/apps/details?id=co.hakanu.jobfinder)
 * [Psychiatrist timetable](https://play.google.com/store/apps/details?id=haku.io.psi_meeting)
-* [Prayer times](https://play.google.com/store/apps/details?id=io.haku.iftarvakitleri&hl=tr)
-
+* [Just Read Android App](https://play.google.com/store/apps/details?id=com.justreadapp.app)
+    
 #### Websites
 
+* [Paylas.io](http://paylas.io) - 110K posts, 18k users
+* [Sitem.co](https://sitem.co): Easy website builder with fine tuned, purpose specific themes. Featured on [betalist](http://betalist.com/startups/sitemco). My example site: <http://hakan.sitem.co>
 * [Guldum.net](http://guldum.net) - 40K posts & 8K followers on Tumblr.
+* [Just Read Web app](http://justreadapp.com): Clean and simple article reader that just works, extracts articles from given websites and then you can read them offline.
 * [Datanews.io](http://datanews.io) - Hacker news for data scientists
 * [Daily Overwatch](http://dailyow.xyz) - Curated funny memes, moments, highlights of popular online shooter game Overwatch.
 * [Prayer Times](http://iftarvakitleri.org) - 3.66k users
@@ -50,6 +37,11 @@ Favorite toolbelt these days:
 * [Psikoloji Toplantilari web sitesi](http://psikoegitim.net)
 * [Sportartis - football discussion platform](http://paylas.io/c/futbol)
 * [Eksistats.co](http://eksistats.co) - An NLP attempt over popular Turkish forum. 
+
+#### Extensions
+
+* Eksi Redditify
+* [Just Read Chrome Extension](https://chrome.google.com/webstore/detail/just-read/gjadajkmpgdblfochjcfpkhnnkicfapl)
 
 #### Social Media Projects
 
