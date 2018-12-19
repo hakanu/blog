@@ -40,17 +40,19 @@ Favorite toolbelt these days:
 
 #### Extensions
 
-* Eksi Redditify
+* [Eksi Redditify]()
 * [Just Read Chrome Extension](https://chrome.google.com/webstore/detail/just-read/gjadajkmpgdblfochjcfpkhnnkicfapl)
 
 #### Social Media Projects
 
 * [Güldüm.net - Instagram sayfası](https://instagram.com/guldum_net) - 5k posts
+* [DailyOW - Overwatch videos](https://instagram.com/dailyow) - +1k posts
 
 #### Personal
 
 * [Blog](http://hakanu.net)
 * [Github](http://github.com/hakanu)
+* [Sitem.co one page site](https://hakan.sitem.co)
 
 #### Trash can
 
