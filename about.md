@@ -5,13 +5,12 @@ author: Hakan Uysal
 permalink: /about/
 published: true
 ---
-
-My deal is serverless these days.
-Favorite toolbelt:
+Favorite toolbelt these days:
 
 * Python & web.py & Jinja2 => Dynamic sites
 * Vue.js & Firebase => serverless setup
 * Google App Engine and my 3 raspberry pis for crons. => Batch processing
+* Playing with Tensorflow and Keras.
 
 #### Sitem.co
 
