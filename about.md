@@ -12,14 +12,6 @@ Favorite toolbelt these days:
 * Google App Engine and my 3 raspberry pis for crons. => Batch processing
 * Playing with Tensorflow and Keras.
 
-#### Android Apps
-
-* [Guldum.net - Turkish Knowyourmeme && 9gang](https://play.google.com/store/apps/details?id=net.guldum.caps&hl=tr)
-* [Prayer times](https://play.google.com/store/apps/details?id=io.haku.iftarvakitleri&hl=tr)
-* [Job Search Engine for Turkey](https://play.google.com/store/apps/details?id=co.hakanu.jobfinder)
-* [Psychiatrist timetable](https://play.google.com/store/apps/details?id=haku.io.psi_meeting)
-* [Just Read Android App](https://play.google.com/store/apps/details?id=com.justreadapp.app)
-    
 #### Websites
 
 * [Paylas.io](http://paylas.io) - 110K posts, 18k users
@@ -37,6 +29,14 @@ Favorite toolbelt these days:
 * [Psikoloji Toplantilari web sitesi](http://psikoegitim.net)
 * [Sportartis - football discussion platform](http://paylas.io/c/futbol)
 * [Eksistats.co](http://eksistats.co) - An NLP attempt over popular Turkish forum. 
+
+#### Android Apps
+
+* [Guldum.net - Turkish Knowyourmeme && 9gang](https://play.google.com/store/apps/details?id=net.guldum.caps&hl=tr)
+* [Prayer times](https://play.google.com/store/apps/details?id=io.haku.iftarvakitleri&hl=tr)
+* [Job Search Engine for Turkey](https://play.google.com/store/apps/details?id=co.hakanu.jobfinder)
+* [Psychiatrist timetable](https://play.google.com/store/apps/details?id=haku.io.psi_meeting)
+* [Just Read Android App](https://play.google.com/store/apps/details?id=com.justreadapp.app)
 
 #### Extensions
 
@@ -62,7 +62,7 @@ Favorite toolbelt these days:
 * [Funny Turkish cartoons - Android starter project](https://play.google.com/store/apps/details?id=co.hakanu.karikaturcu2)
 * [Football Highlights](https://play.google.com/store/apps/details?id=io.haku.fb_goals) - 1.26k users
 
-#### Follow me on social media
+#### My useless social media rants
 
-<p><a href="https://twitter.com/hakanu_" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @hakanu_</a></p>
+<p><a href="https://twitter.com/hakanu_" class="twitter-follow-button" data-show-count="false" data-size="large">Follow on Twitter @hakanu_</a></p>
 <p><a href="https://ie.linkedin.com/in/hakanu" target="_blank">Connect on LinkedIn</a></p>
