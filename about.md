@@ -49,7 +49,9 @@ Favorite toolbelt these days:
 * [Stox: Stock and cryptocurrency portfolio and watchlist tracking in real time](http://stox.club)
 * [Build A PC: Discount aggregator for recent deals on PC parts in Europe](http://buildapc.club)
 * [Psikiyatri Toplantıları web sitesi - Psychiatrist timetable web](http://psikiyatritoplantilari.com)
+* [Psikoloji Toplantilari web sitesi](http://psikoegitim.net)
 * [Sportartis - football discussion platform](http://paylas.io/c/futbol)
+* [Eksistats.co](http://eksistats.co) - An NLP attempt over popular Turkish forum. 
 
 #### Social Media Projects
 
