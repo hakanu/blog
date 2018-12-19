@@ -56,7 +56,7 @@ Favorite toolbelt these days:
 
 #### Trash can
 
-* [Football Highlighlights promo](http://footballhighlightswatch.com) -> Moved to http://paylas.io/c/futbol
+* [Football Highlighlights promo](http://footballhighlightswatch.com) -> Moved to <http://paylas.io/c/futbol>
 * [Discounts aggregator promo](http://kampanyalar.me)
 * [Alterna - eksisozluk entrylerini silen yazarlarin read only toplanma merkezi](http://alterna.xyz)
 * [Selfgram - Photo diary](https://play.google.com/store/apps/details?id=net.selfgram.selfgram&hl=en)
