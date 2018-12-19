@@ -12,12 +12,10 @@ Favorite toolbelt these days:
 * Google App Engine and my 3 raspberry pis for crons. => Batch processing
 * Playing with Tensorflow and Keras.
 
-#### Sitem.co
-
-* [Sitem.co](https://sitem.co)
-	* Easy website builder with fine tuned, purpose specific themes
-	* Featured on [betalist](http://betalist.com/startups/sitemco)
-    * My example site: <http://hakan.sitem.co>
+#### [Sitem.co](https://sitem.co)
+* Easy website builder with fine tuned, purpose specific themes
+* Featured on [betalist](http://betalist.com/startups/sitemco)
+* My example site: <http://hakan.sitem.co>
     
 #### Just Read
 
