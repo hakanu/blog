@@ -37,7 +37,7 @@ Favorite toolbelt:
 * [Guldum.net - Funny Images and Memes](https://play.google.com/store/apps/details?id=net.guldum.caps)
 * [Job Search Engine for Turkey](https://play.google.com/store/apps/details?id=co.hakanu.jobfinder)
 * [Psychiatrist timetable](https://play.google.com/store/apps/details?id=haku.io.psi_meeting)
-
+* [Prayer times](https://play.google.com/store/apps/details?id=io.haku.iftarvakitleri&hl=tr)
 
 #### Websites
 
@@ -55,7 +55,6 @@ Favorite toolbelt:
 #### Social Media Projects
 
 * [Güldüm.net - Instagram sayfası](https://instagram.com/guldum_net) - 5k posts
-* [İşimi Bul Facebook sayfası](https://www.facebook.com/pages/İşimi-Bul-İş-Arama-Motoru/823801480971476)
 
 #### Personal
 
@@ -64,22 +63,15 @@ Favorite toolbelt:
 
 #### Trash can
 
-* [Football Highlighlights promo](http://footballhighlightswatch.com)
+* [Football Highlighlights promo](http://footballhighlightswatch.com) -> Moved to http://paylas.io/c/futbol
 * [Discounts aggregator promo](http://kampanyalar.me)
 * [Alterna - eksisozluk entrylerini silen yazarlarin read only toplanma merkezi](http://alterna.xyz)
 * [Selfgram - Photo diary](https://play.google.com/store/apps/details?id=net.selfgram.selfgram&hl=en)
 * [Discounts Aggregator](https://play.google.com/store/apps/details?id=io.haku.discounts)
 * [Funny Turkish cartoons - Android starter project](https://play.google.com/store/apps/details?id=co.hakanu.karikaturcu2)
 * [Football Highlights](https://play.google.com/store/apps/details?id=io.haku.fb_goals) - 1.26k users
-* [Güzel Sözler Facebook sayfası](https://www.facebook.com/iftarapp)
-* [Güzel Sözler Instagram sayfası](https://instagram.com/soyledi)
-* [Güzel Sözler Twitter sayfası](https://twitter.com/iftarapp)
-* [Güldüm.net - Twitter sayfası](https://twitter.com/guldumnet)
-* [Güldüm.net - Facebook sayfası](https://www.facebook.com/guldum.net/timeline/)
-
 
 #### Follow me on social media
 
 <p><a href="https://twitter.com/hakanu_" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @hakanu_</a></p>
 <p><a href="https://ie.linkedin.com/in/hakanu" target="_blank">Connect on LinkedIn</a></p>
-
