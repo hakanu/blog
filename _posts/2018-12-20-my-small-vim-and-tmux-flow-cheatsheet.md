@@ -8,6 +8,8 @@ I know that there are way too many vim and tmux cheatsheets out there. I want to
 
 ![](https://devdala.files.wordpress.com/2018/12/ctrlaltt.png)
 
+PS: I assume you have [NERDTree plugin](https://github.com/scrooloose/nerdtree) is installed in vim.
+
 Transcript:
 
 * ctrl+alt+t => Open terminal
