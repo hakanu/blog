@@ -45,3 +45,7 @@ Transcript:
 			* m => NerdTree system menu
 			* a => a childnode
 		* ctrl + b n => Cycle windows
+        
+        
+Here is my pretty messy experimental .vimrc:
+<script src="https://gist.github.com/hakanu/556afc1f78c0971458888045703b2dc9.js"></script>
