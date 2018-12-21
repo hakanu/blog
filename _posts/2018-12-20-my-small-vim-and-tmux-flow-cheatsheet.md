@@ -6,7 +6,7 @@ title: My small vim and tmux flow cheatsheet
 ---
 I know that there are way too many vim and tmux cheatsheets out there. I want to share mine with a little timeline touch. It tries to capture frequent keys during my whole dev session. Any recommendation is welcome.
 
-![](https://devdala.files.wordpress.com/2018/12/ctrlaltt-1.png)
+![](https://devdala.files.wordpress.com/2018/12/ctrlaltt-2.png)
 
 PS: I assume you have [NERDTree plugin](https://github.com/scrooloose/nerdtree) installed in vim.
 
