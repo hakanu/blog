@@ -69,9 +69,9 @@ https://guldum.net/post/180915250803/peteremre-peterbishoppp-takip-et-%C5%9Fu-an
 
 ## Linkler
 
-* https://github.com/GoogleCloudPlatform/cloud-vision/tree/master/python
-* https://github.com/tesseract-ocr/
-* https://guldum.net
-* https://www.instagram.com/guldum_net/
+* <https://github.com/GoogleCloudPlatform/cloud-vision/tree/master/python>
+* <https://github.com/tesseract-ocr/>
+* <https://guldum.net>
+* <https://www.instagram.com/guldum_net/>
 
 Dipnot: Türkçe post yazmayalı ne kadar uzun zaman olmuş yahu. Hatalarım kesin vardır affola.
