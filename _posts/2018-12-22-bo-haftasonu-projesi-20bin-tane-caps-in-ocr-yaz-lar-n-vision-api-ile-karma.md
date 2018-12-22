@@ -17,7 +17,7 @@ Instagram zaten çok aramacanlısı değil. O yüzden hazır elimin altında bul
 
 # Kurulum
 
-```
+```bash
 # Install virtualenv first.
 pip install virtualenv --user
 
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 # Script
 
-```
+```python
 from google.cloud import vision
 from google.cloud.vision import types
 
