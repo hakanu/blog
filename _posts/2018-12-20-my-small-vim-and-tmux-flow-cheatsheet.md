@@ -14,7 +14,7 @@ Transcript:
 
 * ctrl+alt+t => Open terminal
 	* tmux new => Create tmux session
-		* ctrl + b % => Split pane horizontally
+		* ctrl + b " => Split pane horizontally
 		* ctrl + b % => Split pane vertically
 		* ctrl + b d => Detach
 		* ctrl + b $ => Rename session
