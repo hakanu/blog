@@ -12,3 +12,7 @@ Motherboard	ASRock Z370 Pro4 - ATX Motherboard for Intel Socket 1151 CPUs	https:
 CPU	Intel Core i5 8400, S 1151, Coffee Lake, 6 Core, 6 Thread, 2.8GHz, 4.0GHz Turbo, 9MB Cache, 1050MHz GPU, 65W, CPU, OEM	https://www.scan.co.uk/products/intel-core-i5-8400-s-1151-coffee-lake-6-core-6-thread-28ghz-40ghz-turbo-9mb-cache-1050mhz-gpu-65w-oe
 Case	CORSAIR CARBIDE SERİSİ CHAMP/SPEC-04 80PLUS 600W SARI/SİYAH MidT ATX KASA	http://www.vatanbilgisayar.com/corsair-carbide-serisi-champ-spec-04-80plus-600w-sari-siyah-midt-atx-kasa.html
 Monitor	ASUS 24" VG248QE 1ms 144Hz Full HD HDMI+DP 3D Gaming Monitör	http://www.vatanbilgisayar.com/asus-24-vg248qe-1ms-144hz-full-hd-hdmi-dp-3d-gaming-monitor.html
+
+### Laptop
+
+HP Chromebook
