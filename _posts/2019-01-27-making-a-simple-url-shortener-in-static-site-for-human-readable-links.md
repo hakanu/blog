@@ -31,6 +31,6 @@ These steps assume that you already have a static site either built with jekyll 
 * Go to https://domain/test (jekyll automatically drops .html extension) => see the redirection to DESTINATION_URL.
 
 Example:
-hakanu.net/test => https://www.google.com/search?source=hp&ei=dKhOXN2LK4ie_QayzqiYBw&q=hakanu.net&btnK=Google+Search&oq=hakanu.net&gs_l=psy-ab.3...334.1456..1506...0.0..0.109.932.1j8......0....1..gws-wiz.....0..0i131j0j0i10j0i10i30j0i5i30j0i5i10i30.wBEQibgZi3s
+<https://hakanu.net/test> => <https://www.google.com/search?source=hp&ei=dKhOXN2LK4ie_QayzqiYBw&q=hakanu.net&btnK=Google+Search&oq=hakanu.net&gs_l=psy-ab.3...334.1456..1506...0.0..0.109.932.1j8......0....1..gws-wiz.....0..0i131j0j0i10j0i10i30j0i5i30j0i5i10i30.wBEQibgZi3s>
 
 	Downside of this solution is that there is no metrics of the link usage :-O.
