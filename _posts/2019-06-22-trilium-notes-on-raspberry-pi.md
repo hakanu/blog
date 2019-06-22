@@ -6,6 +6,9 @@ title: Trilium Notes on raspberry pi
 ---
 [Trilium notes](https://github.com/zadam/trilium) is a knowledge base app I have been testing these days. Some notable features which beats other alternatives:
 
+* Lots of **useful** keyboard shortcuts
+* Under active development
+* Scales well with lots of notes - author says 100k notes.
 * Infinitely nested hierarchical notes
 * Self hosting the server
 * Builtin relation maps
@@ -40,7 +43,9 @@ tar -xf trilium-linux-x64-server-0.33.2-beta.tar.xz cd trilium-linux-x64-server-
 # due to the need of being built from the source.
 mv node_modules node_modules_
 
-# Reinstall node modules for raspberry pi by using raspi's npm in order to get the arm version's of the npm packages. # This will take long npm install 
+# Reinstall node modules for raspberry pi by using raspi's npm in order to get the arm version's of the npm packages.
+# This will take long.
+npm install 
 
 # Create a screen or prepend nohup to node command to run it in the
 # background
