@@ -30,7 +30,7 @@ The downloaded package has a nodejs binary and npm packages already installed bu
 
 > cannot execute binary file: Exec format error
 
-Here is 
+Here are my steps:
 
 ```shell
 # Download the latest release from releases page.
@@ -43,13 +43,17 @@ tar -xf trilium-linux-x64-server-0.33.2-beta.tar.xz cd trilium-linux-x64-server-
 # due to the need of being built from the source.
 mv node_modules node_modules_
 
-# Reinstall node modules for raspberry pi by using raspi's npm in order to get the arm version's of the npm packages.
+# Reinstall node modules for raspberry pi by using raspi's npm in order to 
+# get the arm version's of the npm packages.
 # This will take long.
 npm install 
 
 # Create a screen or prepend nohup to node command to run it in the
 # background
 screen
-# Don't use ./trilium.sh because it expects x64 linux as far as i understand since raspi is arm that node won't work with exec error. Instead use system wise nodejs.
+
+# Don't use ./trilium.sh because it expects x64 linux as far as i understand 
+# since raspi is arm that node won't work with exec error. Instead use 
+# system wise nodejs.
 node src/www
 ```
