@@ -2,8 +2,8 @@
 
 ### Desktop
 
-|Type|Part|link|
-|---|----|----|
+|Type|Part|
+|---|----|
 |GPU|Gigabyte Nvidia GTX 1060 WF2 3GB GDDR5 PCI-E|
 |RAM|Corsair CMK16GX4M2B3000C15 Vengeance LPX 16 GB (2x8 GB) DDR4 3000 MHz C15 XMP 2.0 High Performance Desktop Memory Kit - Black|
 |CPU cooler|Cooler Master Hyper 212 EVO CPU Air Cooler '4 Heatpipes, 1x 120mm PWM Fan, 4-Pin Connector' RR-212E-16PK-R1|
@@ -14,16 +14,13 @@
 |Case|CORSAIR CARBIDE SERİSİ CHAMP/SPEC-04 80PLUS 600W SARI/SİYAH MidT ATX|
 |Monitor|ASUS 24" VG248QE 1ms 144Hz Full HD HDMI+DP 3D Gaming Monitor|
 
-### Laptop
-
-HP Chromebook
-
 ### LAN
 
 * 1 Raspberry Pi for Nextcloud and Trilium notes
 * 1 Raspberry Pi for cron jobs
 * 1 Raspberry Pi for smart mirror
-s
-### Mobile
 
+### On the go coding
+
+* HP Chromebook
 * iPad Pro 10.5
