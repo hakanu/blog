@@ -17,3 +17,13 @@
 ### Laptop
 
 HP Chromebook
+
+### LAN
+
+* 1 Raspberry Pi for Nextcloud and Trilium notes
+* 1 Raspberry Pi for cron jobs
+* 1 Raspberry Pi for smart mirror
+s
+### Mobile
+
+* iPad Pro 10.5
