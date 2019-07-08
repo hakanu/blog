@@ -14,10 +14,10 @@ Favorite toolbelt these days:
 
 #### Websites
 
-* [Paylas.io](http://paylas.io) - 110K posts, 18k users
-* [Sitem.co](https://sitem.co): Easy website builder with fine tuned, purpose specific themes. Featured on [betalist](http://betalist.com/startups/sitemco). My example site: <http://hakan.sitem.co>
-* [Guldum.net](http://guldum.net) - 40K posts & 8K followers on Tumblr.
-* [Just Read Web app](http://justreadapp.com): Clean and simple article reader that just works, extracts articles from given websites and then you can read them offline.
+* [Paylas.io - Reddit tarzi Sosyal Yer imleme sitesi](http://paylas.io) - 110K posts, 18k users
+* [Sitem.co - Site yapma araci](https://sitem.co): Easy website builder with fine tuned, purpose specific themes. Featured on [betalist](http://betalist.com/startups/sitemco). My example site: <http://hakan.sitem.co>
+* [Guldum.net - Caps ve karikatür arama motoru](http://guldum.net) - 40K posts & 8K followers on Tumblr.
+* [Just Read Web app - Pocket tarzi makale okuma araci](http://justreadapp.com): Clean and simple article reader that just works, extracts articles from given websites and then you can read them offline.
 * [Datanews.io](http://datanews.io) - Hacker news for data scientists
 * [Daily Overwatch](http://dailyow.xyz) - Curated funny memes, moments, highlights of popular online shooter game Overwatch.
 * [Prayer Times](http://iftarvakitleri.org) - 3.66k users
