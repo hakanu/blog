@@ -51,6 +51,10 @@ Recommended method:
 *   Split screen And go to LAN IP of workstation (192.168.0.X:8080) to check out the server.
 *   Trigger vim from ish to modify files in the workstation
 
+### Browser IDEs
+
+https://github.com/styfle/awesome-online-ide
+
 ### Coder: Cool Docker and VSCode Method
 
 This is the one I really would like to make as defacto. Again this is not fully offline either, even not offline at all. However, this is the coolest method I have.
@@ -93,6 +97,11 @@ https://github.com/theia-ide/theia
     *   Same vscode terminal
     *   Same vscode themes
     *   Can be full screened by using add to home screen in Safari.
+    Pure vscode with less configuration and settings
+No extensions builtin, needs rebuild
+Easy to run for the first time
+Terminal
+Used  in gitpod.io
 *   cons
     *   Hard to set up extension.
     *   vim mode extension needs some hacks to set up, didn’t try.
@@ -109,6 +118,12 @@ This is VSCode’s backing editor. You can run this in browser and connect from 
     *   Backed by AWS, pretty fast
     *   Easy to set up
     *   Terminal
+    Terminal
+Eclipse-esque UI
+Easy to run via AWS marketplace
+Doesn’t really work on mobile chrome. Need to disable ”Prevent cross site tracking“ from safari settings to be able to use this from ipad.
+Authorization through amazon account
+Really hard to connect to the host machine to mess with files. Everything is forced to be Done from the browser UI’s supplied terminal.
 *   Cons
     *   Doesn’t work in chrome or safari or opera.
         *   Can only work in safari by disabling “block third party cookies” Option to let 3rd party cookies. Otherwise editor doesn’t show up at all.
