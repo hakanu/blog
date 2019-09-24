@@ -2,7 +2,7 @@
 published: false
 layout: post
 category: ipad
-title: ''
+title: Coding on iPad as of Fall 2019
 ---
 I have developed this habit to use smaller and less powerful devices to develop stuff for 2 years. The reason for this is that the larger screen becomes the more distracted I become. And also more powerful machines usually handle lots of open chrome tabs which are also distraction for me.
 
