@@ -9,9 +9,11 @@ Normally if you do ./foo.sh your script is run in a subshell so whatever happens
 I wanted to write a script to affect the caller, eg shortcut cd-ing for example.
 
 `touch foo.sh`
+
 `echo "cd /tmp/foo/bar/baz/$1" > foo.sh`
 
 `./foo.sh "yolo"  # No effect at all`
+
 `. foo.sh "yolo"  # Your current dir changes to /tmp/foo/bar/baz/yolo`
 
 You can also put this into ~/.bashrc as an alias so you can easily call without remembering the full path
