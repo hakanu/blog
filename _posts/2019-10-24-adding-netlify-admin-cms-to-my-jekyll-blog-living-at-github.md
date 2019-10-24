@@ -10,7 +10,7 @@ image: /assests/img/ac5c5be6-b719-4403-9e67-b012db7b4cb5.jpeg
 description: Test post from netlify admin
 date: 2019-10-24T11:01:46.379Z
 ---
-I have been blogging since 2009 where there is microblogging. I was usually dumping my notes about Adobe Flash to the blog in case it's useful for people. Nothing changed since then, after ~10 years, I have around 470 markdown files. 
+I have been blogging since 2009 where there was no microblogging. I was usually dumping my notes about Adobe Flash to the blog in case it's useful for people. Nothing changed since then, after ~10 years, I have around 470 markdown files. 
 
 My journey was like this:
 
