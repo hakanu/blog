@@ -44,24 +44,30 @@ Nowadays I was looking at JAMStack, it's nothing new. I have built many websites
 
 My biggest problem while blogging is not having a proper writing environment. Wordpress has awesome tooling; ghost has great builtin UI to write posts with instant preview; however, jekyll has nothing; i need to use my favorite editor and git push to gh-pages branch. OK while this is pretty cool when you have laptop in your disposal at any given time. I'd like to quick post something from browser directly where i don't have access to terminal. In order to do that I was using prose.io which is an editor authenticates itself for your github and commits markdown to your repo. That was the best one so far and I have used a ton. It was an MVP, not so much UX, not much new development but it was ok. 
 
-Recently I have discovered netlify CMS which is a generic admin UI (some js + html magic), you add it under an admin folder, and you set up identity from https://app.netlify.com and boom it gives you: user login, user email verification, user email invites and highly modifiable admin panel. Now I'm writing this post from that UI. It also gives you chance to upload images. 
+Recently I have discovered netlify CMS which is a generic admin UI (some js + html magic), you add it under an admin folder, and you set up identity from <https://app.netlify.com> and boom it gives you: user login, user email verification, user email invites and highly modifiable admin panel. Now I'm writing this post from that UI. It also gives you chance to upload images. 
 
 Here are the setup instructions:
-https://www.netlifycms.org/docs/jekyll/
+<https://www.netlifycms.org/docs/jekyll/>
+
+You can use it with almost all of the static website builders: Hugo (tried and working well), Middleman, Gatsbyjs...
 
 I didn't touch my posts at all; they still live in github and whenever I commit any changes; whole website is rebuilt and deployed through netlify and all for free with identity API (admin user login).
 
+No performance hit after the move:
 
+```
+curl -s -w \
+'Website Response Time for :%{url_effective}\n\nLookup Time:\t\t%{time_namelookup}\nConnect Time:\t\t
+%{time_connect}\nPre-transfer Time:\t%{time_pretransfer}\nStart-transfer Time:\t%{time_starttransfer}\n\nTotal Time:\t\t%{time_total}\n' \
+-o /dev/null \
+https://hakanu.net
+```
 
+Website Response Time for :https://hakanu.net
 
+Lookup Time:            0.034084
+Connect Time:           0.118848
+Pre-transfer Time:      0.930033
+Start-transfer Time:    1.308011
 
-
-
-
-
-
-
-
-
-
-* 
+Total Time:             1.315497
