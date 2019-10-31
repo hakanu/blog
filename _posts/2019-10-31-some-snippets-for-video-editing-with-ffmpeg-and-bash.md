@@ -12,6 +12,7 @@ image: /assests/img/77111070-8ffd-4f4c-84a6-fe44a6edcfc5.jpeg
 description: video editing like a boss
 date: 2019-10-31T20:05:42.051Z
 ---
+I have an unwatched twitch stream where I record moments among my gaming friends. The other day I was checking out the clips that I have taken when we were playing Call of Duty Black Ops 4. I decided to make them a video and upload it to my personal YouTube channel which doesn't have any video that reached 2-digit view count. Anyways, so first of all, I needed to download the clips to my local. I can either do that with my inspect element skills and figure out mp4 link from twitch or I can rise on the shoulders of the giants: [youtube-dl](https://ytdl-org.github.io/youtube-dl/index.html)
 
 ```
 rename() {
