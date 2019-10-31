@@ -155,3 +155,7 @@ And finally the combination section. Of course nothing is easy. Since we have mo
   done
   ffmpeg -f concat -safe 0 -i list.txt -c copy output_combined_subtitled.mp4
 ```
+
+Here is the final:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PhxfTObusGM?start=7" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
