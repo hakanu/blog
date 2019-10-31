@@ -139,9 +139,9 @@ sudo vim /etc/ImageMagick-6/policy.xml
 
 Replace the line:
 
-`<policy domain="coder" rights="none" pattern="*" />`
+`<policy domain="path" rights="none" pattern="@" />`
 
-`<policy domain="coder" rights="read|write" pattern="*" />`
+`<policy domain="path" rights="read|write" pattern="@" />`
 
 OK now it worked. In essence what this moviepy script does is it divides first 2 seconds and gets each frame in these 2 seconds, draws text on top of it. And for the rest of the video (Duration - 2) seconds, it puts a space as subtitle (empty string was not working); and at the end it appends these two together so it results with a one video with 2 second subtitle which is what I have wanted.
 
@@ -156,6 +156,8 @@ And finally the combination section. Of course nothing is easy. Since we have mo
   ffmpeg -f concat -safe 0 -i list.txt -c copy output_combined_subtitled.mp4
 ```
 
-Here is the final:
+PS: I've had to pass -safe 0 because ffmpeg was complaining about the file names being unsafe. I guess it's because file names with spaces are unsafe for ffmpeg?
+
+Here is the final result (there are some freezes in the beginning though :/):
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PhxfTObusGM?start=7" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
