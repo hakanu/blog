@@ -35,6 +35,7 @@ Let's get rid of those IDs:
   for f in *.mp4 
   do
     echo "Renaming: $f"
+    # Bash rename files by partially replacing some regular expression.
     mv -v "$f" "${f//-[0-9].mp4/.mp4}"
   done
 ```
@@ -45,6 +46,7 @@ I also want to add some caption to the clips otherwise it'd be too ez. There are
   for f in *.mp4 
   do
     echo "Creating srt file for : $f"
+    # bash write to file with newlines. -e is the key here.
     echo -e "1\n00:00:00,000 --> 00:00:03,000\n${f//.mp4/}" >> "${f}.srt"
     ffmpeg -i "${f}.srt" "${f}.ass"
   done
@@ -70,7 +72,9 @@ Let's embed them with ffmpeg, I tried all these methods none worked:
       -ar 44100 -ac 2 -ab 128k -strict -2 \
       -c:s mov_text -map 0 -map 1 \
       "${f}_subtitled.mp4"
-
+    
+    # Tried mapping different channels. 0 and 1, video and subtitle.
+    # Didn't work.
     ffmpeg -i "$f" -i "$f".srt \
       -c:v copy \
       -c:a copy \
@@ -105,7 +109,9 @@ movie_name = sys.argv[1]
 video = editor.VideoFileClip(movie_name)
 print('video dur: ', video.duration)
 subs = [
+    # First 2 seconds will have the subtitle.
     ((0, 2), sys.argv[2]),
+    # video.duration will be second part with whitespace.
     ((2, video.duration), ' '),
 ]
 
