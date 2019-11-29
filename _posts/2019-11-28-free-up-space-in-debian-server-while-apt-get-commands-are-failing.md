@@ -13,6 +13,7 @@ This happened to me recently. Many resources online are all about "just clean yo
     * `sudo apt-get clean`
 * Check top 10 largest folders
 	* `du -a / | sort -n -r | head -n 10`
+    * `du -a /var | sort -n -r | head -n 10`
 * Don't fully delete `/var/tmp`, just in case.
 * `/var/logs` may have some culprit, delete the files which have .gz extension. Means they are already archieved. I'm assuming you don't need these logs. If you need, back up first.
 * Remove unused packages:
@@ -23,7 +24,7 @@ This happened to me recently. Many resources online are all about "just clean yo
 
 ## More niche problems: what to do when all apt-get commands fail
 
-Usually happpens in old servers due to accumulate kernel versions over time. I was running out of space in both / and /boot. Thanks to df -h I was able to see the root cause. I've had lots of kernel files in the /boot drive piled up over time which prevent the new one to be installed successfully and this hanging operation block all my apt-get commands due lack of the space. I can not do apt-get -f install or remove or anything. At the end I've found a safe way to delete old kernel files without breaking anything and freeing up some space in /boot
+Usually happpens in old servers due to kernel versions accumulated over time. I was running out of space in both `/` and `/boot`. Thanks to `df -h` I was able to see the root cause. I've had lots of kernel files in the /boot drive piled up over time which prevent the new one to be installed successfully and this hanging operation block all my apt-get commands due lack of the space. I can not do apt-get -f install or remove or anything. At the end I've found a safe way to delete old kernel files without breaking anything and freeing up some space in /boot
 
 * Find which kernel version you are using: `uname -a`
 * `cd /boot; ls -l`
