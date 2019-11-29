@@ -4,11 +4,16 @@ layout: post
 category: Ide
 title: Coding in iPad Pro as of November 2019 - Challenge accepted
 ---
-I have developed this habit to use smaller and less powerful devices to develop stuff for 2 years. The reason for this is that the larger screen becomes the more distracted I become. And also more powerful machines usually handle lots of open chrome tabs which are also distraction for me.
+
+![](https://st.focusedcollection.com/14026668/i/650/focused_180256694-stock-photo-blindfolded-boy-trying-take-apple.jpg)
+
+## But Why?
+
+I have developed this habit to use smaller and less powerful devices to develop stuff for 2 years. The reason for this is that the larger screen becomes the more distracted I become. And also more powerful machines are usually be able to handle lots of open chrome tabs which are also distraction for me.
 
 So I have been using my refurbished entry level chromebook for almost all of my hobby projects. Recently I kept seeing this branding for iPad to replace a normal laptop. So I decided to give it a go. Here is a small journey of mine. Up to you to pick up whatever tool you liked on the way. Everybody has different style and priorities while coding so everything here is subjective. This post is written through iPad OS 13 Open Beta 2 In Jul’19.
 
-Local only
+## Local only
 
 Well my chromebook was amazing, I have zeal installed, I can totally go offline and develop something in an 8 hour flight. For iPad I wanted to emulate the same one. So I basically need a capable terminal.
 
