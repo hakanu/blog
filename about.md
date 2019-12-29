@@ -14,21 +14,16 @@ Favorite toolbelt these days:
 
 #### Websites
 
-* [Paylas.io - Reddit tarzi Sosyal Yer imleme sitesi](http://paylas.io) - 110K posts, 18k users
+* [Guldum.net - Caps ve karikatür arama motoru](http://guldum.net) - 60K posts & 8K followers on Tumblr.
+* [Paylas.io - Reddit tarzi Sosyal Yer imleme sitesi](http://paylas.io) - 180K posts, 18k users
 * [Sitem.co - Site yapma araci](https://sitem.co): Easy website builder with fine tuned, purpose specific themes. Featured on [betalist](http://betalist.com/startups/sitemco). My example site: <http://hakan.sitem.co>
-* [Guldum.net - Caps ve karikatür arama motoru](http://guldum.net) - 40K posts & 8K followers on Tumblr.
-* [Just Read Web app - Pocket tarzi makale okuma araci](http://justreadapp.com): Clean and simple article reader that just works, extracts articles from given websites and then you can read them offline.
-* [Datanews.io](http://datanews.io) - Hacker news for data scientists
-* [Daily Overwatch](http://dailyow.xyz) - Curated funny memes, moments, highlights of popular online shooter game Overwatch.
+* [Eksistats.co](http://eksistats.co) - An NLP attempt over popular Turkish forum. 
 * [Prayer Times](http://iftarvakitleri.org) - 3.66k users
 * [İşimi Bul - Job search engine for Turkey](http://isimibul.co) - 5k users
 * [Youtube Thumbnail Generator](http://vidimg.net)
-* [Stox: Stock and cryptocurrency portfolio and watchlist tracking in real time](http://stox.club)
 * [Build A PC: Discount aggregator for recent deals on PC parts in Europe](http://buildapc.club)
 * [Psikiyatri Toplantıları web sitesi - Psychiatrist timetable web](http://psikiyatritoplantilari.com)
 * [Psikoloji Toplantilari web sitesi](http://psikoegitim.net)
-* [Sportartis - football discussion platform](http://paylas.io/c/futbol)
-* [Eksistats.co](http://eksistats.co) - An NLP attempt over popular Turkish forum. 
 
 #### Android Apps
 
@@ -40,13 +35,14 @@ Favorite toolbelt these days:
 
 #### Extensions
 
-* [Eksi Redditify]()
+* [Eksi Redditify](https://eksistats.co)
 * [Just Read Chrome Extension](https://chrome.google.com/webstore/detail/just-read/gjadajkmpgdblfochjcfpkhnnkicfapl)
 
 #### Social Media Projects
 
-* [Güldüm.net - Instagram sayfası](https://instagram.com/guldum_net) - 5k posts
+* [Güldüm.net - Instagram sayfası](https://instagram.com/guldum_net) - 10k posts
 * [DailyOW - Overwatch videos](https://instagram.com/dailyow) - +1k posts
+* [Daily Overwatch](http://dailyow.tumblr.com) - Curated funny memes, moments, highlights of popular online shooter game Overwatch.
 
 #### Personal
 
@@ -63,8 +59,10 @@ Favorite toolbelt these days:
 * [Discounts Aggregator](https://play.google.com/store/apps/details?id=io.haku.discounts)
 * [Funny Turkish cartoons - Android starter project](https://play.google.com/store/apps/details?id=co.hakanu.karikaturcu2)
 * [Football Highlights](https://play.google.com/store/apps/details?id=io.haku.fb_goals) - 1.26k users
+* [Datanews.io](http://datanews.io) - Hacker news for data scientists
+* [Just Read Web app - Pocket tarzi makale okuma araci](http://justreadapp.com): Clean and simple article reader that just works, extracts articles from given websites and then you can read them offline.
 
 #### My useless social media rants
 
-<p><a href="https://twitter.com/hakanu_" class="twitter-follow-button" data-show-count="false" data-size="large">Follow on Twitter @hakanu_</a></p>
-<p><a href="https://ie.linkedin.com/in/hakanu" target="_blank">Connect on LinkedIn</a></p>
+<p><a href="https://twitter.com/hakanu_" class="twitter-follow-button" data-show-count="false" data-size="large">Twitter: @hakanu_</a></p>
+<p><a href="https://ie.linkedin.com/in/hakanu" target="_blank">LinkedIn</a></p>
