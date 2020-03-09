@@ -35,7 +35,7 @@ Favorite toolbelt these days:
 
 #### Extensions
 
-* [Eksi Redditify](https://eksistats.co)
+* [Eksi Redditify](https://chrome.google.com/webstore/detail/eksistats-redditify/akphflcnicknhfmlpofbpeoikbggbcnh?hl=tr)
 * [Just Read Chrome Extension](https://chrome.google.com/webstore/detail/just-read/gjadajkmpgdblfochjcfpkhnnkicfapl)
 
 #### Social Media Projects
