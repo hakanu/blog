@@ -2,6 +2,8 @@
 layout: post
 title: Windows programlarının Linux alternatifleri
 date: '2009-10-02 10:56:21'
+published: true
+category: python
 ---
 
 <h4>Windows üzerinde alıştığımız programların hemen hepsinin Linux üzerinde alternatifleri mevcut ve hepsi de açık kaynak kodlu ve ücretsiz.</h4>
@@ -200,7 +202,7 @@ date: '2009-10-02 10:56:21'
 <ul>
 	<li> <a title="http://www.skype.com" rel="nofollow" href="http://www.skype.com/">Skype</a></li>
 	<li> <a title="http://www.gizmoproject.com/" rel="nofollow" href="http://www.gizmoproject.com/">Gizmo</a></li>
-	<li> <a title="http://www.gnomemeeting.org/" rel="nofollow" href="http://www.gnomemeeting.org/">Ekiga</a></li>
+	<li> <a title="http://ekiga.org/" rel="nofollow" href="http://ekiga.org/">Ekiga</a></li>
 	<li> <a title="http://www.openwengo.org/" rel="nofollow" href="http://www.openwengo.org/">Wengo</a></li>
 </ul>
 <h4>Web tasarımı</h4>
