@@ -24,7 +24,7 @@ collections:
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "ThumbnailImage", name: "image", widget: "image"}
+      - {label: "ThumbnailImage", name: "thumbnail", widget: "image"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
