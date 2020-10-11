@@ -1,4 +1,11 @@
-# SMPT Timeout Problems from VPS
+---
+published: true
+layout: post
+category: production
+title: SMTP Timeout Problems from VPS
+---
+
+# SMTP Timeout Problems from VPS
 
 If you are trying to send emails from your VPS through a third party SMTP server, it's highly likely that you will see some timeout errors on default VPS. Here are some tips to overcomem the problem.
 
