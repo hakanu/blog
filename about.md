@@ -5,17 +5,16 @@ author: Hakan Uysal
 permalink: /about/
 published: true
 ---
-Favorite toolbelt these days:
+I just like making weekend projects which often are not used by anyone except me.
 
-* Python & web.py & Jinja2 => Dynamic sites
-* Vue.js & Firebase => serverless setup
-* Google App Engine and my 3 raspberry pis for crons. => Batch processing
-* Playing with Tensorflow and Keras.
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Story of my life <a href="https://t.co/QdsYyjFG8m">pic.twitter.com/QdsYyjFG8m</a></p>&mdash; Hakan Uysal (@hakanu_) <a href="https://twitter.com/hakanu_/status/1062646164879826944?ref_src=twsrc%5Etfw">November 14, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-#### Websites
 
-* [Guldum.net - Caps ve karikatür arama motoru](http://guldum.net) - 60K posts & 8K followers on Tumblr.
-* [Paylas.io - Reddit tarzi Sosyal Yer imleme sitesi](http://paylas.io) - 180K posts, 18k users
+#### Websites & Projects
+
+* [Pervane - Open source note taking app](https://github.com/hakanu/pervane) - Open source file based note taking app.
+* [Guldum.net - Caps ve karikatür arama motoru](http://guldum.net) - 95K posts & 8K followers on Tumblr.
+* [Paylas.io - Reddit tarzi Sosyal Yer imleme sitesi](http://paylas.io) - 200K posts, 18k users
 * [Sitem.co - Site yapma araci](https://sitem.co): Easy website builder with fine tuned, purpose specific themes. Featured on [betalist](http://betalist.com/startups/sitemco). My example site: <http://hakan.sitem.co>
 * [Eksistats.co](http://eksistats.co) - An NLP attempt over popular Turkish forum. 
 * [Prayer Times](http://iftarvakitleri.org) - 3.66k users
