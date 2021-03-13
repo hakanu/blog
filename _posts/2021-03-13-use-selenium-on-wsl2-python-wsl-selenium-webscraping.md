@@ -4,12 +4,7 @@ layout: post
 category: python
 title: 'Use Selenium on WSL2 #python #wsl #selenium #webscraping'
 ---
----
-published: true
-layout: post
-category: python
-title: 'Use Selenium on WSL2 with python'
----
+
 
 This has been a pain for so long. Finally I was able to pull it off. Only tricky part was the windows firewall apparently.
 
