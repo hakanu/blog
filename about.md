@@ -67,3 +67,5 @@ I just like making weekend projects which often are not used by anyone except me
 * <https://twitter.com/hakanu_>
 * <https://ie.linkedin.com/in/hakanu>
 * <https://www.buymeacoffee.com/haku>
+
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="haku" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
