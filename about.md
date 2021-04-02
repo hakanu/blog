@@ -18,7 +18,7 @@ I just like making weekend projects which often are not used by anyone except me
 * [Sitem.co - Site yapma araci](https://sitem.co): Easy website builder with fine tuned, purpose specific themes. Featured on [betalist](http://betalist.com/startups/sitemco). My example site: <http://hakan.sitem.co>
 * [Eksistats.co](http://eksistats.co) - An NLP attempt over popular Turkish forum. 
 * [Prayer Times](http://iftarvakitleri.org) - 3.66k users
-* [Build A PC: Discount aggregator for recent deals on PC parts in Europe](http://buildapc.club)
+* [Build A PC: Discount aggregator for recent deals on PC parts in Europe](https://pc.hakanu.net/)
 * [Psikiyatri Toplantıları web sitesi - Psychiatrist timetable web](http://psikiyatritoplantilari.com)
 * [Psikoloji Toplantilari web sitesi](http://psikoegitim.net)
 
