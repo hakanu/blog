@@ -64,5 +64,6 @@ I just like making weekend projects which often are not used by anyone except me
 
 #### My useless social media rants
 
-<p><a href="https://twitter.com/hakanu_" class="twitter-follow-button" data-show-count="false" data-size="large">Twitter: @hakanu_</a></p>
-<p><a href="https://ie.linkedin.com/in/hakanu" target="_blank">LinkedIn</a></p>
+* <https://twitter.com/hakanu_>
+* <https://ie.linkedin.com/in/hakanu>
+* <https://www.buymeacoffee.com/haku>
