@@ -1,10 +1,7 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
 
 @import "minima";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 main {
-
+	font-family: 'PT Sans', sans-serif;
 }
-
