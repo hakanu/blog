@@ -56,6 +56,8 @@ Traceback (most recent call last):
 OSError: [Errno 22] Invalid argument: steamapps/common/Proton 6.3/dist/./share/default_pfx/dosdevices/c
 ```
 
+PS: maybe we only need to have proton installed in ext4. Games can still live in NTFS. Somebody should give this a go.
+
 Let me quickly check if I can play `Curse of the Dead Gods`. Nope, can not even install:
 ![](https://devdala.files.wordpress.com/2021/05/selection_013.png)
 
@@ -76,5 +78,17 @@ It's locked to 60FPS with really nice looking graphics:
 ![](https://devdala.files.wordpress.com/2021/05/whatsapp-image-2021-05-01-at-01.32.22.jpeg)
 
 I'm off to try Dark Souls III now. Byes!
+
+Update: It worked like a charm, 60FPS Max settings with RTX 2070, zero hiccup. You have to use the Proton installed in ext4 not in NTFS and force to use the one installed in ext4 Game -> Right Click -> Manage -> Compatibility
+
+![](https://devdala.files.wordpress.com/2021/05/screenshot-from-2021-05-01-03-19-25.png)
+
+![](https://devdala.files.wordpress.com/2021/05/20210501025249_1.jpg)
+
+![](https://devdala.files.wordpress.com/2021/05/20210501025549_1.jpg)
+
+![](https://devdala.files.wordpress.com/2021/05/20210501025725_1.jpg)
+
+![](https://devdala.files.wordpress.com/2021/05/20210501030853_1.jpg)
 
 Check if the game you want to play is working fine: https://www.protondb.com/
