@@ -60,61 +60,6 @@ Source: https://getbootstrap.com/docs/5.2/examples/navbar-fixed/
     <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
     <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
     <meta name="theme-color" content="#712cf9">
-
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-    </style>
-
     
     <!-- Custom styles for this template -->
     <link href="navbar-top-fixed.css" rel="stylesheet">
@@ -160,60 +105,57 @@ Source: https://getbootstrap.com/docs/5.2/examples/navbar-fixed/
 
 ```
 
-## Vue.js
+## Vue.js wit bulma.css
 
 ```html
+<!DOCTYPE html>
 <html>
   <head>
-    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   </head>
   <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Hello World
+      </h1>
+      <p class="subtitle">
+        My first website with <strong>Bulma</strong>!
+      </p>
 
-    <div id="app">
-      <!--
-        Note we don't need .value inside templates because
-        refs are automatically "unwrapped" in templates.
-      -->
-      <h1>{{ message }}</h1>
-
-      <!--
-        Bind to a method/function.
-        The @click syntax is short for v-on:click.
-      -->
-      <button @click="reverseMessage">Reverse Message</button>
-
-      <!-- Can also be an inline expression statement -->
-      <button @click="message += '!'">Append "!"</button>
-
-      <!--
-        Vue also provides modifiers for common tasks
-        such as e.preventDefault() and e.stopPropagation()
-      -->
-      <a href="https://vuejs.org" @click.prevent="notify">
-        A link with e.preventDefault()
-      </a>
+      <div id="app">
+        <h1>{{ message }}</h1>
+        <button @click="reverseMessage">Reverse Message</button>
+        <button @click="message += '!'">Append "!"</button>
+        <a href="https://vuejs.org" @click.prevent="notify">
+          A link with e.preventDefault()
+        </a>
+      </div>
     </div>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.37/vue.min.js" integrity="sha512-LN3/3FZvYUfBsmNVZHLkC/Jc4scv02pVFtQCBojR0VqyCg3rppKXgAJy9duJVhG5G9dqgxZ1Nlz4mqljC3QN7w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="module">
-      import { createApp } from 'vue'
+  </section>
 
-      createApp({
-        data() {
-          return {
-            message: 'Hello World!'
-          }
-        },
-        methods: {
-          reverseMessage() {
-            this.message = this.message.split('').reverse().join('')
-          },
-          notify() {
-            alert('navigation was prevented.')
-          }
+  <script src="https://unpkg.com/vue@3"></script>
+  <script type="module">
+    const { createApp } = Vue
+    createApp({
+      data() {
+        return {
+          message: 'Hello Vue!'
         }
-      }).mount('#app')
-    </script>
+      },
+      methods: {
+        reverseMessage() {
+          this.message = this.message.split('').reverse().join('')
+        },
+        notify() {
+          alert('navigation was prevented.')
+        }
+      }
+    }).mount('#app')
+  </script>
   </body>
 </html>
 ```
@@ -351,12 +293,3 @@ Source: https://www.back4app.com/docs/javascript/parse-javascript-sdk
   </body>
 </html>
 ```
-
-
-
-
-
-
-
-
-
