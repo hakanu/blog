@@ -293,3 +293,175 @@ Source: https://www.back4app.com/docs/javascript/parse-javascript-sdk
   </body>
 </html>
 ```
+
+## Let's glue all of them together (firebase + parse + bulma)
+
+```html
+<!-- hakanu.net example of a starter template of a serverless web app
+  backed by firebase and back4app formerly known as back4app.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Hello World
+      </h1>
+      <p class="subtitle">
+        My first website with <strong>Bulma</strong>!
+      </p>
+
+      <div id="app">
+        <h1>{{ message }}</h1>
+        <button @click="reverseMessage">Reverse Message</button>
+        <button @click="message += '!'">Append "!"</button>
+        <a href="https://vuejs.org" @click.prevent="notify">
+          A link with e.preventDefault()
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Init Parse.sdk - back4app -->
+  <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+  <script>
+    // Initialize Parse
+    Parse.initialize("YOUR_PARSE_APP_ID", "YOUR_PARSE_JS_KEY");
+    Parse.serverURL = "https://parseapi.back4app.com/";
+    var Pet = Parse.Object.extend("Pet");
+
+    function create() {
+        mypet = new Pet();
+        mypet.set("name", textName);
+        mypet.set("agePet", textAge);
+
+        mypet.save().then(function(pet){
+             console.log('Pet created successful with name: ' + pet.get("name") + ' and age: ' + pet.get("agePet"));
+        }).catch(function(error){
+             console.log('Error: ' + error.message);
+        });
+    }
+    
+    function read() {
+        query = new Parse.Query(Pet);
+        query.equalTo("name", textName);
+        query.first().then(function(pet){
+            if(pet){
+               console.log('Pet found successful with name: ' + pet.get("name") + ' and age: ' + pet.get("agePet"));
+            } else {
+               console.log("Nothing found, please try again");
+            }
+        }).catch(function(error){
+            console.log("Error: " + error.code + " " + error.message);       
+        });
+    }
+    
+    function readThenUpdate() {
+        query = new Parse.Query(Pet);
+        query.equalTo("name", textName);
+        query.first().then(function (pet) {
+          if (pet) {
+            console.log('Pet found with name: ' + pet.get("name") + ' and age: ' + pet.get("agePet"));
+            update(pet);
+          } else {
+            console.log("Nothing found, please try again");
+          }
+        }).catch(function (error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+    
+    create();
+    read();
+    readThenUpdate();
+  </script>
+
+  <!-- Init Firebase. -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js";
+    import { getDatabase } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-database.js";
+    import { getAuth } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-auth.js";
+    
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Find below in Project settings @ https://console.firebase.google.com/project
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "",
+      authDomain: "",
+      databaseURL: "",
+      projectId: "",
+      storageBucket: "",
+      messagingSenderId: "",
+      appId: ""
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    // Initialize Realtime Database and get a reference to the service
+    const database = getDatabase(app);
+    
+    function writeUserData(userId, name, email, imageUrl) {
+      const db = getDatabase();
+      set(ref(db, 'users/' + userId), {
+        username: name,
+        email: email,
+        profile_picture : imageUrl
+      });
+    }
+    
+    function readDataOnce() {
+      const dbRef = ref(getDatabase());
+      get(child(dbRef, `users/${userId}`)).then((snapshot) => {
+        if (snapshot.exists()) {
+          console.log(snapshot.val());
+        } else {
+          console.log("No data available");
+        }
+      }).catch((error) => {
+        console.error(error);
+      }); 
+    }
+    
+    writeUserData('test', 'name', 'email@mail.com', 'example.jpg');
+    readDataOnce();
+
+  </script>
+
+
+  <!-- Connect everything in Vue. -->
+  <script src="https://unpkg.com/vue@3"></script>
+  <script type="module">
+    const { createApp } = Vue
+    createApp({
+      data() {
+        return {
+          message: 'Hello Vue!'
+        }
+      },
+      methods: {
+        reverseMessage() {
+          this.message = this.message.split('').reverse().join('')
+        },
+        notify() {
+          alert('navigation was prevented.')
+        }
+      }
+    }).mount('#app')
+  </script>
+
+  </body>
+</html>
+
+```
+
