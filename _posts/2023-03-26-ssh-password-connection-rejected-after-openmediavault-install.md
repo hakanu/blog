@@ -20,5 +20,5 @@ sudo vim /etc/ssh/sshd_config
 sudo service ssh restart
 
 # Mine is not fixed so I had to put my username into ssh group
-sudo usermod -aG ssh hakanu
+sudo usermod -aG ssh your_username
 ```
