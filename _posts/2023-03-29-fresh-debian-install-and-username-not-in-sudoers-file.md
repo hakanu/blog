@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-category: python
+category: linux
 title: Fresh Debian install and username not in sudoers file
 ---
 Note for my future self to solve this quickly. Because there are really long tutorials on this.
