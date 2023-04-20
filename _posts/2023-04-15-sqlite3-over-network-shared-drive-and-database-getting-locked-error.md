@@ -30,3 +30,9 @@ PRAGMA synchronous=normal;
 You can obviously use DB Browser sqlite UI:
 
 ![](https://devdala.files.wordpress.com/2023/04/screenshot-2023-04-15-010508.png)
+
+If this doesn't work either, unmount the network drive and mount it like this with `nobrl` option which prevents byte range locking but this comes with disadvantage of likelihood of database corruptions
+
+```bash
+sudo mount -t cifs //192.168.1.100/MY_SHARE_NAME /mnt/MY_MOUNT_FOLDER -o username=my_user,password=my_pass,uid=$(id -u),gid=$(id -g),nobrl
+```
