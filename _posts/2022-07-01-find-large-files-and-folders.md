@@ -26,6 +26,14 @@ uname -r
 # This folder is probably a culprit.
 du /usr/* -hsx | sort -rh | head -20
 ls /usr/src -lah
+
+# Clean up journalctl logs
+journalctl --vacuum-time=2d  # Retains last two days
+
+# Clean up apt cache.
+sudo apt autoclean
+sudo apt autoremove
+sudo apt clean
 ```
 
 If your problem is excessively space occupying old kernel versions: Consider getting rid of the ones which are older than your kernel appropriately.
