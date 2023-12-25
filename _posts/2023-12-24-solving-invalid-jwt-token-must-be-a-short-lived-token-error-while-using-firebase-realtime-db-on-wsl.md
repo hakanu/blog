@@ -22,3 +22,15 @@ sudo hwclock -s
 ```
 
 Check out date date again: `date` => This time it should show correct timezone. if not, there are more commands to run I stole from internet.
+
+```bash
+sudo timedatectl set-timezone Europe/Amsterdam
+
+date
+
+# if this doesn't work
+sudo apt-get update
+sudo apt-get install -y ntpdate
+
+sudo ntpdate pool.ntp.org
+```
