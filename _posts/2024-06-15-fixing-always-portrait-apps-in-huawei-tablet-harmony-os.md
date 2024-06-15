@@ -6,7 +6,7 @@ title: Fixing always portrait apps in Huawei Tablet (Harmony OS)
 ---
 I got a cheap Huawei Tablet (Mate Pad Air) last year with very very good hardware, amazing screen, super snappy. All my tablet-worthy apps (photo/video editing and kids coloring pages apps) work great so it's definitely a good deal for me. Among all the annoying things (no Google Play Store, not-as-apple-pencil quality stylus, inferior OS experience etc), the apps lock themselves into portrait mode regardless of the orientation of the tablet. Well it's a tablet with keyboard which is always in the landscape mode. However, apps like Reddit, DJI Mimo etc always open themselves in portrait, forcing me to tilt the tablet with keyboard (or instead throw it to the wall).
 
-I tried multiple things to solve the issue. Nothing helped, finally I stumbled upon a reddit post, I immediately opened it in my tablet, boom it got portrait-ed, I didn't give up and read the post.
+I tried multiple things to solve the issue. Nothing helped, finally I stumbled upon a [reddit post](https://www.reddit.com/r/Android/s/3qajKyf4eI), I immediately opened it in my tablet, boom it got portrait-ed, I didn't give up and read the post.
 
 Apparently this is a common issue with wide devices, especially foldables and tablets. Since the manifacturers are lazy enough to fix these (small?) annoyance, Google introduced a method where the actual users can fix issue themselves, which is making the tablet ignore apps' specification of rotation.
 
