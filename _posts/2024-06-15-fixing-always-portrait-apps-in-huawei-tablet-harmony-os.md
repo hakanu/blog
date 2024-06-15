@@ -28,10 +28,6 @@ Steps are easy in the post, I need to connect via adb and then run this adb comm
 
 1. It should silently finish, no errors. Then fire up reddit app while your tablet is in landscape mode.
 
-![]({{site.baseurl}})![Screenshot_20240615_235054_com.reddit.frontpage.jpg]
+![]({{site.baseurl}}/images/Screenshot_20240615_235054_com.reddit.frontpage.jpg)
 
 Looks ugly, doesn't use all the estate but who cares, I don't need to rotate the tablet physically anymore.
-
-
-
-
