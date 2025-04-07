@@ -12,15 +12,17 @@ I just like making weekend projects which often are not used by anyone except me
 
 #### 🔧 Websites & Projects
 
-* [Guldum.net - Caps ve karikatür arama motoru](http://guldum.net) - 110K posts & 10K followers on Tumblr.
-* [Pervane - Open source note taking app](https://github.com/hakanu/pervane) - Open source file based note taking app.
+* [Guldum.net - Caps ve karikatür arama motoru](http://guldum.net) - 310K posts
+
 * [Paylas.io - Reddit tarzi Sosyal Yer imleme sitesi](http://paylas.io) - 200K posts, 18k users
-* [Sitem.co - Site yapma araci](https://sitem.co): Easy website builder with fine tuned, purpose specific themes. Featured on [betalist](http://betalist.com/startups/sitemco). My example site: <http://hakan.sitem.co>
-* [Eksistats.co](http://eksistats.co) - An NLP attempt over popular Turkish forum. 
+* [Sitem.co - Youtube Video Summarizer](https://sitem.co): Generate summaries of youtube videos and articles online by using the power of AI and LLMs.
+* [Eksistats](http://paylas.io/r/eksistats) - An NLP attempt over popular Turkish forum. 
 * [Prayer Times](http://iftarvakitleri.org) - 3.66k users
+* [Bank Statement Analyzer](https://bank.hakanu.net) - Upload your pdf or csv bank statements and see what categories you spent the most.
+* [Hesapp - Itemize the receipt images](https://hesapp.hakanu.net) - Itemize the receipts and create trips and share the bill among your friends during the trip, record all the expenses with diffrent multipliers among the group.
+	* [Hesapp - Android app](https://play.google.com/store/apps/details?id=net.hakanu.hesapp) - Android app of above
 * [Build A PC: Discount aggregator for recent deals on PC parts in Europe](https://pc.hakanu.net/)
-* [Psikiyatri Toplantıları web sitesi - Psychiatrist timetable web](http://psikiyatritoplantilari.com)
-* [Psikoloji Toplantilari web sitesi](http://psikoegitim.net)
+* [Pervane - Open source note taking app](https://github.com/hakanu/pervane) - Open source file based note taking app.
 
 #### 📱Android Apps
 
