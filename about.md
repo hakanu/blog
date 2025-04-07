@@ -6,7 +6,6 @@ permalink: /about/
 published: true
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -75,7 +74,9 @@ published: true
                 </div>
                 <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition-shadow duration-200">
                     <h3 class="text-lg font-semibold mb-1">
-                         HesApp - Itemize the receipts and split bill during trips
+                         <a href="https://hesapp.hakanu.net" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">
+                           HesApp - Itemize the receipts and split bill during trips
+                      </a>
                     </h3>
                     <p class="text-gray-600 text-sm mb-2">A website to convert image bills into separate items and let them assigned to group members. Track trip expenses in single place and share each expense among friends with different multipliers.</p>
                     <div class="pl-4 border-l-2 border-blue-100">
@@ -232,12 +233,6 @@ published: true
         </section>
 
     </div>
-
-    <footer class="text-center py-6 mt-8 bg-gray-200">
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Story of my life <a href="https://t.co/QdsYyjFG8m">pic.twitter.com/QdsYyjFG8m</a></p>&mdash; Hakan Uysal (@hakanu_) <a href="https://twitter.com/hakanu_/status/1062646164879826944?ref_src=twsrc%5Etfw">November 14, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="haku" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
-    </footer>
 
 </body>
 </html>
