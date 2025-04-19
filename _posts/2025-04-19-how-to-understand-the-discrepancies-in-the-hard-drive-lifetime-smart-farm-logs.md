@@ -24,11 +24,11 @@ sudo apt update
 sudo apt install smartmontools 
 
 # Usual smart logs for power on hours.
-sudo smartctl -a  /dev/sdb | grep "Power_On"
+sudo smartctl -a  /dev/sdb | grep "Power_On_Hours"
 
 # Only applicable for Seagate drives
 # FARM Logs
-sudo smartctl -l farm /dev/sdb | grep "Power on"
+sudo smartctl -l farm /dev/sdb | grep "Power on Hours"
 ```
 
-If you drive is "new new", you should get almost zero hours for both of these commands. However, in my case `smartctl -a` was giving almost zero but `smartctl -l farm` 28k hours which is totaling to ~1166 days. Obviously this doesn't mean that the drive is bad or anything. Drive is manifactured probably around that time. However some refurbishing event happened and got it fixed and resold to me with clean S.M.A.R.T. 
+If you drive is "new new", you should get almost zero hours for both of these commands. However, in my case `smartctl -a` was giving almost zero but `smartctl -l farm` 28k hours which is totaling to ~1166 days. Obviously this doesn't mean that the drive is bad or anything. Drive is manifactured probably around that time. However some refurbishing event happened and got it fixed and resold to me with clean S.M.A.R.T.
