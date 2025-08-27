@@ -4,9 +4,9 @@ layout: post
 category: selfhost
 title: Bulk delete assets (images and videos) from Immich
 ---
-![](https://devdala.wordpress.com/wp-content/uploads/2025/08/image.jpg)
+<img src="https://devdala.wordpress.com/wp-content/uploads/2025/08/image.jpg" height="400px"/>
 
-My reddit thread: https://www.reddit.com/r/immich/comments/1n1ewfa/is_there_a_way_to_move_assets_from_one_user_to/
+[My reddit thread on this](https://www.reddit.com/r/immich/comments/1n1ewfa/is_there_a_way_to_move_assets_from_one_user_to/)
 
 TL;DR: I messed up while importing a big library into immich and need to roll this back somehow.
 
@@ -18,7 +18,6 @@ I thought about doing something like this but I was not sure if the physical fil
 
 ```sql
 UPDATE "asset" SET "ownerId" = 'user1\_id' WHERE "ownerId" = 'user2\_id' AND "createdAt" >= '2025-08-26';
-Any opinions on the above solution? Gemini recommends to run storage migration afterwards but my storage templates don't seem enabled in the settings anyways.
 ```
 
 Apparently, it's somewhat possible but not everything will work without additional work in the db and possibly moving physical files according to the [reddit Immich community](https://www.reddit.com/r/immich/comments/1n1ewfa/is_there_a_way_to_move_assets_from_one_user_to/), huge thanks!
