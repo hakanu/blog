@@ -5,7 +5,6 @@ author: Hakan Uysal
 permalink: /about/
 published: true
 ---
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -34,6 +33,68 @@ published: true
             <div class="space-y-6">
                 <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition-shadow duration-200">
                     <h3 class="text-lg font-semibold mb-1">
+                        <a href="https://indikators.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">
+                            Indikators.com - AI Trading Signals
+                        </a>
+                    </h3>
+                    <p class="text-gray-600 text-sm">AI backed buy, sell, hold signals for crypto and stocks.</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition-shadow duration-200">
+                    <h3 class="text-lg font-semibold mb-1">
+                        <a href="https://useyay.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">
+                           UseYay.com - AI Photo Generation
+                        </a>
+                    </h3>
+                    <p class="text-gray-600 text-sm">Nano banana wrapper for AI backed super realistic photo generation.</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition-shadow duration-200">
+                    <h3 class="text-lg font-semibold mb-1">
+                        <a href="https://sitem.co" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">
+                           Sitem.co - Content Summarizer
+                        </a>
+                    </h3>
+                    <p class="text-gray-600 text-sm">AI based article and youtube video summarizer. Get quick summaries of your favorite content.</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition-shadow duration-200">
+                    <h3 class="text-lg font-semibold mb-1">
+                        <a href="https://mindcast.pro" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">
+                           Mindcast.pro - Mental Wellness Books
+                        </a>
+                    </h3>
+                    <p class="text-gray-600 text-sm">Your journey to mental wellness through the power of book reviews and critics.</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition-shadow duration-200">
+                    <h3 class="text-lg font-semibold mb-1">
+                        <a href="https://kieschool.nl" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">
+                           Kieschool.nl - School Scoring
+                        </a>
+                    </h3>
+                    <p class="text-gray-600 text-sm">Netherlands' primary school scoring website per neighborhood.</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition-shadow duration-200">
+                    <h3 class="text-lg font-semibold mb-1">
+                        <a href="https://sobele.me" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">
+                           Sobele.me - Kids Games
+                        </a>
+                    </h3>
+                    <p class="text-gray-600 text-sm">Ads free, forever free kids games.</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition-shadow duration-200">
+                    <h3 class="text-lg font-semibold mb-1">
+                        <a href="https://irem.hakanu.net" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">
+                           Irem HackerTyper
+                        </a>
+                    </h3>
+                    <p class="text-gray-600 text-sm">HackerTyper for Turkish developers with "Irem - Hayalet sevgilim" lyrics.</p>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition-shadow duration-200">
+                    <h3 class="text-lg font-semibold mb-1">
                         <a href="http://guldum.net" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">
                             Guldum.net - Caps ve karikatür arama motoru
                         </a>
@@ -48,18 +109,10 @@ published: true
                     </h3>
                     <p class="text-gray-600 text-sm">400K posts, 18k users</p>
                 </div>
-                 <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition-shadow duration-200">
-                    <h3 class="text-lg font-semibold mb-1">
-                        <a href="https://sitem.co" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">
-                           Sitem.co - Site yapma araci
-                        </a>
-                    </h3>
-                    <p class="text-gray-600 text-sm">Article and YouTube Video Summarizer. Get quick summaries of your favorite YouTube videos and articles.</p>
-                </div>
                 <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition-shadow duration-200">
                     <h3 class="text-lg font-semibold mb-1">
                         <a href="https://paylas.io/r/eksistats" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">
-                            Eksistats
+                             Eksistats
                         </a>
                     </h3>
                     <p class="text-gray-600 text-sm">An NLP (natural language processing) attempt over popular Turkish forum called eksisozluk.com</p>
@@ -236,7 +289,3 @@ published: true
 
 </body>
 </html>
-
-
-
-
