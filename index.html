@@ -1,42 +1,106 @@
 ---
 layout: default
 ---
-<main class="page-content" aria-label="Content">
-    <div class="wrapper">
-      <div class="home">
-        <h2 class="post-list-heading">Posts</h2>
-            <ul class="post-list">
-              <!-- This loops through the paginated posts -->
-              {% for post in paginator.posts %}
-                <li><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-                <h3>
-                  <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
-                    {{ post.title }}
-                  </a>
-                </h3>
-                </li>
-              {% endfor %}
-            </ul>
-        </h2>
+<section class="home">
+  <div class="home-toolbar">
+    <label class="search-wrap" for="post-search">
+      <svg class="search-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"></circle>
+        <path d="m20 20-3.5-3.5"></path>
+      </svg>
+      <input type="search" id="post-search" class="search-input" placeholder="Search posts..." autocomplete="off" aria-label="Search posts">
+    </label>
+  </div>
 
-        <!-- Pagination links -->
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-          {% else %}
-            <span class="previous">Previous</span>
-          {% endif %}
+  <ul class="post-list" id="search-results" hidden></ul>
+  <p class="search-empty" id="search-empty" hidden>No matching posts found.</p>
 
-          <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-          {% else %}
-            <span class="next ">Next</span>
-          {% endif %}
-        </div>
+  <div id="paginated-posts">
+    <ul class="post-list">
+      {%- for post in paginator.posts -%}
+      <li class="post-list-item">
+        <time class="post-list-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+        <a class="post-list-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </li>
+      {%- endfor -%}
+    </ul>
 
-        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-      </div>
-    </div>
-</main>
+    <nav class="pagination" aria-label="Pagination">
+      {%- if paginator.previous_page -%}
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-link">&larr; Newer</a>
+      {%- else -%}
+        <span class="pagination-link is-disabled" aria-disabled="true">&larr; Newer</span>
+      {%- endif -%}
 
+      <span class="pagination-status">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+
+      {%- if paginator.next_page -%}
+        <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-link">Older &rarr;</a>
+      {%- else -%}
+        <span class="pagination-link is-disabled" aria-disabled="true">Older &rarr;</span>
+      {%- endif -%}
+    </nav>
+  </div>
+</section>
+
+<script>
+  (function() {
+    var input = document.getElementById('post-search');
+    var resultsEl = document.getElementById('search-results');
+    var emptyEl = document.getElementById('search-empty');
+    var paginatedEl = document.getElementById('paginated-posts');
+    if (!input || !resultsEl || !paginatedEl) return;
+
+    var posts = null;
+    var loading = false;
+
+    function loadPosts(cb) {
+      if (posts) return cb(posts);
+      if (loading) return;
+      loading = true;
+      fetch('{{ "/search.json" | relative_url }}')
+        .then(function(r) { return r.json(); })
+        .then(function(data) { posts = data; loading = false; cb(posts); })
+        .catch(function() { loading = false; });
+    }
+
+    function escapeHtml(s) {
+      return s.replace(/[&<>"']/g, function(c) {
+        return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c];
+      });
+    }
+
+    function render(query) {
+      var q = query.trim().toLowerCase();
+      if (!q) {
+        resultsEl.hidden = true;
+        emptyEl.hidden = true;
+        paginatedEl.hidden = false;
+        return;
+      }
+      loadPosts(function(all) {
+        var terms = q.split(/\s+/);
+        var matches = all.filter(function(p) {
+          var hay = (p.title + ' ' + p.category + ' ' + p.date).toLowerCase();
+          return terms.every(function(t) { return hay.indexOf(t) !== -1; });
+        });
+        paginatedEl.hidden = true;
+        if (!matches.length) {
+          resultsEl.hidden = true;
+          emptyEl.hidden = false;
+          return;
+        }
+        emptyEl.hidden = true;
+        resultsEl.innerHTML = matches.slice(0, 40).map(function(p) {
+          return '<li class="post-list-item">' +
+            '<time class="post-list-date">' + escapeHtml(p.date) + '</time>' +
+            '<a class="post-list-link" href="' + escapeHtml(p.url) + '">' + escapeHtml(p.title) + '</a>' +
+          '</li>';
+        }).join('');
+        resultsEl.hidden = false;
+      });
+    }
+
+    input.addEventListener('input', function() { render(input.value); });
+  })();
+</script>
