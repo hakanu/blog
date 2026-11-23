@@ -2,47 +2,42 @@
 published: true
 layout: post
 category: project
-title: "Building hwprice.net: A Cross-Border European PC Hardware Price Tracker"
+title: "Why I built hwprice.net: scratching my own itch for EU hardware prices"
 ---
 
 ![GeForce RTX graphics card inside a PC build](/assets/img/hwprice-gpu-hero.jpg)
 *Photo by [Matheus Bertelli](https://www.pexels.com/photo/close-up-of-geforce-rtx-graphics-card-in-pc-34552803/) on Pexels*
 
-If you have ever tried buying a hard drive or a GPU in Europe, you already know the ritual: open Amazon.de, Amazon.nl, Amazon.fr, Amazon.it, Amazon.es, Alternate, Megekko, Coolblue, Proshop, Scan, then check Reddit and MyDealz, then peek at Marktplaats or Vinted to see if a used card makes more sense. Twenty browser tabs later, you still aren't sure if that "20% off" sticker is a real drop or just last month's normal price.
+Every time I needed to buy a hard drive for my NAS or hunt for a GPU in Europe, I ran into the same annoying problem: there isn't really a good, up-to-date, cross-border price comparison site for EU hardware.
 
-That annoyance is why I built **[hwprice.net](https://hwprice.net)**.
+Sure, there are country-specific sites (Tweakers in the Netherlands, Geizhals in Germany, etc.), and they're fine if you only shop locally. But in practice, half the time a drive or a GPU is €40–€80 cheaper on Amazon.de, Amazon.fr, Amazon.it, or a shop one border over that ships to you anyway. So I'd end up with 15 tabs open — Amazon EU storefronts, Alternate, Megekko, Coolblue, Proshop, Scan, Reddit, MyDealz, Marktplaats — doing mental math on €/TB and trying to figure out if a "deal" was actually cheaper than last month.
 
-It started as a small script (`hdd_prices`) to track €/TB across European retailers while I was expanding my NAS. Over time it grew into a cross-border price tracker covering GPUs, CPUs, RAM, internal/external drives, mini PCs, and drive docks — all in one place, free to use, with no paywall.
+Eventually I got tired of doing this manually and wrote a small scraper (`hdd_prices`) just to track €/TB on NAS drives for myself. Like most side projects that get out of hand, it snowballed into a full site: **[hwprice.net](https://hwprice.net/)**.
 
-## What hwprice.net does
+## What it turned into
 
-The goal is simple: get you to **where to buy, at what price, and whether that price is actually good** as fast as possible.
+I mostly kept adding the pages I personally wished existed whenever I was buying parts for my homelab or local AI experiments:
 
-- **Cross-border EU retail tracking (~15,000 active listings):** Compares the same hardware across Amazon EU storefronts and European shops (Alternate.nl/.de, Megekko, Coolblue, Proshop, Scan.co.uk, bol.com, and more) with a **"Ship to"** filter so you only see stores that actually deliver to your country. Filter by €/TB, chip, VRAM, capacity, or store.
-- **Honest price history & `/hot-deals`:** Scraped price history exposes fake discounts and surfaces listings sitting at or near their 90-day lows on [hwprice.net/hot-deals](https://hwprice.net/hot-deals).
-- **Community deals (`/deals`):** Aggregates hardware deals from Reddit (`r/BaPCSalesEurope`, UK/DE subs) and Pepper communities (MyDealz, Dealabs, HotUKDeals) alongside retail history at [hwprice.net/deals](https://hwprice.net/deals).
-- **Used market (`/used`):** Tracks Marktplaats and Vinted listings for used GPUs, drives, and RAM — and keeps **sold listings** as a historical record with used medians so you can tell whether an asking price is fair.
-- **Use-case tools tied to live prices:** Purpose-built guides (1080p–4K gaming, NAS, Jellyfin, homelab, local LLM rigs), GPU/CPU rankings, and a **Local AI finder** that maps open-weight LLMs to GPUs, Macs, and mini PCs using today's actual listings.
-- **Watchlists & alerts:** Optional Google sign-in for price-drop email alerts and an opt-in weekly digest of notable drops and community deals.
+- **[EU PC hardware & NAS drive price tracker](https://hwprice.net/)** — compares drives, GPUs, CPUs, RAM, mini PCs, and docks across Amazon EU stores and European retailers, with a "Ship to" filter and €/TB sorting so I don't waste time on stores that won't deliver to me.
+- **[European GPU price & VRAM rankings](https://hwprice.net/gpus)** — since I've been tinkering with local LLMs, VRAM per euro matters to me a lot more than marketing tiers. Having GPU prices, VRAM, and price history in one table saved me a ton of spreadsheet work.
+- **[Local LLM GPU guide](https://hwprice.net/guides/local-llm-gpu)** — ties those live European GPU prices directly to which open-weight models actually fit and run well on each card (also have an [EU GPU price index](https://hwprice.net/guides/eu-gpu-price-index) tracking where prices are drifting).
+- **[Community deals](https://hwprice.net/deals) & [second-hand hardware](https://hwprice.net/used)** — pulls in deals from Reddit (`r/BaPCSalesEurope`, etc.), MyDealz, Dealabs, and HotUKDeals, plus used listings from Marktplaats and Vinted. I keep sold used listings around too so I can see what people *actually* paid instead of just guessing from asking prices.
 
 ![Close-up of server racks in a data center](/assets/img/hwprice-server-rack.jpg)
 *Photo by [panumas nikhomkhai](https://www.pexels.com/photo/data-center-server-racks-with-active-equipment-37730212/) on Pexels*
 
-## Under the hood: running it on a Raspberry Pi 5
+## How it runs (all on a Raspberry Pi 5)
 
-One constraint I set early on was keeping the entire stack light, boring, and cheap to operate. The whole production site runs on a **Raspberry Pi 5** at home.
+Since this is a personal project and I didn't want a cloud bill for it, the whole thing runs at home on a **Raspberry Pi 5**.
 
-- **Backend & UI:** Python, Flask, and Gunicorn managed by PM2 (`hwprice_fe`). Pages are server-rendered with vanilla JS and compiled Tailwind CSS (no CDN runtime, no heavy SPA bundle) so pages stay fast and crawlable.
-- **SQLite everywhere:** One SQLite database in WAL mode holds retail listings, price history, used marketplace records, and community deals. To keep the Pi 5 snappy under traffic, aggregate dashboard stats (facets, price buckets, brand averages) are precomputed after each scrape into a `category_stats_cache` table and served with `ETag` and `Cache-Control` headers.
-- **Scheduled scraping pipeline:** Cronicle on my home server triggers foreground jobs on the Pi 5 for retail scrapes, community deals, used marketplaces, notifications, and weekly digests. Fetching runs through a small Playwright-based service (`browserful`) with a fast raw-HTML mode for server-rendered shops, a rendered fallback when needed, and daily raw-HTML caching so re-runs don't hammer retailers.
-- **Local LLM enrichment:** Raw scraped listings are messy and thin for search engines. A background backfill job sends new products and community deals through my local LLM router to generate clean summaries and normalized specs — turning bare scrape rows into readable product pages.
-- **SEO without crawl bloat:** Sitemaps are chunked (`/sitemap.xml`), thin/stale rows are excluded, and cross-locale Amazon duplicates for the same ASIN are consolidated with `rel=canonical` pointing to the primary locale and `noindex` on clones. After each scrape, updated URLs are pushed via IndexNow.
+- **Stack:** Python, Flask, and Gunicorn under PM2, with vanilla JS and compiled Tailwind CSS. Server-rendered HTML keeps it lightweight for the Pi and easy for search engines to crawl.
+- **One SQLite DB:** Everything — retail listings, price history, community deals, and used listings — lives in a single SQLite database in WAL mode. After each scrape, a script precomputes the category facets and stats into a cache table so page loads stay fast even on a Pi.
+- **Scraping:** Scheduled via Cronicle on my home server (`nashaku`), running jobs on `pi5`. Fetching goes through a small Playwright helper (`browserful`) with a raw-HTML fast path and daily raw-HTML caching so I'm not re-fetching the same pages over and over.
+- **Local LLM backfill:** Raw store titles are messy, so a background job runs new listings through my local LLM router to clean up specs and write short summaries.
 
 ![Detailed close-up of a computer motherboard](/assets/img/hwprice-motherboard.jpg)
 *Photo by [Pok Rie](https://www.pexels.com/photo/selective-focus-photo-of-dell-motherboard-1432669/) on Pexels*
 
-## Try it out
+It's still very much a work in progress — coverage and freshness depend on how cooperative each retailer's HTML is on any given day — and some outbound store links are affiliate links just to help offset the time/electricity. Mostly I just wanted a tool I'd actually use myself whenever I'm buying another 12TB drive or eyeing a used GPU.
 
-If you are shopping for a drive, GPU, RAM kit, or mini PC anywhere in Europe, give **[hwprice.net](https://hwprice.net)** a spin — or jump straight into [Hot Deals](https://hwprice.net/hot-deals), [Community Deals](https://hwprice.net/deals), or the [Used Market](https://hwprice.net/used).
-
-Some outbound retailer links are affiliate links (which is the only monetization; browsing, history, and alerts stay free). If there is a European shop or category you'd like to see added, feel free to ping me.
+If you're in Europe and do the same 15-tab dance when buying hardware, feel free to poke around **[hwprice.net](https://hwprice.net/)** and let me know if there's an EU shop worth adding.
